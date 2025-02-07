@@ -33,7 +33,7 @@ $dll_version = @file_get_contents("supplementals/client drop-in/latest.txt");
 			<li>Opening the game's launcher will revert it back to normal.</li>
 		</ul>
 		<p>The DLL is <a href="bootstrapper-manual" target="_blank">fully documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:61558/" target="_blank">http://localhost:61558/</a> to manage options, cheats, and scripts.</p>
-		<p><b>Next steps:</b> By default, the DLL redirects requests to localhost — meaning the same machine you're playing on — so you'll either need to set up a server or change the server_host to point to a different machine that's already got a server running. You can use <a href="/server-list">a public server</a> if you don't need to be able to play offline and don't have full control.</p>
+		<p><b>Next steps:</b> By default, the DLL redirects requests to localhost — meaning the same machine you're playing on — so you'll either need to set up a server or change the server_host to point to a different machine that's already got a server running. You can use <a href="/server-list">a public server</a> if you don't need to be able to play offline and have full control.</p>
 		<h2>Server Prerequisites</h2>
 		<ul>
 			<li>Git (<a href="https://git-scm.com/downloads" target="_blank">Download</a>)</li>
