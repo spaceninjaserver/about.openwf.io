@@ -51,7 +51,7 @@ $dll_version = @file_get_contents("supplementals/client drop-in/latest.txt");
 			<li>Run <code>npm i</code> (or <code>npm install</code>) to install library dependencies</li>
 			<li>Now, to start the server, run <code>npm run dev</code> (if this is too slow on your machine, you can use <code>npm run build</code> followed by <code>npm run start</code>)</li>
 		</ol>
-		<h2>Update</h2>
+		<h2>Server Update</h2>
 		<!-- <p>Windows users can simply double-click the <code>UPDATE AND START SERVER.bat</code>, but otherwise the steps are pretty simple:</p> -->
 		<ol>
 			<!-- <li>For game updates, ensure the <code>static/data</code> folder has the latest <a href="/supplementals/static%20data/buildConfig.json" download>buildConfig.json</a> and cache (<a href="/supplementals/static%20data/H.Cache_<?=$version;?>.bin" download>H.Cache_<?=$version;?>.bin</a>)</li> -->
