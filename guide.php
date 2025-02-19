@@ -1,6 +1,6 @@
 <?php
 $dll_version = @file_get_contents("supplementals/client drop-in/latest.txt");
-//$version = json_decode(file_get_contents("supplementals/static data/buildConfig.json"), true)["version"];
+$version = ""; //json_decode(file_get_contents("supplementals/static data/buildConfig.json"), true)["version"];
 ?>
 <!DOCTYPE html>
 <html>
