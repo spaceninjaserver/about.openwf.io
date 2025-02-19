@@ -3,13 +3,80 @@
 <head>
 	<title>OpenWF Bootstrapper Manual</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://calamity-inc.github.io/Silver/base.css">
+	<style>
+		/* https://calamity-inc.github.io/Silver/base.css */
+
+		html
+		{
+			background: #111;
+			color: #fff;
+
+			font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		}
+
+		body
+		{
+			margin: 8px 12px;
+		}
+
+		h1
+		{
+			font-weight: 400;
+			font-size: 2.5em;
+			margin-block: 0.3em;
+		}
+
+		h2
+		{
+			font-weight: 350;
+			font-size: 2em;
+			margin-block-end: 0.4em;
+		}
+
+		h3
+		{
+			font-weight: 300;
+			font-size: 1.5em;
+			margin-block-end: 0.4em;
+		}
+
+		p
+		{
+			margin-block: 0.5em;
+		}
+
+		code
+		{
+			padding: 1px 2px;
+			border: 1px solid #2f2f2f;
+		}
+
+		li:not(:last-child)
+		{
+			margin-bottom: 4px;
+		}
+
+		a
+		{
+			color: #257afb
+		}
+
+		a:hover
+		{
+			color: #3586ff;
+		}
+
+		a:focus
+		{
+			color: #4791ff;
+		}
+	</style>
 </head>
 <body>
 	<h1>OpenWF Bootstrapper Manual</h1>
 	<p>While the main feature of the dwmapi.dll is to use a custom server with the game, it has other features as well.</p>
 	<h2>client_config.json</h2>
-	<p>The bootstrapper creates a client_config.json in your game folder. It has the following fields:</p>
+	<p>The bootstrapper's configuration is in <code>OpenWF/client_config.json</code> relative to your game folder. It has the following fields:</p>
 	<ul>
 		<li><code>fallback_language</code> — The language to use when Warframe.x64.exe was double-clicked or the argument was simply omitted.</li>
 		<li><code>fallback_graphicsDriver</code> — The graphics driver to use when Warframe.x64.exe was double-clicked or the argument was simply omitted.</li>
@@ -63,7 +130,8 @@
 		<li>inventory.php & missionInventoryUpdate.php requests have the extra query parameter <code>xpBasedLevelCapDisabled</code> to indicate that the client has been patched to accept any PlayerLevel and doesn't need XPInfo to match.</li>
 	</ul>
 	<h2>Metadata Patches</h2>
-	<p>Metadata patches are generally parsed line by line, with roughly the following steps being taken for each line:</p>
+	<p>Metadata Patches are loaded from <code>OpenWF/Metadata Patches.txt</code>, although you can also create a <code>OpenWF/Metadata Patches/</code> folder and any text file inside of that will be loaded as well.</p>
+	<p>They are generally parsed line by line, with roughly the following steps being taken for each line:</p>
 	<ol>
 		<li>If the line starts with <code>/</code>, a new patch for the given absolute path is started. If the line ends on <code>&</code>, the next line that also starts with <code>/</code> will be added to this patch instead of creating a new patch.</li>
 		<li>Leading and trailing tabs and spaces are removed from the line.</li>
