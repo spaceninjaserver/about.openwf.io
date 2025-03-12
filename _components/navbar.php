@@ -23,9 +23,8 @@ $path = strtok($_SERVER["REQUEST_URI"], '?');
 					<li><a class="dropdown-item<?=(substr($path, 0, 25) == "/asset-replacements-guide" ? " active" : ""); ?>" href="/asset-replacements-guide<?=$ext;?>"><?=loc("arep");?></a></li>
 				</ul>
 			</li>
-			<li class="nav-item">
-				<a class="nav-link" href="https://discord.gg/PNNZ3asUuY" target="_blank">Discord</a>
-			</li>
+			<li class="nav-item"><a class="nav-link<?=(substr($path, 0, 11) == "/contribute" ? " active" : ""); ?>" href="/contribute<?=$ext;?>"><?=loc("contribute");?></a></li>
+			<li class="nav-item"><a class="nav-link" href="https://discord.gg/PNNZ3asUuY" target="_blank">Discord</a></li>
 		</ul>
 		<ul class="navbar-nav ms-auto mb-0">
 			<li class="nav-item dropdown">
