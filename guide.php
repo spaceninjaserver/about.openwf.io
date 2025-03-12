@@ -12,7 +12,7 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 <body data-bs-theme="dark">
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
-		<h2>Client/Boostrapper Installation</h3>
+		<h2>Client/Boostrapper</h3>
 		<p>To use OpenWF, you only need to download the <a href="/supplementals/client%20drop-in/<?=$dll_version;?>/dwmapi.dll" download>dwmapi.dll</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</p>
 		<ul>
 			<li>As long as this DLL is in the game folder, you can double-click Warframe.x64.exe to start the game with OpenWF.</li>
@@ -46,6 +46,12 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 			<li>Run <code>npm i</code> (or <code>npm install</code>) to synchronize library dependencies</li>
 			<li>Now to start the server again, run <code>npm run dev</code> (if this is too slow on your machine, you can use <code>npm run build</code> followed by <code>npm run start</code>)</li>
 		</ol>
+		<h2>IRC Server</h2>
+		<p>In addition to SpaceNinjaServer, you can also set up an IRC server for the in-game chat:</p>
+		<ul>
+			<li><a href="https://github.com/Sainan/warframe-irc-server/releases" target="_blank">warframe-irc-server</a> — an IRC server specifically made for Warframe. Talks to SpaceNinjaServer to give "chat moderator" permissions and report dropped connections.</li>
+			<li>InspIRCd — a well-known IRC server implementation used by DE themselves (albeit with unknown modifications). A pre-configured Windows copy of it can be downloaded <a href="/supplementals/IRC.zip" download>here</a>.</li>
+		</ul>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
