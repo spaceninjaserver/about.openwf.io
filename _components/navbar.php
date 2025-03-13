@@ -20,6 +20,7 @@ $path = strtok($_SERVER["REQUEST_URI"], '?');
 				<a class="nav-link dropdown-toggle<?=((substr($path, 0, 6) == "/guide" || substr($path, 0, 25) == "/asset-replacements-guide") ? " active" : ""); ?>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?=loc("guides");?></a>
 				<ul class="dropdown-menu">
 					<li><a class="dropdown-item<?=(substr($path, 0, 6) == "/guide" ? " active" : ""); ?>" href="/guide<?=$ext;?>"><?=loc("setup");?></a></li>
+					<li><a class="dropdown-item<?=(substr($path, 0, 7) == "/import" ? " active" : ""); ?>" href="/import<?=$ext;?>"><?=loc("import");?></a></li>
 					<li><a class="dropdown-item<?=(substr($path, 0, 25) == "/asset-replacements-guide" ? " active" : ""); ?>" href="/asset-replacements-guide<?=$ext;?>"><?=loc("arep");?></a></li>
 				</ul>
 			</li>
