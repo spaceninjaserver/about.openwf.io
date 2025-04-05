@@ -36,6 +36,7 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 			<li><?=loc("setup.s.install.5");?></li>
 			<li><?=loc("setup.s.install.6");?></li>
 			<li><?=loc("setup.s.install.7");?></li>
+			<li><?=loc("setup.s.install.8");?></li>
 		</ol>
 		<h2><?=loc("setup.s.update");?></h2>
 		<p><?=loc("setup.s.update.wineasy");?></p>
@@ -43,7 +44,8 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 			<li><?=loc("setup.s.update.1");?></li>
 			<li><?=loc("setup.s.update.2");?></li>
 			<li><?=loc("setup.s.update.3");?></li>
-			<li><?=loc("setup.s.update.4");?></li>
+			<li><?=loc("setup.s.install.7");?></li>
+			<li><?=loc("setup.s.update.5");?></li>
 		</ol>
 		<h2><?=loc("setup.irc");?></h2>
 		<p><?=loc("setup.irc.leadin");?></p>
