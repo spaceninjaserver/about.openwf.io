@@ -13,7 +13,7 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
 		<h2>Client/Boostrapper</h2>
-		<p>To use OpenWF, you only need to download the <a href="/supplementals/client%20drop-in//dwmapi.dll" download>dwmapi.dll</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</p>
+		<p>To use OpenWF, you only need to download the <a href="/supplementals/client%20drop-in/<?=$dll_version;?>/dwmapi.dll" download>dwmapi.dll</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</p>
 		<ul>
 			<li>As long as this DLL is in the game folder, you can double-click Warframe.x64.exe to start the game with OpenWF.</li>
 			<li>Opening the game's launcher will revert it back to normal.</li>
