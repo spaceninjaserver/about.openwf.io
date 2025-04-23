@@ -30,4 +30,10 @@ $path = strtok($_SERVER["REQUEST_URI"], '?');
 	{
 		elm.onclick = (event) => { event.preventDefault() };
 	});
+
+	// User-facing stuff really has no reason to be served over insecure HTTP.
+	if (location.host == "openwf.io" && location.protocol == "http:")
+	{
+		location.protocol = "https:";
+	}
 </script>
