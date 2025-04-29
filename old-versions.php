@@ -24,6 +24,11 @@
 					<td>Koumei & the Five Fates: Hotfix 37.0.6</td>
 					<td>513490184226321110</td>
 				</tr>
+				<tr>
+					<td><code>2024.09.30.16.56</code></td>
+					<td>Early build of Koumei & the Five Fates</td>
+					<td>2655930801276651913</td>
+				</tr>
 			</tbody>
 		</table>
 		<p>To download an old version, you can use <a href="https://github.com/SteamRE/DepotDownloader/releases">DepotDownloader</a> like so: <code>DepotDownloader.exe -app 230410 -depot 230411 -manifest &lt;manifest id&gt; -username &lt;your steam username&gt;</code></p>
