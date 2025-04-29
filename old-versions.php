@@ -18,11 +18,13 @@
 					<th>Steam Manifest ID</th>
 				</tr>
 			</thead>
-			<tr>
-				<td><code>2024.10.11.10.06</code></td>
-				<td>Koumei & the Five Fates: Hotfix 37.0.6</td>
-				<td>513490184226321110</td>
-			</tr>
+			<tbody>
+				<tr>
+					<td><code>2024.10.11.10.06</code></td>
+					<td>Koumei & the Five Fates: Hotfix 37.0.6</td>
+					<td>513490184226321110</td>
+				</tr>
+			</tbody>
 		</table>
 		<p>To download an old version, you can use <a href="https://github.com/SteamRE/DepotDownloader/releases">DepotDownloader</a> like so: <code>DepotDownloader.exe -app 230410 -depot 230411 -manifest &lt;manifest id&gt; -username &lt;your steam username&gt;</code></p>
 		<h3>2013 Warframe</h3>
