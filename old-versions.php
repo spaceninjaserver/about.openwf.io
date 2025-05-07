@@ -178,11 +178,17 @@
 				<tr>
 					<td>8243603931064121923</td>
 					<td><code>2021.09.08.19.27</code></td>
-					<td>≈&nbsp;30.7.0</td>
+					<td>≈&nbsp;30.7.2</td>
 					<td>Sisters&nbsp;of&nbsp;Parvos</td>
 					<td></td>
 				</tr>
-				<!-- 4538343592657854566 -->
+				<tr>
+					<td>4538343592657854566</td>
+					<td><code>2021.09.08.19.27</code></td>
+					<td>≈&nbsp;30.7.1</td>
+					<td>Sisters&nbsp;of&nbsp;Parvos</td>
+					<td></td>
+				</tr>
 				<!-- 1659398175797234554 -->
 				<!-- 896988770099174429 -->
 				<tr>
