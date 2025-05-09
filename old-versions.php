@@ -460,7 +460,13 @@
 					<td>Chains&nbsp;of&nbsp;Harrow</td>
 					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
 				</tr>
-				<!-- 3099723078202393524 should be ~20.4.4 -->
+				<tr>
+					<td>3099723078202393524</td>
+					<td><code>2017.05.05.15.41</code></td>
+					<td>≈&nbsp;20.4.0</td>
+					<td>Octavia's&nbsp;Anthem</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
 				<tr>
 					<td>4574874014936523212</td>
 					<td><code>2017.03.26.04.21</code></td>
