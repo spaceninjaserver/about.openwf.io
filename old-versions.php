@@ -452,7 +452,13 @@
 					<td>Chains&nbsp;of&nbsp;Harrow</td>
 					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
 				</tr>
-				<!-- 2970877824413815022 might be ~21.0.2 -->
+				<tr>
+					<td>2970877824413815022</td>
+					<td><code>2017.06.29.03.54</code></td>
+					<td>≈&nbsp;21.0.1</td>
+					<td>Chains&nbsp;of&nbsp;Harrow</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
 				<tr>
 					<td>9187782625344917768</td>
 					<td><code>2017.06.29.02.13</code></td>
