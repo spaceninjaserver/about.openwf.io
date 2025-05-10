@@ -439,10 +439,22 @@
 					<td>Plains&nbsp;of&nbsp;Eidolon</td>
 					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
 				</tr>
-				<!-- 8621631773919294851 -->
-				<!-- 4946799727072561536 -->
-				<!-- 5301169201249491747 -->
-				<!-- 5914709226935570547 -->
+				<!-- 8621631773919294851 is 2018.01.26.12.22, can log in but then you're stuck due to Script Error: attempt to call method 'GetOperator' (a nil value): In ?(844) originating from /Lotus/Scripts/PlayerShip.lua::SpawnPets with owner /Layer0/ScriptTrigger2 -->
+				<tr>
+					<td>4946799727072561536</td>
+					<td><code>2018.01.04.13.12</code></td>
+					<td>≈&nbsp;22.8.2</td>
+					<td>Plains&nbsp;of&nbsp;Eidolon</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
+				<tr>
+					<td>5301169201249491747</td>
+					<td><code>2017.12.12.12.15</code></td>
+					<td>≈&nbsp;22.7.0</td>
+					<td>Plains&nbsp;of&nbsp;Eidolon</td>
+					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+				</tr>
+				<!-- 5914709226935570547 is 2017.12.08.15.29, fails to start due to an assertion failure -->
 				<tr>
 					<td>5869273198520287595</td>
 					<td><code>2017.11.16.17.34</code></td>
