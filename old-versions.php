@@ -9,7 +9,8 @@
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
 		<h3>Recent Versions</h3>
-		<p>While the Bootstrapper and SpaceNinjaServer do stay up-to-date, they are still compatible with previous versions and should at least allow you to login and play:</p>
+		<p>While the Bootstrapper and SpaceNinjaServer do stay up-to-date, they are still compatible with previous versions and should at least allow you to login and play.</p>
+		<p>To download an old version, you can use <a href="https://github.com/SteamRE/DepotDownloader/releases">DepotDownloader</a> like so: <code>DepotDownloader -app 230410 -depot 230411 -manifest &lt;manifest id&gt; -username &lt;your steam username&gt;</code></p>
 		<table class="table table-sm">
 			<thead>
 				<tr>
@@ -659,7 +660,6 @@
 				</tr>
 			</tbody>
 		</table>
-		<p>To download an old version, you can use <a href="https://github.com/SteamRE/DepotDownloader/releases">DepotDownloader</a> like so: <code>DepotDownloader -app 230410 -depot 230411 -manifest &lt;manifest id&gt; -username &lt;your steam username&gt;</code></p>
 		<h3>2013 Warframe</h3>
 		<p>There is a DLL + fork of SpaceNinjaServer that can be used to revisit 2013 Warframe. More information about this can be found <a href="https://discord.gg/PNNZ3asUuY">on our Discord</a>, specifically <a href="https://discord.com/channels/1108159019635462206/1280628166825873510/1280628233355923497">in this thread</a>.</p>
 	</div>
