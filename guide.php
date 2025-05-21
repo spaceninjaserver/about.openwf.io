@@ -12,14 +12,15 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 <body data-bs-theme="dark">
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
-		<h2>Client/Boostrapper</h2>
-		<p>To use OpenWF, you only need to download the <a href="/supplementals/client%20drop-in/<?=$dll_version;?>/dwmapi.dll" download>dwmapi.dll</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</p>
+		<h2>Client Patch</h2>
+		<p>In order to connect to custom servers, the client needs to be patched. We will use the Boostrapper for this.</p>
 		<ul>
-			<li>As long as this DLL is in the game folder, you can double-click Warframe.x64.exe to start the game with OpenWF.</li>
-			<li>Opening the game's launcher will revert it back to normal.</li>
+			<li>Download <a href="/supplementals/client%20drop-in/<?=$dll_version;?>/dwmapi.dll" download>the boostrapper DLL (dwmapi.dll)</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</li>
+			<li>For 38.6.0 and above, you will also need <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify</a> and then simply drop Warframe.x64.exe on top of sideloadify.</li>
 		</ul>
-		<p>The DLL is <a href="bootstrapper-manual" target="_blank">fully documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p>
-		<p><b>Next steps:</b> By default, the DLL redirects requests to localhost — meaning the same machine you're playing on — so you'll either need to set up a server or change the server_host to point to a different machine that's already got a server running.</p>
+		<p>With that done, you can double-click Warframe.x64.exe to start the game with OpenWF. Opening the game's launcher will revert it back to normal.</p>
+		<!-- <p>The bootstrapper is <a href="bootstrapper-manual" target="_blank">fully documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p> -->
+		<!-- <p><b>Next steps:</b> By default, the DLL redirects requests to localhost — meaning the same machine you're playing on — so you'll either need to set up a server or change the server_host to point to a different machine that's already got a server running.</p> -->
 		<h2>Server Prerequisites</h2>
 		<ul>
 			<li>Git (<a href="https://git-scm.com/downloads" target="_blank">Download</a>)</li>
