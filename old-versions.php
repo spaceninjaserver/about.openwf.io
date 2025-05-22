@@ -23,6 +23,13 @@
 			<tbody>
 				<!-- https://steamdb.info/depot/230411/manifests/ -->
 				<tr>
+					<td>6046892458385712496</td>
+					<td><code>2025.03.18.09.51</code></td>
+					<td>&lt;&nbsp;38.6.0</td>
+					<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
+					<td></td>
+				</tr>
+				<tr>
 					<td>4212893560910494140</td>
 					<td><code>2025.03.18.09.51</code></td>
 					<td>&lt;&nbsp;38.5.0</td>
