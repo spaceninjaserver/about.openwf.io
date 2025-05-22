@@ -13,7 +13,7 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
 		<h2>Client Patch</h2>
-		<p>In order to connect to custom servers, the client needs to be patched. We will use the Boostrapper for this.</p>
+		<p>In order to connect to custom servers, the client needs to be patched, which the Boostrapper is for. To set it up, you can <a href="/supplementals/Bootstrapper%20Setup.ps1" download>use this powershell script</a> or follow these steps:</p>
 		<ul>
 			<li>Download <a href="/supplementals/client%20drop-in/<?=$dll_version;?>/dwmapi.dll" download>the boostrapper DLL (dwmapi.dll)</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</li>
 			<li>
