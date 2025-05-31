@@ -39,16 +39,11 @@ $version = ""; //json_decode(file_get_contents("supplementals/static data/buildC
 			<li>Now you can use <code>npm run start</code> to start the server again</li>
 		</ol>
 		<h2>Client Patch</h2>
-		<p>In order to connect to custom servers, the client needs to be patched, which the Boostrapper is for. To set it up, you can <a href="/supplementals/Bootstrapper%20Setup.ps1" download>use this powershell script</a> or follow these steps:</p>
-		<ul>
-			<li>Download <a href="/supplementals/client%20drop-in/<?=$dll_version;?>/dwmapi.dll" download>the boostrapper DLL (dwmapi.dll)</a> and put it in your game's installation folder (the one where Warframe.x64.exe is in).</li>
-			<li>
-				For 38.6.0 and above, you will also need <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify</a> and then simply drop Warframe.x64.exe on top of sideloadify.
-				<ul>
-					<li>This is currently not needed on Linux as Wine/Proton always checks the game folder for dwmapi.dll.</li>
-				</ul>
-			</li>
-		</ul>
+		<p>In order to connect to custom servers, the client needs to be patched, which is what the Boostrapper is for. To set it up:</p>
+		<ol>
+			<li>Download the bootstrapper setup script <a href="/supplementals/Bootstrapper%20Setup.ps1" download>for Windows (Powershell)</a> or <a href="/supplementals/Bootstrapper%20Setup.sh" download>for Linux-ish (Bash)</a>.</li>
+			<li>Put the script in the game's installation folder (the one where Warframe.x64.exe is in) and run it there.</li>
+		</ol>
 		<p>With that done, you can double-click Warframe.x64.exe to start the game with OpenWF. Opening the game's launcher will revert it back to normal.</p>
 		<p>The bootstrapper is <a href="bootstrapper-manual" target="_blank">fully documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p>
 		<h2>IRC Server</h2>
