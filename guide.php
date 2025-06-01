@@ -37,8 +37,8 @@
 		<h2>Client Patch</h2>
 		<p>In order to connect to custom servers, the client needs to be patched, which is what the Boostrapper is for. To set it up:</p>
 		<ol>
-			<li>Download the bootstrapper setup script <a href="/supplementals/Bootstrapper%20Setup.ps1" download>for Windows (Powershell)</a> or <a href="/supplementals/Bootstrapper%20Setup.sh" download>for Linux-ish (Bash)</a>.</li>
-			<li>Put the script in the game's installation folder (the one where Warframe.x64.exe is in) and run it there.</li>
+			<li>Download the bootstrapper setup <a href="https://onlyg.it/OpenWF/Bootstrapper-Setup/releases/download/latest/Bootstrapper%20Setup.exe" download>for Windows</a> or <a href="/supplementals/Bootstrapper%20Setup.sh" download>for Linux-ish (Bash)</a>.</li>
+			<li>Put the setup in the game's installation folder (the one where Warframe.x64.exe is in) and run it there.</li>
 		</ol>
 		<p>With that done, you can double-click Warframe.x64.exe to start the game with OpenWF. Opening the game's launcher will revert it back to normal.</p>
 		<p>The bootstrapper is <a href="bootstrapper-manual" target="_blank">fully documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p>
