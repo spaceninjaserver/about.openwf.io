@@ -265,119 +265,119 @@
 					<td><code>2020.08.12.19.57</code></td>
 					<td>≈&nbsp;28.3.0</td>
 					<td>Derelict&nbsp;Shift<!-- Login screen says "The Deadlock Protocol" --></td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>8322392782655512672</td>
 					<td><code>2020.06.12.16.46</code></td>
 					<td>≈&nbsp;28.0.0</td>
 					<td>The&nbsp;Deadlock&nbsp;Protocol</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>940429389442729133</td>
 					<td><code>2020.03.24.20.24</code></td>
 					<td>≈&nbsp;27.3.0</td>
 					<td>Empyrean</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>3078917755629993445</td>
 					<td><code>2020.03.05.16.06</code></td>
 					<td>≈&nbsp;27.2.0</td>
 					<td>Empyrean</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>5383208407459190147</td>
 					<td><code>2019.12.13.15.04</code></td>
 					<td>≈&nbsp;27.0.0</td>
 					<td>Empyrean</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>1746499861411165604</td>
 					<td><code>2019.12.13.00.31</code></td>
 					<td>≈&nbsp;26.1.3</td>
 					<td>Rising&nbsp;Tide</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>5191423722994130705</td>
 					<td><code>2019.11.22.21.24</code></td>
 					<td>≈&nbsp;26.1.0</td>
 					<td>Rising&nbsp;Tide</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>4211752956119480973</td>
 					<td><code>2019.11.05.12.52</code></td>
 					<td>≈&nbsp;26.0.4</td>
 					<td>The&nbsp;Old&nbsp;Blood</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>5213493012981659231</td>
 					<td><code>2019.10.31.22.42</code></td>
 					<td>≈&nbsp;26.0.0</td>
 					<td>The&nbsp;Old&nbsp;Blood</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>6484357939617346090</td>
 					<td><code>2019.09.09.12.43</code></td>
 					<td>≈&nbsp;25.7.5</td>
 					<td>Saint&nbsp;of&nbsp;Altra</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>6955217559566015186&nbsp;</td>
 					<td><code>2019.08.29.21.58</code></td>
 					<td>≈&nbsp;25.7.0</td>
 					<td>Saint&nbsp;of&nbsp;Altra</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>8839989774604564585</td>
 					<td><code>2019.08.29.20.01</code></td>
 					<td>≈&nbsp;25.7.0</td>
 					<td>Saint&nbsp;of&nbsp;Altra</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>3318532863308652389</td>
 					<td><code>2019.05.22.23.12</code></td>
 					<td>≈&nbsp;25.0.0</td>
 					<td>The&nbsp;Jovian&nbsp;Concord</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>192898029640470386</td>
 					<td><code>2019.04.04.21.31</code></td>
 					<td>≈&nbsp;24.6.0</td>
 					<td>Buried&nbsp;Debts</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>4942488930993990244</td>
 					<td><code>2019.03.15.18.11</code></td>
 					<td>≈&nbsp;24.5.1</td>
 					<td>Buried&nbsp;Debts</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>4404971551504983924</td>
 					<td><code>2019.03.08.00.37</code></td>
 					<td>≈&nbsp;24.4.0</td>
 					<td>Buried&nbsp;Debts</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>1904743723246597237</td>
 					<td><code>2019.03.07.20.21</code></td>
 					<td>≈&nbsp;24.4.0</td>
 					<td>Fortuna</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<!-- 174676543101364914 is 2018.11.29.15.55, Fortuna, but has a broken font. -->
 				<tr>
@@ -385,14 +385,14 @@
 					<td><code>2018.11.29.15.55</code></td>
 					<td>≈&nbsp;24.1.2</td>
 					<td>Fortuna</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>3725569727599851360</td>
 					<td><code>2018.11.15.16.49</code></td>
 					<td>≈&nbsp;24.0.8</td>
 					<td>Fortuna</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<!-- 8461211368258506784 is 2018.11.15.16.49 but needs Tools folder from another manifest + has a broken font. -->
 				<tr>
@@ -400,70 +400,70 @@
 					<td><code>2018.11.08.14.45</code></td>
 					<td>≈&nbsp;24.0.0</td>
 					<td>Fortuna</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>8049567794324118250</td>
 					<td><code>2018.10.11.23.29</code></td>
 					<td>≈&nbsp;23.10.0</td>
 					<td>Chimera</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>1234607834806579897</td>
 					<td><code>2018.09.28.19.09</code></td>
 					<td>≈&nbsp;23.9.1</td>
 					<td>Mask&nbsp;of&nbsp;the&nbsp;Revenant</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>677450530474051174</td>
 					<td><code>2018.08.01.08.09</code></td>
 					<td>≈&nbsp;23.2.0</td>
 					<td>The&nbsp;Sacrifice</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>8058901711639962245</td>
 					<td><code>2018.06.14.23.21</code></td>
 					<td>≈&nbsp;23.0.0</td>
 					<td>The&nbsp;Sacrifice<!-- Login screen says "Beasts of the Sanctuary" --></td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>566447983471491143</td>
 					<td><code>2018.05.17.16.28</code></td>
 					<td>≈&nbsp;22.20.0</td>
 					<td>Beasts&nbsp;of&nbsp;the&nbsp;Sanctuary</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>8448828347811631025</td>
 					<td><code>2018.04.20.02.04</code></td>
 					<td>≈&nbsp;22.18.0</td>
 					<td>Beasts&nbsp;of&nbsp;the&nbsp;Sanctuary</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>5922375304465722812</td>
 					<td><code>2018.03.15.19.39</code></td>
 					<td>≈&nbsp;22.16.0</td>
 					<td>Plains&nbsp;of&nbsp;Eidolon</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>6640882772717519747</td>
 					<td><code>2018.03.07.14.18</code></td>
 					<td>≈&nbsp;22.15.0</td>
 					<td>Plains&nbsp;of&nbsp;Eidolon</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>8004325165498360760</td>
 					<td><code>2018.02.22.14.34</code></td>
 					<td>≈&nbsp;22.13.4</td>
 					<td>Plains&nbsp;of&nbsp;Eidolon</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<!-- 8621631773919294851 is 2018.01.26.12.22, can log in but then you're stuck due to Script Error: attempt to call method 'GetOperator' (a nil value): In ?(844) originating from /Lotus/Scripts/PlayerShip.lua::SpawnPets with owner /Layer0/ScriptTrigger2 -->
 				<tr>
@@ -471,14 +471,14 @@
 					<td><code>2018.01.04.13.12</code></td>
 					<td>≈&nbsp;22.8.2</td>
 					<td>Plains&nbsp;of&nbsp;Eidolon</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>5301169201249491747</td>
 					<td><code>2017.12.12.12.15</code></td>
 					<td>≈&nbsp;22.7.0</td>
 					<td>Plains&nbsp;of&nbsp;Eidolon</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<!-- 5914709226935570547 is 2017.12.08.15.29, fails to start due to an assertion failure -->
 				<tr>
@@ -486,49 +486,49 @@
 					<td><code>2017.11.16.17.34</code></td>
 					<td>≈&nbsp;22.2.4</td>
 					<td>Plains&nbsp;of&nbsp;Eidolon</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>4661126446448856114</td>
 					<td><code>2017.10.12.17.04</code></td>
 					<td>≈&nbsp;22.0.0</td>
 					<td>Plains&nbsp;of&nbsp;Eidolon</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>1835327182756411758</td>
 					<td><code>2017.07.26.13.59</code></td>
 					<td>≈&nbsp;21.2.0</td>
 					<td>Chains&nbsp;of&nbsp;Harrow</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>2970877824413815022</td>
 					<td><code>2017.06.29.03.54</code></td>
 					<td>≈&nbsp;21.0.1</td>
 					<td>Chains&nbsp;of&nbsp;Harrow</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>9187782625344917768</td>
 					<td><code>2017.06.29.02.13</code></td>
 					<td>≈&nbsp;21.0.0</td>
 					<td>Chains&nbsp;of&nbsp;Harrow</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>3099723078202393524</td>
 					<td><code>2017.05.05.15.41</code></td>
 					<td>≈&nbsp;20.4.0</td>
 					<td>Octavia's&nbsp;Anthem</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>4574874014936523212</td>
 					<td><code>2017.03.26.04.21</code></td>
 					<td>≈&nbsp;20.0.3</td>
 					<td>Octavia's&nbsp;Anthem</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<!-- 8705016425420648723 is 2017.03.24.17.25, ~20.0.0, seems to have a broken cache as the loading scaleform doesn't show properly and it doesn't proceed to the login screen -->
 				<tr>
@@ -536,7 +536,7 @@
 					<td><code>2017.03.06.15.49</code></td>
 					<td>≈&nbsp;19.13.0</td>
 					<td>The&nbsp;Glast&nbsp;Gambit</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<!-- 2663512682334598162 is 2017.03.03.17.01, ~19.12.1, fails to start due to an assertion failure -->
 				<!-- 4864838558963648894 is 2017.03.02.14.59, ~19.12.0, fails to start due to an assertion failure -->
@@ -545,7 +545,7 @@
 					<td><code>2016.12.21.19.13</code></td>
 					<td>≈&nbsp;19.5.0</td>
 					<td>The&nbsp;Glast&nbsp;Gambit</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<!-- 6118281920152298389 only contains installscript.vdf -->
 				<tr>
@@ -553,7 +553,7 @@
 					<td><code>2016.12.16.14.33</code></td>
 					<td>≈&nbsp;19.4.1</td>
 					<td>The&nbsp;War&nbsp;Within</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<!-- 6784000424578492584 is 2016.11.11.17.46, ~19.0.0, fails to start due to an assertion failure -->
 				<tr>
@@ -561,21 +561,21 @@
 					<td><code>2016.09.30.12.04</code></td>
 					<td>≈&nbsp;18.22.1</td>
 					<td>The&nbsp;Silver&nbsp;Grove</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>2086935969100698619</td>
 					<td><code>2016.08.26.11.08</code></td>
 					<td>≈&nbsp;18.18.5</td>
 					<td>The&nbsp;Silver&nbsp;Grove</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>3584168904277131181</td>
 					<td><code>2016.08.19.17.12</code></td>
 					<td>≈&nbsp;18.18.0</td>
 					<td>The&nbsp;Silver&nbsp;Grove</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<!-- 8065552974390268707 is 2016.07.08.16.56. Seems to have a broken cache as everyone is A-posing and subtitle texts don't resolve. -->
 				<tr>
@@ -583,21 +583,21 @@
 					<td><code>2016.03.31.15.16</code></td>
 					<td>≈&nbsp;18.7.1</td>
 					<td>Sands&nbsp;of&nbsp;Inaros</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>1331043799698924734</td>
 					<td><code>2016.03.04.10.06</code></td>
 					<td>≈&nbsp;18.5.0</td>
 					<td>Sands&nbsp;of&nbsp;Inaros</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>5378301586494814297</td>
 					<td><code>2015.12.09.17.09</code></td>
 					<td>≈&nbsp;18.0.6</td>
 					<td>The&nbsp;Second&nbsp;Dream</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<!-- 4603106986143048670 is 2015.12.08.16.01, same issues as previous version. -->
 				<!-- 5567085556474789237 is 2015.12.05.18.07, should be ~18.0.2 The Second Dream, but says The Jordas Precept on the login screen. Seems to have a broken cache as enemy spawns are broken. -->
@@ -606,70 +606,70 @@
 					<td><code>2015.10.21.12.48</code></td>
 					<td>≈&nbsp;17.8.0</td>
 					<td>The&nbsp;Jordas&nbsp;Precept</td>
-					<td>Rename dwmapi.dll to wtsapi32.dll or version.dll.</td>
+					<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 				</tr>
 				<tr>
 					<td>7055925076570413672</td>
 					<td><code>2015.10.15.12.24</code></td>
 					<td>≈&nbsp;17.7.1</td>
 					<td>The&nbsp;Jordas&nbsp;Precept</td>
-					<td>Rename DLL & copy "Tools" folder from 2275730668734249647.</td>
+					<td><!-- Rename DLL & -->Copy "Tools" folder from 2275730668734249647</td>
 				</tr>
 				<tr>
 					<td>232461576962714068</td>
 					<td><code>2015.05.14.16.29</code></td>
 					<td>≈&nbsp;16.5.5</td>
 					<td>Tubemen&nbsp;of&nbsp;Regor</td>
-					<td>Rename DLL & copy "Tools" folder from 2275730668734249647.</td>
+					<td><!-- Rename DLL & -->Copy "Tools" folder from 2275730668734249647</td>
 				</tr>
 				<tr>
 					<td>567734397704178704</td>
 					<td><code>2015.03.21.08.17</code></td>
 					<td>≈&nbsp;16.0.2</td>
 					<td>Sanctuary</td>
-					<td>Rename DLL & copy "Tools" folder from 2275730668734249647.</td>
+					<td><!-- Rename DLL & -->Copy "Tools" folder from 2275730668734249647</td>
 				</tr>
 				<tr>
 					<td>5952644847955190118</td>
 					<td><code>2015.02.13.10.41</code></td>
 					<td>≈&nbsp;15.14.1</td>
 					<td>Eyes&nbsp;of&nbsp;Blight</td>
-					<td>Rename DLL & copy "Tools" folder from 2275730668734249647.</td>
+					<td><!-- Rename DLL & -->Copy "Tools" folder from 2275730668734249647</td>
 				</tr>
 				<tr>
 					<td>7377933404197762308</td>
 					<td><code>2014.11.27.14.35</code></td>
 					<td>≈&nbsp;15.5.0</td>
 					<td>Mesa&nbsp;Update</td>
-					<td>Rename DLL & copy "Tools" folder from 2275730668734249647.</td>
+					<td><!-- Rename DLL & -->Copy "Tools" folder from 2275730668734249647</td>
 				</tr>
 				<tr>
 					<td>6368936033089773713</td>
 					<td><code>2014.10.29.18.19</code></td>
 					<td>≈&nbsp;15.0.8</td>
 					<td>Archwing</td>
-					<td>Rename DLL & copy "Tools" folder from 2275730668734249647.</td>
+					<td><!-- Rename DLL & -->Copy "Tools" folder from 2275730668734249647</td>
 				</tr>
 				<tr>
 					<td>1212629036031221707</td>
 					<td><code>2014.10.28.17.15</code></td>
 					<td>≈&nbsp;15.0.7</td>
 					<td>Archwing</td>
-					<td>Rename DLL & copy "Tools" folder from 2275730668734249647.</td>
+					<td><!-- Rename DLL & -->Copy "Tools" folder from 2275730668734249647</td>
 				</tr>
 				<tr>
 					<td>1048315274024428186</td>
 					<td><code>2014.10.27.17.07</code></td>
 					<td>≈&nbsp;15.0.6</td>
 					<td>Archwing</td>
-					<td>Rename DLL & copy "Tools" folder from 2275730668734249647.</td>
+					<td><!-- Rename DLL & -->Copy "Tools" folder from 2275730668734249647</td>
 				</tr>
 				<tr>
 					<td>6636116079410913663</td>
 					<td><code>2014.10.24.08.24</code></td>
 					<td>≈&nbsp;15.0.0</td>
 					<td>Archwing<!-- Login screen says "The Mad Cephalon" --></td>
-					<td>Rename DLL & copy "Tools" folder from 2275730668734249647.</td>
+					<td><!-- Rename DLL & -->Copy "Tools" folder from 2275730668734249647</td>
 				</tr>
 			</tbody>
 		</table>
