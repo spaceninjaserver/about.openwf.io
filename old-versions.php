@@ -26,21 +26,21 @@
 					<td><code>2025.03.18.09.51</code></td>
 					<td>&lt;&nbsp;38.6.0</td>
 					<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
-					<td></td>
+					<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr></td>
 				</tr>
 				<tr>
 					<td>4212893560910494140</td>
 					<td><code>2025.03.18.09.51</code></td>
 					<td>&lt;&nbsp;38.5.0</td>
 					<td>Techrot&nbsp;Encore</td>
-					<td></td>
+					<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr></td>
 				</tr>
 				<tr>
 					<td>3864063200081954630</td>
 					<td><code>2024.12.11.14.26</code></td>
 					<td>&lt;&nbsp;38.0.0</td>
 					<td>1999</td>
-					<td></td>
+					<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr></td>
 				</tr>
 				<tr>
 					<td>513490184226321110</td>
