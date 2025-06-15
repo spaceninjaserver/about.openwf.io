@@ -18,7 +18,7 @@
 		<ol>
 			<li>Run <code>git clone https://openwf.io/SpaceNinjaServer.git</code> in a command prompt to download SpaceNinjaServer in the current working directory</li>
 			<li>Open the SpaceNinjaServer folder (<code>cd SpaceNinjaServer</code>)</li>
-			<li>Run <code>copy config.json.example config.json</code> to create a config.json from config.json.example</li>
+			<li>Copy config.json.example to create a config.json</li>
 			<li>(Optional) Edit the config.json to match your MongoDB settings (if not default) and however else you would like to configure the server</li>
 			<li>(Optional) If you want stripped assets (~622 <abbr title="mebibytes (1 MiB = 1048576 bytes)">MiB</abbr>) which the client will request from the server on-demand (most notably, <abbr title="Ability videos show a brief clip of an ability in action. They can be seen by hovering over an ability in the Arsenal, Codex, etc.">ability videos</abbr>), run <code>git clone https://openwf.io/0.git</code> in the <code>static/data</code> folder</li>
 			<li>Run <code>npm install --omit=dev</code> to install library dependencies</li>
