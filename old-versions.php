@@ -22,6 +22,13 @@
 			<tbody>
 				<!-- https://steamdb.info/depot/230411/manifests/ -->
 				<tr>
+					<td>8391191747297658560</td>
+					<td><code>2025.06.23.11.39</code></td>
+					<td>&lt;&nbsp;39.0.0</td>
+					<td>Isleweaver</td>
+					<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr></td>
+				</tr>
+				<tr>
 					<td>6046892458385712496</td>
 					<td><code>2025.03.18.09.51</code></td>
 					<td>&lt;&nbsp;38.6.0</td>
