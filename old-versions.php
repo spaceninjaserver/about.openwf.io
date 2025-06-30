@@ -682,6 +682,7 @@
 		</table>
 		<h3>2013 Warframe</h3>
 		<p>There is a DLL + fork of SpaceNinjaServer that can be used to revisit 2013 Warframe. More information about this can be found <a href="https://discord.gg/PNNZ3asUuY">on our Discord</a>, specifically <a href="https://discord.com/channels/1108159019635462206/1280628166825873510/1280628233355923497">in this thread</a>.</p>
+		<p>Another project in this niche is <a href="https://github.com/mekael/WFClassic">Mekael's WFClassic</a>.</p>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
