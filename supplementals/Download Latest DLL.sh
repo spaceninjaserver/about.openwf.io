@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 echo "Fetching latest version..."
 latest_version=$(curl -s "https://openwf.io/supplementals/client%20drop-in/latest.txt")

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 if [[ -f "Warframe.x64.exe" ]]; then
 	if [[ ! -f "OpenWF/Download Latest DLL.sh" ]]; then
