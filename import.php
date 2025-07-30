@@ -12,12 +12,7 @@
 		<h2>Exporting Your Inventory From Live</h2>
 		<ul>
 			<li>If you use AlecaFrame, you already have an encrypted version of your inventory. You can use <a href="https://sainan.github.io/alecaframe-inventory-parser/" target="_blank">this tool</a> to help you locate and decrypt it.</li>
-			<li>
-				Alternatively, you can use <a href="https://github.com/Sainan/warframe-api-helper/releases/latest/download/warframe-api-helper.exe">warframe-api-helper</a> to get a fresh copy by running it while the game is running & logged in on live. It will store it in <code>inventory.json</code>.
-				<ul>
-					<li>For Linux users, there's <a href="https://gist.github.com/Turbozis/9e5fa359030abdf32cff7f104544fd16" target="_blank">a shell script</a> based on warframe-api-helper. It requires <code>jq</code> and <code>curl</code>.</li>
-				</ul>
-			</li>
+			<li>Alternatively, you can use <a href="https://github.com/Sainan/warframe-api-helper/releases/latest">warframe-api-helper</a> to get a fresh copy by running it while the game is running & logged in on live. It will store it in <code>inventory.json</code>.</li>
 		</ul>
 		<h2>Importing Your Inventory To SpaceNinjaServer</h2>
 		<p>Now that you have your inventory, open the SpaceNinjaServer WebUI and locate the "Import" tab. You can simply paste the entire thing in the textbox and press the "Submit" button.</p>
