@@ -18,7 +18,7 @@
 		<ol>
 			<li>Run <code>git clone https://openwf.io/SpaceNinjaServer.git</code> in a command prompt to download SpaceNinjaServer in the current working directory</li>
 			<li>Open the SpaceNinjaServer folder (<code>cd SpaceNinjaServer</code>)</li>
-			<li>Copy config.json.example to create a config.json</li>
+			<li>Copy config-vanilla.json to create a config.json</li>
 			<li>(Optional) Edit the config.json to match your MongoDB settings (if not default) and however else you would like to configure the server</li>
 			<li>(Optional) If you have a GB of free space, you might want to download stripped assets such as <abbr title="Ability videos show a brief clip of an ability in action. They can be seen by hovering over an ability in the Arsenal, Codex, etc.">ability videos</abbr> so the client can request them on-demand: Run <code>git clone https://openwf.io/0.git</code> in the <code>static/data</code> folder</li>
 			<li>Run <code>npm install --omit=dev</code> to install library dependencies</li>
