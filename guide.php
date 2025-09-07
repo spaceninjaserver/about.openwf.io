@@ -22,18 +22,16 @@
 			<li>Copy config-vanilla.json to create a config.json</li>
 			<li>(Optional) Edit the config.json to match your MongoDB settings (if not default) and however else you would like to configure the server</li>
 			<li>(Optional) If you have a GB of free space, you might want to download stripped assets such as <abbr title="Ability videos show a brief clip of an ability in action. They can be seen by hovering over an ability in the Arsenal, Codex, etc.">ability videos</abbr> so the client can request them on-demand: Run <code>git clone https://openwf.io/0.git</code> in the <code>static/data</code> folder</li>
-			<li>Run <code>npm install --omit=dev</code> to install library dependencies</li>
-			<li>Run <code>npm run build</code> to build the server</li>
-			<li>Now you can run <code>npm run start</code> to start the server anytime</li>
+			<li>Run <code>npm install --omit=dev --omit=optional</code> to install library dependencies</li>
+			<li>Now you can run <code>npm run raw</code> to start the server anytime</li>
 		</ol>
 		<h2>Server Update</h2>
 		<p>You can simply run the <code>UPDATE AND START SERVER</code> script for this, but otherwise the steps are pretty simple:</p>
 		<ol>
 			<li>Run <code>git pull</code> in the SpaceNinjaServer folder</li>
 			<li>(Optional) If you have the stripped assets, run <code>git pull</code> in the <code>static/data/0</code> folder</li>
-			<li>Run <code>npm install --omit=dev</code> to synchronize library dependencies</li>
-			<li>Run <code>npm run build</code> to build the server</li>
-			<li>Now you can use <code>npm run start</code> to start the server again</li>
+			<li>Run <code>npm install --omit=dev --omit=optional</code> to synchronize library dependencies</li>
+			<li>Now you can use <code>npm run raw</code> to start the server again</li>
 		</ol>
 		<h2>Client Patch</h2>
 		<p>In order to connect to custom servers, the client needs to be patched, which is what the Boostrapper is for. To set it up:</p>
