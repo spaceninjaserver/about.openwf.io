@@ -9,8 +9,10 @@
 <body data-bs-theme="dark">
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
+		<h3>Downloading Old Versions</h3>
+		<p>If you have a Steam account with Warframe in its library, you can use <a href="https://github.com/SteamRE/DepotDownloader/releases">DepotDownloader</a>, e.g. <code>DepotDownloader -app 230410 -depot 230411 -manifest &lt;manifest id&gt; -username &lt;your steam username&gt; -remember-password</code>. Note that DepotDownloader may report errors; these are generally only a temporary and it will try again.</p>
+		<h3>Bootstrapper + SpaceNinjaServer Suported Versions</h3>
 		<p>The following is a list of game versions that have been verified to at least be able to login and play when using the Bootstrapper and SpaceNinjaServer.</p>
-		<p>To download an old version, you can use <a href="https://github.com/SteamRE/DepotDownloader/releases">DepotDownloader</a> like so: <code>DepotDownloader -app 230410 -depot 230411 -manifest &lt;manifest id&gt; -username &lt;your steam username&gt;</code></p>
 		<table class="table table-sm">
 			<thead>
 				<tr>
