@@ -40,7 +40,7 @@
 			<li>Put the setup in the game's installation folder (the one where Warframe.x64.exe is in) and run it there.</li>
 		</ol>
 		<p>With that done, you can double-click Warframe.x64.exe to start the game with OpenWF. Opening the game's launcher will revert it back to normal.</p>
-		<p>The bootstrapper is <a href="bootstrapper-manual<?=(!empty($_DYNSTAT) ? ".html" : "");?>" target="_blank">fully documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p>
+		<p>The bootstrapper is <a href="bootstrapper-manual<?=(!empty($_DYNSTAT) ? ".html" : "");?>" target="_blank">documented here</a>, but the most important point is that, while the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to manage options, cheats, and scripts.</p>
 		<h2>IRC Server</h2>
 		<p>In addition to SpaceNinjaServer, you can also set up an IRC server for the in-game chat:</p>
 		<ul>
