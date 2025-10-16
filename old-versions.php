@@ -24,6 +24,13 @@
 				<tbody>
 					<!-- https://steamdb.info/depot/230411/manifests/ -->
 					<tr>
+						<td><code>2025.09.02.14.13</code></td>
+						<td>=&nbsp;39.1.3</td>
+						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the bootstrapper.">Full modding support</abbr></td>
+						<td><a href="#39.1.3">Download</a></td>
+					</tr>
+					<tr>
 						<td><code>2025.06.23.11.39</code></td>
 						<td>&lt;&nbsp;39.0.0</td>
 						<td>Isleweaver</td>
@@ -681,13 +688,38 @@
 			<p>Another project in this niche is <a href="https://github.com/mekael/WFClassic">Mekael's WFClassic</a>.</p>
 		</div>
 		<div id="depot-download-view" class="d-none">
-			<h3>Downloading <span class="manifest-id"></span></h3>
+			<h3>Downloading <span class="version-name"></span></h3>
 			<p>You will need:</p>
 			<ul>
 				<li>A Steam account with Warframe in its library</li>
 				<li><a href="https://github.com/SteamRE/DepotDownloader/releases" target="_blank">DepotDownloader</a></li>
 			</ul>
 			<p>Then, to download this version, simply run <code>DepotDownloader -app 230410 -depot 230411 -manifest <span class="manifest-id"></span> -username &lt;your steam username&gt; -remember-password</code>. Note that DepotDownloader may report errors; these are generally only temporary and it will try again.</p>
+		</div>
+		<div id="patch-download-view" class="d-none">
+			<h3>Downloading <span class="version-name"></span></h3>
+			<p>You will need:</p>
+			<ul>
+				<li>A Steam account with Warframe in its library</li>
+				<li><a href="https://github.com/SteamRE/DepotDownloader/releases" target="_blank">DepotDownloader</a></li>
+			</ul>
+			<p>With that sorted out:</p>
+			<ol>
+				<li>
+					Download the base version by running <code>DepotDownloader -app 230410 -depot 230411 -manifest <span class="manifest-id"></span> -username &lt;your steam username&gt; remember-password</code>
+					<ul>
+						<li>Note that DepotDownloader may report errors; these are generally only temporary and it will try again.</li>
+					</ul>
+				</li>
+				<li>
+					Download the update patch
+					<ul>
+						<li><a href="https://mega.nz/file/t1ImwaQY#fova1j0G6u5RUhksghiYCLDkCP_a2oLge-FQScKh30w" target="_blank">From Mega</a></li>
+						<li>Via BitTorrent v1 compatible software: <a href="magnet:?xt=urn:btih:04f15ff0082809b38804d2ccc6e2edadd6f40468&dn=39.1.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">Magnet</a></li>
+					</ul>
+				</li>
+				<li>Now you can replace your Warframe.x64.exe and place the OpenWF/Content folder which the Bootstrapper (version 0.11.13 and up) will pick up</li>
+			</ol>
 		</div>
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
@@ -697,12 +729,23 @@
 		{
 			document.getElementById("main-view").classList.add("d-none");
 			document.getElementById("depot-download-view").classList.add("d-none");
+			document.getElementById("patch-download-view").classList.add("d-none");
 
 			const hash = location.hash.toString().replace("#", "");
 			if (hash)
 			{
-				document.getElementById("depot-download-view").classList.remove("d-none");
-				document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
+				if (hash == "39.1.3")
+				{
+					document.getElementById("patch-download-view").classList.remove("d-none");
+					document.querySelectorAll(".version-name").forEach(x => x.textContent = hash);
+					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = "8391191747297658560");
+				}
+				else
+				{
+					document.getElementById("depot-download-view").classList.remove("d-none");
+					document.querySelectorAll(".version-name").forEach(x => x.textContent = hash);
+					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
+				}
 			}
 			else
 			{
