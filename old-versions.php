@@ -706,7 +706,7 @@
 			<p>With that sorted out:</p>
 			<ol>
 				<li>
-					Download the base version by running <code>DepotDownloader -app 230410 -depot 230411 -manifest <span class="manifest-id"></span> -username &lt;your steam username&gt; remember-password</code>
+					Download the base version by running <code>DepotDownloader -app 230410 -depot 230411 -manifest <span class="manifest-id"></span> -username &lt;your steam username&gt; -remember-password</code>
 					<ul>
 						<li>Note that DepotDownloader may report errors; these are generally only temporary and it will try again.</li>
 					</ul>
