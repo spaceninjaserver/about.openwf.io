@@ -695,7 +695,7 @@
 						<td><code>2014.05.23.12.12</code></td>
 						<td>≈&nbsp;13.4.1</td>
 						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
-						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Crashes when trying to revive<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td><a href="#7211838851606425341">Download</a></td>
 					</tr>
 					<!-- 5876704438298513797 is 2014.04.10.17.47 (~13.0.0), 'works' but everyone is A-posing, making enemies non-threats -->
