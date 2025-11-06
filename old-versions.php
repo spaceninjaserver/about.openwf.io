@@ -714,7 +714,7 @@
 						<td><code>2013.11.12.14.03</code></td>
 						<td>≈&nbsp;10.8.0</td>
 						<td>Shadows Of The Dead<!-- Login screen says "Open Beta - Update 10" --></td>
-						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Has halloween assets enabled<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td><a href="#4839307268506097307">Download</a></td>
 					</tr>
 					<tr>
