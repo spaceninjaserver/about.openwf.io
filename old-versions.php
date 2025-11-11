@@ -32,7 +32,7 @@
 						<td><a href="#39.1.3">Download</a></td>
 						<td>Update patch</td>
 					</tr>
-					<tr id="39.0.7" data-btih="f5958ef3d9ebacd98ea447ddafef118297b35911">
+					<tr id="39.0.7" data-langs="en" data-drivers="dx11" data-btih="f5958ef3d9ebacd98ea447ddafef118297b35911">
 						<td><code>2025.07.23.12.28</code></td>
 						<td>=&nbsp;39.0.7</td>
 						<td>Isleweaver</td>
@@ -48,7 +48,7 @@
 						<td><a href="#8391191747297658560">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="38.6.3" data-btih="99ffc6db0a41ad8043214bb490b43049e79591de">
+					<tr id="38.6.3" data-lang="en" data-drivers="dx11,dx12" data-btih="99ffc6db0a41ad8043214bb490b43049e79591de">
 						<td><code>2025.05.23.11.28</code></td>
 						<td>=&nbsp;38.6.3</td>
 						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
@@ -64,7 +64,7 @@
 						<td><a href="#6046892458385712496">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="38.5.11" data-btih="de247af30068106d6cdb8cb1b01fccbf5bbcc84f">
+					<tr id="38.5.11" data-langs="en" data-drivers="dx11,dx12" data-btih="de247af30068106d6cdb8cb1b01fccbf5bbcc84f">
 						<td><code>2025.04.15.15.16</code></td>
 						<td>=&nbsp;38.5.11</td>
 						<td>Techrot&nbsp;Encore</td>
@@ -72,7 +72,7 @@
 						<td><a href="#38.5.11">Download</a></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User installation</abbr></td>
 					</tr>
-					<tr id="38.5.5" data-btih="f5c305ac1892ae39930f71e9e1289402f847f410">
+					<tr id="38.5.5" data-langs="en,ja" data-drivers="dx11" data-btih="f5c305ac1892ae39930f71e9e1289402f847f410">
 						<td><code>2025.03.27.08.48</code></td>
 						<td>=&nbsp;38.5.5</td>
 						<td>Techrot&nbsp;Encore</td>
@@ -88,7 +88,7 @@
 						<td><a href="#4212893560910494140">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="38.0.12" data-btih="0cbc3f5d26065d6909536d0e322774fc53e4a91f">
+					<tr id="38.0.12" data-langs="en" data-drivers="dx11,dx12" data-btih="0cbc3f5d26065d6909536d0e322774fc53e4a91f">
 						<td><code>2025.02.19.16.14</code></td>
 						<td>=&nbsp;38.0.12</td>
 						<td>1999</td>
@@ -168,7 +168,7 @@
 						<td><a href="#3417254152679980994">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="34.0.8" data-btih="ed5f977e8cf0b7b9f9f71a2bf671e89bf873c27f">
+					<tr id="34.0.8" data-langs="en" data-drivers="dx11" data-btih="ed5f977e8cf0b7b9f9f71a2bf671e89bf873c27f">
 						<td><code>2023.11.06.13.39</code></td>
 						<td>=&nbsp;34.0.8</td>
 						<td>Abyss&nbsp;of&nbsp;Dagath</td>
@@ -1099,7 +1099,11 @@
 		</div>
 		<div id="dirty-download-view" class="d-none">
 			<h3>Downloading <span class="version-name"></span></h3>
-			<p>Please note that this is a full game installation provided by a user. It has been verified to launch with the defaults of English and DirectX 11, but it will likely not have the content required for other configurations.</p>
+			<p>Please note that this is a full game installation provided by a user. It only has the content required to launch in specific configurations:</p>
+			<ul>
+				<li>language: <span class="language-options"></span></li>
+				<li>graphicsDriver: <span class="graphicsDriver-options"></span></li>
+			</ul>
 			<p>To download it, you will need BitTorrent v1 compatible software: <a class="magnet" download>Magnet</a></p>
 		</div>
 	</div>
@@ -1136,6 +1140,8 @@
 					{
 						// User installation
 						document.getElementById("dirty-download-view").classList.remove("d-none");
+						document.querySelectorAll(".language-options").forEach(x => x.textContent = tr.getAttribute("data-langs").split(",").join(" or "));
+						document.querySelectorAll(".graphicsDriver-options").forEach(x => x.textContent = tr.getAttribute("data-drivers").split(",").join(" or "));
 					}
 				}
 				else
