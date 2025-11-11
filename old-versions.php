@@ -24,7 +24,7 @@
 				</thead>
 				<tbody>
 					<!-- https://steamdb.info/depot/230411/manifests/ -->
-					<tr id="39.1.3" data-base-manifest="8391191747297658560" data-btih="04f15ff0082809b38804d2ccc6e2edadd6f40468" data-mega="t1ImwaQY#fova1j0G6u5RUhksghiYCLDkCP_a2oLge-FQScKh30w">
+					<tr id="39.1.3" data-base-manifest="8391191747297658560" data-mega="t1ImwaQY#fova1j0G6u5RUhksghiYCLDkCP_a2oLge-FQScKh30w" data-magnet="magnet:?xt=urn:btih:04f15ff0082809b38804d2ccc6e2edadd6f40468&dn=39.1.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.09.02.14.13</code></td>
 						<td>=&nbsp;39.1.3</td>
 						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
@@ -32,7 +32,7 @@
 						<td><a href="#39.1.3">Download</a></td>
 						<td>Update patch</td>
 					</tr>
-					<tr id="39.0.7" data-langs="en" data-drivers="dx11" data-btih="f5958ef3d9ebacd98ea447ddafef118297b35911">
+					<tr id="39.0.7" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5958ef3d9ebacd98ea447ddafef118297b35911&dn=39.0.7&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.07.23.12.28</code></td>
 						<td>=&nbsp;39.0.7</td>
 						<td>Isleweaver</td>
@@ -48,7 +48,7 @@
 						<td><a href="#8391191747297658560">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="38.6.3" data-lang="en" data-drivers="dx11,dx12" data-btih="99ffc6db0a41ad8043214bb490b43049e79591de">
+					<tr id="38.6.3" data-lang="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:99ffc6db0a41ad8043214bb490b43049e79591de&dn=38.6.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.05.23.11.28</code></td>
 						<td>=&nbsp;38.6.3</td>
 						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
@@ -64,7 +64,7 @@
 						<td><a href="#6046892458385712496">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="38.5.11" data-langs="en" data-drivers="dx11,dx12" data-btih="de247af30068106d6cdb8cb1b01fccbf5bbcc84f">
+					<tr id="38.5.11" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:de247af30068106d6cdb8cb1b01fccbf5bbcc84f&dn=38.5.11&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.04.15.15.16</code></td>
 						<td>=&nbsp;38.5.11</td>
 						<td>Techrot&nbsp;Encore</td>
@@ -72,7 +72,7 @@
 						<td><a href="#38.5.11">Download</a></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User installation</abbr></td>
 					</tr>
-					<tr id="38.5.5" data-langs="en,ja" data-drivers="dx11" data-btih="f5c305ac1892ae39930f71e9e1289402f847f410">
+					<tr id="38.5.5" data-langs="en,ja" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5c305ac1892ae39930f71e9e1289402f847f410&dn=38.5.5&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.03.27.08.48</code></td>
 						<td>=&nbsp;38.5.5</td>
 						<td>Techrot&nbsp;Encore</td>
@@ -88,7 +88,7 @@
 						<td><a href="#4212893560910494140">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="38.0.12" data-langs="en" data-drivers="dx11,dx12" data-btih="0cbc3f5d26065d6909536d0e322774fc53e4a91f">
+					<tr id="38.0.12" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:0cbc3f5d26065d6909536d0e322774fc53e4a91f&dn=38.0.12&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.02.19.16.14</code></td>
 						<td>=&nbsp;38.0.12</td>
 						<td>1999</td>
@@ -168,7 +168,7 @@
 						<td><a href="#3417254152679980994">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="34.0.8" data-langs="en" data-drivers="dx11" data-btih="ed5f977e8cf0b7b9f9f71a2bf671e89bf873c27f">
+					<tr id="34.0.8" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:ed5f977e8cf0b7b9f9f71a2bf671e89bf873c27f&dn=34.0.8&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2023.11.06.13.39</code></td>
 						<td>=&nbsp;34.0.8</td>
 						<td>Abyss&nbsp;of&nbsp;Dagath</td>
@@ -1123,10 +1123,10 @@
 			{
 				document.querySelectorAll(".version-name").forEach(x => x.textContent = hash);
 
-				const btih = tr.getAttribute("data-btih");
-				if (btih)
+				const magnet = tr.getAttribute("data-magnet");
+				if (magnet)
 				{
-					document.querySelectorAll(".magnet").forEach(x => x.href = `magnet:?xt=urn:btih:${btih}&dn=${hash}&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce`);
+					document.querySelectorAll(".magnet").forEach(x => x.href = magnet);
 
 					const manifestId = tr.getAttribute("data-base-manifest");
 					if (manifestId)
