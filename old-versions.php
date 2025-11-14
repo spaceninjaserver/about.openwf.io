@@ -1060,7 +1060,7 @@
 					The main branch of SpaceNinjaServer may be missing features specific to these versions (PRs in this regard would be appreciated!), but there are alternatives:
 					<ul>
 						<li><a href="https://onlyg.it/OpenWF/SpaceNinjaServer/src/branch/janisslsm/2013.03.25.11.45/" target="_blank">The janisslsm/2013.03.25.11.45 branch of SpaceNinjaServer</a>. Discussion about this happens <a href="https://discord.com/channels/1108159019635462206/1280628166825873510/1280628233355923497" target="_blank">in this thread</a> of <a href="https://discord.gg/PNNZ3asUuY" target="_blank">our Discord</a>.</li>
-						<li><a href="https://github.com/mekael/WFClassic">Mekael's WFClassic</a>, a completely alternative server implementation in C#.</li>
+						<li><a href="https://github.com/mekael/WFClassic" target="_blank">Mekael's WFClassic</a>, a completely alternative server implementation in C#.</li>
 					</ul>
 				</li>
 			</ul>
