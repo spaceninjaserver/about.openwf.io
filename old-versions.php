@@ -32,7 +32,7 @@
 						<td><a href="#39.1.3">Download</a></td>
 						<td>Update patch</td>
 					</tr>
-					<tr id="39.0.7" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5958ef3d9ebacd98ea447ddafef118297b35911&dn=39.0.7&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce" data-cat-labels="magnet:?xt=urn:btih:fa592a64597adecaf3f6c7faf4725f1693a8ec90&dn=cat%20labels%20for%2039.0.6%20and%2039.0.7&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
+					<tr id="39.0.7" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5958ef3d9ebacd98ea447ddafef118297b35911&dn=39.0.7&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-39.0.7/" data-cat-labels="magnet:?xt=urn:btih:fa592a64597adecaf3f6c7faf4725f1693a8ec90&dn=cat%20labels%20for%2039.0.6%20and%2039.0.7&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
 						<td><code>2025.07.23.12.28</code></td>
 						<td>=&nbsp;39.0.7</td>
 						<td>Isleweaver</td>
@@ -48,7 +48,7 @@
 						<td><a href="#8391191747297658560">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="38.6.3" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:99ffc6db0a41ad8043214bb490b43049e79591de&dn=38.6.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce" data-cat-labels="magnet:?xt=urn:btih:64b87b489d409f6849ca939f0c2c9ce52029db93&dn=cat%20labels%20for%2038.6.2%20and%2038.6.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
+					<tr id="38.6.3" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:99ffc6db0a41ad8043214bb490b43049e79591de&dn=38.6.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.6.3/" data-cat-labels="magnet:?xt=urn:btih:64b87b489d409f6849ca939f0c2c9ce52029db93&dn=cat%20labels%20for%2038.6.2%20and%2038.6.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
 						<td><code>2025.05.23.11.28</code></td>
 						<td>=&nbsp;38.6.3</td>
 						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
@@ -64,7 +64,7 @@
 						<td><a href="#6046892458385712496">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="38.5.11" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:de247af30068106d6cdb8cb1b01fccbf5bbcc84f&dn=38.5.11&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce" data-cat-labels="magnet:?xt=urn:btih:fa6915c393a7edc5f017bd5b62bfc9f77e15443b&dn=cat%20labels%20for%2038.5.11&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+					<tr id="38.5.11" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:de247af30068106d6cdb8cb1b01fccbf5bbcc84f&dn=38.5.11&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.5.11/" data-cat-labels="magnet:?xt=urn:btih:fa6915c393a7edc5f017bd5b62bfc9f77e15443b&dn=cat%20labels%20for%2038.5.11&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
 						<td><code>2025.04.15.15.16</code></td>
 						<td>=&nbsp;38.5.11</td>
 						<td>Techrot&nbsp;Encore</td>
@@ -72,7 +72,7 @@
 						<td><a href="#38.5.11">Download</a></td>
 						<td><abbr title="A full game installation that may not work with all configurations.">User installation</abbr></td>
 					</tr>
-					<tr id="38.5.5" data-langs="en,ja" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5c305ac1892ae39930f71e9e1289402f847f410&dn=38.5.5&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce" data-cat-labels="magnet:?xt=urn:btih:c8e46a406a5b554fe9158a8dc615d6befc2b7638&dn=cat%20labels%20for%2038.5.5&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
+					<tr id="38.5.5" data-langs="en,ja" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5c305ac1892ae39930f71e9e1289402f847f410&dn=38.5.5&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.5.5/" data-cat-labels="magnet:?xt=urn:btih:c8e46a406a5b554fe9158a8dc615d6befc2b7638&dn=cat%20labels%20for%2038.5.5&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.03.27.08.48</code></td>
 						<td>=&nbsp;38.5.5</td>
 						<td>Techrot&nbsp;Encore</td>
@@ -88,7 +88,7 @@
 						<td><a href="#4212893560910494140">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="38.0.12" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:0cbc3f5d26065d6909536d0e322774fc53e4a91f&dn=38.0.12&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce" data-cat-labels="magnet:?xt=urn:btih:fe2c9f14e6aa9b27cf1a67c5b54aafb78dc6ed66&dn=cat%20labels%20for%2038.0.12&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
+					<tr id="38.0.12" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:0cbc3f5d26065d6909536d0e322774fc53e4a91f&dn=38.0.12&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.0.12/" data-cat-labels="magnet:?xt=urn:btih:fe2c9f14e6aa9b27cf1a67c5b54aafb78dc6ed66&dn=cat%20labels%20for%2038.0.12&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.02.19.16.14</code></td>
 						<td>=&nbsp;38.0.12</td>
 						<td>1999</td>
@@ -176,7 +176,7 @@
 						<td><a href="#3417254152679980994">Download</a></td>
 						<td>Steam manifest</td>
 					</tr>
-					<tr id="34.0.8" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:ed5f977e8cf0b7b9f9f71a2bf671e89bf873c27f&dn=34.0.8&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
+					<tr id="34.0.8" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:ed5f977e8cf0b7b9f9f71a2bf671e89bf873c27f&dn=34.0.8&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-34.0.8/">
 						<td><code>2023.11.06.13.39</code></td>
 						<td>=&nbsp;34.0.8</td>
 						<td>Abyss&nbsp;of&nbsp;Dagath</td>
