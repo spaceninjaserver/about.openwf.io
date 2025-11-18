@@ -34,7 +34,7 @@
 			<h2>Server Update</h2>
 			<p>You can simply run the <code>UPDATE AND START SERVER</code> script for this, but otherwise the steps are pretty simple:</p>
 			<ol>
-				<li>Run <code>git pull</code> in the SpaceNinjaServer folder</li>
+				<li>Run <code>git pull --prune</code> in the SpaceNinjaServer folder</li>
 				<li>(Optional) If you have the stripped assets, run <code>git pull</code> in the <code>static/data/0</code> folder</li>
 				<li>Run <code>npm install --omit=dev --omit=optional</code> to synchronize library dependencies</li>
 				<li>Now you can use <code>npm run raw</code> to start the server again</li>
