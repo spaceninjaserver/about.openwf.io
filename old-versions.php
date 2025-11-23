@@ -1094,7 +1094,7 @@
 					Download the update patch
 					<ul>
 						<li><a href="https://mega.nz/file/t1ImwaQY#fova1j0G6u5RUhksghiYCLDkCP_a2oLge-FQScKh30w" target="_blank">From Mega</a></li>
-						<li>Via BitTorrent v1 compatible software: <a class="magnet" download>Magnet</a></li>
+						<li>Via BitTorrent v1 compatible software: <a class="magnet">Magnet</a></li>
 					</ul>
 				</li>
 				<li>Now you can replace your Warframe.x64.exe and place the OpenWF/Content folder which the Bootstrapper will pick up</li>
@@ -1107,8 +1107,8 @@
 				<li>language: <span class="language-options"></span></li>
 				<li>graphicsDriver: <span class="graphicsDriver-options"></span></li>
 			</ul>
-			<p>To download it, you will need BitTorrent v1 compatible software: <a class="magnet" download>Magnet</a></p>
-			<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you use label replacements to hackily use another language: <a download>Magnet</a></p>
+			<p>To download it, you will need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
+			<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you use label replacements to hackily use another language: <a>Magnet</a></p>
 		</div>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
@@ -1146,6 +1146,8 @@
 						document.getElementById("dirty-download-view").classList.remove("d-none");
 						document.querySelectorAll(".language-options").forEach(x => x.textContent = tr.getAttribute("data-langs").split(",").join(" or "));
 						document.querySelectorAll(".graphicsDriver-options").forEach(x => x.textContent = tr.getAttribute("data-drivers").split(",").join(" or "));
+
+						document.querySelector("#dirty-download-view .torrent").href = `/supplementals/dirty builds/${hash}.torrent`;
 
 						const catLabelsMagnet = tr.getAttribute("data-cat-labels");
 						if (catLabelsMagnet)
