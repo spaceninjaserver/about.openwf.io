@@ -12,6 +12,21 @@
 		<div id="main-view">
 			<h3>Bootstrapper + SpaceNinjaServer Supported Versions</h3>
 			<p>The following is a list of game versions that have been verified to at least be able to login and play when using the Bootstrapper and SpaceNinjaServer.</p>
+			<div class="d-flex flex-wrap gap-2 mb-3">
+				<div>Filters:</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="filter-steam" checked>
+					<label class="form-check-label" for="filter-steam">Steam manifests</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="filter-dirty" checked>
+					<label class="form-check-label" for="filter-dirty">User installations</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="filter-patch" checked>
+					<label class="form-check-label" for="filter-patch">Update patches</label>
+				</div>
+			</div>
 			<table class="table table-sm">
 				<thead>
 					<tr>
@@ -1178,6 +1193,70 @@
 			}
 		};
 		window.onhashchange();
+
+		function applyFilters()
+		{
+			const steam = document.getElementById("filter-steam").checked;
+			const dirty = document.getElementById("filter-dirty").checked;
+			const patch = document.getElementById("filter-patch").checked;
+			document.querySelectorAll("tr[id]").forEach(function(tr)
+			{
+				let show;
+				if (tr.getAttribute("data-magnet"))
+				{
+					if (tr.getAttribute("data-langs"))
+					{
+						show = dirty;
+					}
+					else
+					{
+						show = patch;
+					}
+				}
+				else
+				{
+					show = steam;
+				}
+
+				if (show)
+				{
+					tr.classList.remove("d-none");
+				}
+				else
+				{
+					tr.classList.add("d-none");
+				}
+			});
+
+			if (!dirty && !patch)
+			{
+				document.getElementById("filter-steam").setAttribute("disabled", "disabled");
+			}
+			else
+			{
+				document.getElementById("filter-steam").removeAttribute("disabled");
+			}
+			if (!steam && !patch)
+			{
+				document.getElementById("filter-dirty").setAttribute("disabled", "disabled");
+			}
+			else
+			{
+				document.getElementById("filter-dirty").removeAttribute("disabled");
+			}
+			if (!steam && !dirty)
+			{
+				document.getElementById("filter-patch").setAttribute("disabled", "disabled");
+			}
+			else
+			{
+				document.getElementById("filter-patch").removeAttribute("disabled");
+			}
+		}
+		document.getElementById("filter-steam").onchange = applyFilters;
+		document.getElementById("filter-dirty").onchange = applyFilters;
+		document.getElementById("filter-patch").onchange = applyFilters;
+		applyFilters();
 	</script>
 </body>
 </html>
