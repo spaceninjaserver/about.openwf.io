@@ -1162,7 +1162,7 @@
 						document.querySelectorAll(".language-options").forEach(x => x.textContent = tr.getAttribute("data-langs").split(",").join(" or "));
 						document.querySelectorAll(".graphicsDriver-options").forEach(x => x.textContent = tr.getAttribute("data-drivers").split(",").join(" or "));
 
-						document.querySelector("#dirty-download-view .torrent").href = `/supplementals/dirty builds/${hash}.torrent`;
+						document.querySelector("#dirty-download-view .torrent").href = `supplementals/dirty builds/${hash}.torrent`;
 
 						const catLabelsMagnet = tr.getAttribute("data-cat-labels");
 						if (catLabelsMagnet)
