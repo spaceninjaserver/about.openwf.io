@@ -27,7 +27,7 @@
 					<label class="form-check-label" for="filter-patch">Update patches</label>
 				</div>
 			</div>
-			<table class="table table-sm">
+			<table class="table table-sm table-hover">
 				<thead>
 					<tr>
 						<th colspan="2">Version</th>
