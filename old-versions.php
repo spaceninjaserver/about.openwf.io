@@ -744,7 +744,7 @@
 						<td>Steam manifest</td>
 						<td><a href="#3584168904277131181">Download</a></td>
 					</tr>
-					<!-- 8065552974390268707 is 2016.07.08.16.56. Seems to have a broken cache as everyone is A-posing and subtitle texts don't resolve. -->
+					<!-- 8065552974390268707 is 2016.07.08.16.56, ~18.16.0. Seems to have a broken cache as everyone is A-posing and subtitle texts don't resolve. -->
 					<!-- 2087739745223261142 is 2016.03.31.15.16, ~18.7.1 Sands of Inaros. Chat scaleform is broken which steals UI focus so can't even access navigation. -->
 					<tr id="1331043799698924734">
 						<td><code>2016.03.04.10.06</code></td>
