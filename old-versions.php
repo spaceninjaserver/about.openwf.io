@@ -1123,7 +1123,7 @@
 				<li>graphicsDriver: <span class="graphicsDriver-options"></span></li>
 			</ul>
 			<p>To download it, you will need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
-			<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you use label replacements to hackily use another language: <a>Magnet</a></p>
+			<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you can use label replacements to hackily use another language: <a>Magnet</a></p>
 		</div>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
