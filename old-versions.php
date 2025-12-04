@@ -1145,6 +1145,16 @@
 	<script src="_assets/bootstrap.bundle.min.js"></script>
 	<script src="_assets/censorcanary.min.js" defer></script>
 	<script>
+		function formatAlternatives(arr)
+		{
+			if (arr.length > 2)
+			{
+				const last = arr.pop();
+				return arr.join(", ") + ", or " + last;
+			}
+			return arr.join(" or ");
+		}
+
 		window.onhashchange = function()
 		{
 			document.getElementById("main-view").classList.add("d-none");
@@ -1175,8 +1185,8 @@
 					{
 						// User installation
 						document.getElementById("dirty-download-view").classList.remove("d-none");
-						document.querySelectorAll(".language-options").forEach(x => x.textContent = tr.getAttribute("data-langs").split(",").join(" or "));
-						document.querySelectorAll(".graphicsDriver-options").forEach(x => x.textContent = tr.getAttribute("data-drivers").split(",").join(" or "));
+						document.querySelectorAll(".language-options").forEach(x => x.textContent = formatAlternatives(tr.getAttribute("data-langs").split(",")));
+						document.querySelectorAll(".graphicsDriver-options").forEach(x => x.textContent = formatAlternatives(tr.getAttribute("data-drivers").split(",")));
 
 						document.querySelector("#dirty-download-view .torrent").href = `supplementals/dirty builds/${new URLSearchParams(new URL(magnet).search).get("dn")}.torrent`;
 
