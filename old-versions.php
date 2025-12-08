@@ -199,6 +199,14 @@
 						<td>Steam manifest</td>
 						<td><a href="#3417254152679980994">Download</a></td>
 					</tr>
+					<tr id="35.0.11" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:3cfc9ae38e3edb5d3e11ab343b85e5c735c1fe43&dn=35.0.11%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-35.0.11/">
+						<td><code>2024.01.15.16.13</code></td>
+						<td>=&nbsp;35.0.11</td>
+						<td>Whispers&nbsp;in&nbsp;the&nbsp;Walls</td>
+						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User installation</abbr></td>
+						<td><a href="#35.0.11">Download</a></td>
+					</tr>
 					<tr id="34.0.8" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:ed5f977e8cf0b7b9f9f71a2bf671e89bf873c27f&dn=34.0.8&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-34.0.8/">
 						<td><code>2023.11.06.13.39</code></td>
 						<td>=&nbsp;34.0.8</td>
