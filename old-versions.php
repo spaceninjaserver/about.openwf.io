@@ -145,6 +145,14 @@
 						<td><abbr title="A full game installation that may not work with all configurations.">User installation</abbr></td>
 						<td><a href="#38.0.12">Download</a></td>
 					</tr>
+					<tr id="38.0.11" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:03cce7abccb6e723066dad8847a85578b5ff0958&dn=38.0.11%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-38.0.11/" data-cat-labels="magnet:?xt=urn:btih:b633df3dd7296182da966b82dec35f23a129a0e1&dn=cat%20labels%20for%2038.0.11&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
+						<td><code>2025.02.13.12.01</code></td>
+						<td>=&nbsp;38.0.11</td>
+						<td>1999</td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User installation</abbr></td>
+						<td><a href="#38.0.11">Download</a></td>
+					</tr>
 					<tr id="38.0.7" data-langs="es" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:bf6ea8112deb1329a526be2f531145db9c4e37de&dn=38.0.7&tr=http%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&ws=http://ia600606.us.archive.org/1/items/&ws=http://ia800606.us.archive.org/1/items/&ws=https://archive.org/download/" data-cat-labels="magnet:?xt=urn:btih:f9f6e1737f3024ad7fe2ca48493d23e693c34f74&dn=cat%20labels%20for%2038.0.6%20and%2038.0.7&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
 						<td><code>2025.01.13.14.52</code></td>
 						<td>=&nbsp;38.0.7</td>
