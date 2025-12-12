@@ -63,7 +63,7 @@
 		<h2>Client Patch</h2>
 		<p>In order to connect to custom servers, the client needs to be patched, which is what the Bootstrapper is for.</p>
 		<ul>
-			<li><b>Prerequisite:</b> Because this is a project about preservation, we do not support the latest versions immediately. Please see <a href="old-versions<?=$ext;?>" target="_blank">here</a> for supported versions and download instructions.</li>
+			<li><b>Prerequisite:</b> Because this is a project about preservation, we do not support the latest versions immediately. Please see <a href="versions<?=$ext;?>" target="_blank">here</a> for supported versions and download instructions.</li>
 			<li><b>Setup:</b> Download <a href="https://ipfs.io/ipfs/bafkreifedzhddsiz4tfxwkzuzu6722seqvzhp7fdxkvdd6ao3canjesyda?filename=Bootstrapper+Setup.exe" target="_blank">the bootstrapper setup</a> (<a href="https://onlyg.it/OpenWF/Bootstrapper-Setup" target="_blank">source code</a>, <a href="supplementals/Bootstrapper%20Setup.sh" download>Linux version</a>), put it in the game's installation folder (the one where Warframe.x64.exe is in), and run it there.</li>
 			<li><b>Usage:</b> With the DLL in place, you can double-click Warframe.x64.exe to start the game with OpenWF.<!-- Opening the game's launcher will revert it back to normal. --><!-- Linux users, note that versions before U29 will need <code>WINEDLLOVERRIDES="wtsapi32.dll=n,b"</code> in the enviroment when launching Warframe.x64.exe with Wine/Proton. --></li>
 		</ul>

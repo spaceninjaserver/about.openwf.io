@@ -17,7 +17,7 @@
 		</ul>
 		<a href="guide<?=$ext;?>" class="btn btn-primary">Get Started</a>
 		<h3 class="mt-3">Preservation</h3>
-		<p>The versions supported by OpenWF will always be available to play and revisit. <a href="old-versions<?=$ext;?>">Browse versions.</a></p>
+		<p>The versions supported by OpenWF will always be available to play and revisit. <a href="versions<?=$ext;?>">Browse versions.</a></p>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
 	<script src="_assets/censorcanary.min.js" defer></script>

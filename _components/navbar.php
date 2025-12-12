@@ -11,11 +11,11 @@ $path = strtok($_SERVER["REQUEST_URI"], '?');
 		<div class="collapse navbar-collapse" id="navbar-content">
 			<ul class="navbar-nav me-auto mb-0">
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle<?=((substr($path, 0, 6) == "/guide" || substr($path, 0, 7) == "/import" || substr($path, 0, 25) == "/asset-replacements-guide" || substr($path, 0, 13) == "/old-versions") ? " active" : ""); ?>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</a>
+					<a class="nav-link dropdown-toggle<?=((substr($path, 0, 6) == "/guide" || substr($path, 0, 7) == "/import" || substr($path, 0, 25) == "/asset-replacements-guide" || substr($path, 0, 9) == "/versions") ? " active" : ""); ?>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</a>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item<?=(substr($path, 0, 6) == "/guide" ? " active" : ""); ?>" href="guide<?=$ext;?>">Setup</a></li>
 						<li><a class="dropdown-item<?=(substr($path, 0, 7) == "/import" ? " active" : ""); ?>" href="import<?=$ext;?>">Importing</a></li>
-						<li><a class="dropdown-item<?=(substr($path, 0, 13) == "/old-versions" ? " active" : ""); ?>" href="old-versions<?=$ext;?>">Old Versions</a></li>
+						<li><a class="dropdown-item<?=(substr($path, 0, 9) == "/versions" ? " active" : ""); ?>" href="versions<?=$ext;?>">Versions</a></li>
 						<li><a class="dropdown-item<?=(substr($path, 0, 14) == "/companion-app" ? " active" : ""); ?>" href="companion-app<?=$ext;?>">Companion App</a></li>
 						<li><a class="dropdown-item<?=(substr($path, 0, 25) == "/asset-replacements-guide" ? " active" : ""); ?>" href="asset-replacements-guide<?=$ext;?>">Asset Replacements</a></li>
 					</ul>
