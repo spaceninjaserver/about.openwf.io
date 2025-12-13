@@ -185,6 +185,14 @@
 						<td>Steam manifest</td>
 						<td><a href="#2655930801276651913">Download</a></td>
 					</tr>
+					<tr id="36.1.6.1" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f74ea51ad956ebbe29e6769bc28df5f74d0f4f49&dn=36.1.6.1%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-36.1.6.1/">
+						<td><code>2024.08.28.10.54<!-- /2QPbMhfBQLpPfYn7EsW-rA --></code></td>
+						<td>=&nbsp;36.1.6.1</td>
+						<td>The&nbsp;Lotus&nbsp;Eaters</td>
+						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User installation</abbr></td>
+						<td><a href="#36.1.6.1">Download</a></td>
+					</tr>
 					<tr id="8111233839173446959">
 						<td><code>2024.08.21.20.02</code></td>
 						<td>=&nbsp;36.1.2</td>
