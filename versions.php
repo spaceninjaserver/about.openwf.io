@@ -800,6 +800,14 @@
 					</tr>
 					<!-- 2663512682334598162 is 2017.03.03.17.01, ~19.12.1, fails to start due to an assertion failure -->
 					<!-- 4864838558963648894 is 2017.03.02.14.59, ~19.12.0, fails to start due to an assertion failure -->
+					<tr id="19.5.3" data-langs="en" data-drivers="dx9,dx11" data-magnet="magnet:?xt=urn:btih:dd5c6ddb1e417b9c5a1fe10619b8a8b08c2bf43b&dn=19.5.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-19.5.3/">
+						<td><code>2016.12.23.09.26</code></td>
+						<td>≈&nbsp;19.5.3</td>
+						<td>The&nbsp;Glast&nbsp;Gambit</td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#19.5.3">Download</a></td>
+					</tr>
 					<tr id="4666421798085404101">
 						<td><code>2016.12.21.19.13</code></td>
 						<td>≈&nbsp;19.5.0</td>
