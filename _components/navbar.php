@@ -16,7 +16,7 @@ $path = strtok($_SERVER["REQUEST_URI"], '?');
 						<li><a class="dropdown-item<?=(substr($path, 0, 6) == "/guide" ? " active" : ""); ?>" href="guide<?=$ext;?>">Setup</a></li>
 						<li><a class="dropdown-item<?=(substr($path, 0, 7) == "/import" ? " active" : ""); ?>" href="import<?=$ext;?>">Importing</a></li>
 						<li><a class="dropdown-item<?=(substr($path, 0, 9) == "/versions" ? " active" : ""); ?>" href="versions<?=$ext;?>">Versions</a></li>
-						<li><a class="dropdown-item<?=(substr($path, 0, 14) == "/companion-app" ? " active" : ""); ?>" href="companion-app<?=$ext;?>">Companion App</a></li>
+						<li><a class="dropdown-item" href="https://onlyg.it/janisslsm/warframe-companion-patcher" target="_blank">Companion App</a></li>
 						<li><a class="dropdown-item<?=(substr($path, 0, 25) == "/asset-replacements-guide" ? " active" : ""); ?>" href="asset-replacements-guide<?=$ext;?>">Asset Replacements</a></li>
 					</ul>
 				</li>
