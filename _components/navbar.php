@@ -1,6 +1,6 @@
 <?php
 $ext = (!empty($_DYNSTAT) ? ".html" : (substr($_SERVER["SERVER_SOFTWARE"] ?? "", 0, 3) == "PHP" ? ".php" : ""));
-$path = strtok($_SERVER["REQUEST_URI"], '?');
+$path = strtok(strtok($_SERVER["REQUEST_URI"], '?'), '.');
 ?>
 <nav class="navbar navbar-expand-sm bg-body-tertiary">
 	<div class="container">
@@ -10,17 +10,20 @@ $path = strtok($_SERVER["REQUEST_URI"], '?');
 		</button>
 		<div class="collapse navbar-collapse" id="navbar-content">
 			<ul class="navbar-nav me-auto mb-0">
-				<li class="nav-item"><a class="nav-link<?=(substr($path, 0, 9) == "/versions" ? " active" : ""); ?>" href="versions<?=$ext;?>">Version Archive</a></li>
+				<li class="nav-item"><a class="nav-link<?=($path == "/versions" ? " active" : ""); ?>" href="versions<?=$ext;?>">Version Archive</a></li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle<?=((substr($path, 0, 6) == "/guide" || substr($path, 0, 7) == "/import" || substr($path, 0, 25) == "/asset-replacements-guide") ? " active" : ""); ?>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</a>
+					<a class="nav-link dropdown-toggle<?=(($path == "/client-setup" || $path == "/web-server-setup" || $path == "/import" || $path == "/chat-server-setup" || $path == "/dockerized-server-setup" || $path == "/asset-replacements-guide") ? " active" : ""); ?>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item<?=(substr($path, 0, 6) == "/guide" ? " active" : ""); ?>" href="guide<?=$ext;?>">Setup</a></li>
-						<li><a class="dropdown-item<?=(substr($path, 0, 7) == "/import" ? " active" : ""); ?>" href="import<?=$ext;?>">Importing</a></li>
+						<li><a class="dropdown-item<?=($path == "/client-setup" ? " active" : ""); ?>" href="client-setup<?=$ext;?>">Client Setup</a></li>
+						<li><a class="dropdown-item<?=($path == "/web-server-setup" ? " active" : ""); ?>" href="web-server-setup<?=$ext;?>">Web Server Setup</a></li>
+						<li><a class="dropdown-item<?=($path == "/import" ? " active" : ""); ?>" href="import<?=$ext;?>">Importing</a></li>
+						<li><a class="dropdown-item<?=($path == "/chat-server-setup" ? " active" : ""); ?>" href="chat-server-setup<?=$ext;?>">Chat Server Setup</a></li>
+						<li><a class="dropdown-item<?=($path == "/dockerized-server-setup" ? " active" : ""); ?>" href="dockerized-server-setup<?=$ext;?>">Dockerized Server Setup</a></li>
 						<li><a class="dropdown-item" href="https://onlyg.it/janisslsm/warframe-companion-patcher" target="_blank">Companion App</a></li>
-						<li><a class="dropdown-item<?=(substr($path, 0, 25) == "/asset-replacements-guide" ? " active" : ""); ?>" href="asset-replacements-guide<?=$ext;?>">Asset Replacements</a></li>
+						<li><a class="dropdown-item<?=($path == "/asset-replacements-guide" ? " active" : ""); ?>" href="asset-replacements-guide<?=$ext;?>">Asset Replacements</a></li>
 					</ul>
 				</li>
-				<li class="nav-item"><a class="nav-link<?=(substr($path, 0, 11) == "/contribute" ? " active" : ""); ?>" href="contribute<?=$ext;?>">Contribute</a></li>
+				<li class="nav-item"><a class="nav-link<?=($path == "/contribute" ? " active" : ""); ?>" href="contribute<?=$ext;?>">Contribute</a></li>
 				<li class="nav-item"><a class="nav-link" href="https://discord.gg/PNNZ3asUuY" target="_blank">Discord</a></li>
 			</ul>
 		</div>

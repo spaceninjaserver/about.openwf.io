@@ -18,6 +18,21 @@
 		<h2>Import to SpaceNinjaServer</h2>
 		<p>Now that you have your inventory, open the SpaceNinjaServer WebUI and select the Import tab. You can simply paste the entire thing in the textbox and press the Submit button.</p>
 		<p>If you have a getShip response, you can import it the same way. Otherwise, you are advised to use Unlock All Ship Features in the Cheats tab to avoid being locked out of most things.</p>
+
+		<div class="row g-3 my-4">
+			<div class="col-6">
+				<a href="web-server-setup<?=$ext;?>" class="card p-3 text-decoration-none">
+					<small class="text-muted">Previous</small>
+					<div class="fw-bold text-primary">« Web Server Setup</div>
+				</a>
+			</div>
+			<div class="col-6">
+				<a href="chat-server-setup<?=$ext;?>" class="card p-3 text-decoration-none text-end">
+					<small class="text-muted">Next</small>
+					<div class="fw-bold text-primary">Chat Server Setup »</div>
+				</a>
+			</div>
+		</div>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
 	<script src="_assets/censorcanary.min.js" defer></script>
