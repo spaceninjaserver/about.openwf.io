@@ -28,6 +28,12 @@
 					<div class="fw-bold text-primary">« Chat Server Setup</div>
 				</a>
 			</div>
+			<div class="col-6">
+				<a href="nrs-setup<?=$ext;?>" class="card p-3 text-decoration-none text-end">
+					<small class="text-muted">Next</small>
+					<div class="fw-bold text-primary">NRS Setup »</div>
+				</a>
+			</div>
 		</div>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
