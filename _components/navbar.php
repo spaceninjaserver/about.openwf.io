@@ -12,7 +12,7 @@ $path = strtok(strtok($_SERVER["REQUEST_URI"], '?'), '.');
 			<ul class="navbar-nav me-auto mb-0">
 				<li class="nav-item"><a class="nav-link<?=($path == "/versions" ? " active" : ""); ?>" href="versions<?=$ext;?>">Version Archive</a></li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle<?=(($path == "/client-setup" || $path == "/web-server-setup" || $path == "/import" || $path == "/chat-server-setup" || $path == "/hub-server-setup" || $path == "/nrs-setup" || $path == "/dockerized-server-setup" || $path == "/asset-replacements-guide") ? " active" : ""); ?>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</a>
+					<a class="nav-link dropdown-toggle<?=(($path == "/client-setup" || $path == "/web-server-setup" || $path == "/import" || $path == "/chat-server-setup" || $path == "/hub-server-setup" || $path == "/nrs-setup" || $path == "/port-forwarding" || $path == "/dockerized-server-setup" || $path == "/asset-replacements-guide") ? " active" : ""); ?>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</a>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item<?=($path == "/client-setup" ? " active" : ""); ?>" href="client-setup<?=$ext;?>">Client Setup</a></li>
 						<li><a class="dropdown-item<?=($path == "/web-server-setup" ? " active" : ""); ?>" href="web-server-setup<?=$ext;?>">Web Server Setup</a></li>
@@ -20,6 +20,7 @@ $path = strtok(strtok($_SERVER["REQUEST_URI"], '?'), '.');
 						<li><a class="dropdown-item<?=($path == "/chat-server-setup" ? " active" : ""); ?>" href="chat-server-setup<?=$ext;?>">Chat Server Setup</a></li>
 						<li><a class="dropdown-item<?=($path == "/hub-server-setup" ? " active" : ""); ?>" href="hub-server-setup<?=$ext;?>">Hub Server Setup</a></li>
 						<li><a class="dropdown-item<?=($path == "/nrs-setup" ? " active" : ""); ?>" href="nrs-setup<?=$ext;?>">NRS Setup</a></li>
+						<li><a class="dropdown-item<?=($path == "/port-forwarding" ? " active" : ""); ?>" href="port-forwarding<?=$ext;?>">Port Forwarding</a></li>
 						<li><a class="dropdown-item<?=($path == "/dockerized-server-setup" ? " active" : ""); ?>" href="dockerized-server-setup<?=$ext;?>">Dockerized Server Setup</a></li>
 						<li><a class="dropdown-item" href="https://onlyg.it/janisslsm/warframe-companion-patcher" target="_blank">Companion App</a></li>
 						<li><a class="dropdown-item<?=($path == "/asset-replacements-guide" ? " active" : ""); ?>" href="asset-replacements-guide<?=$ext;?>">Asset Replacements</a></li>

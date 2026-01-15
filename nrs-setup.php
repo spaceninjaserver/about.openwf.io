@@ -33,6 +33,12 @@
 					<div class="fw-bold text-primary">« Hub Server Setup</div>
 				</a>
 			</div>
+			<div class="col-6">
+				<a href="port-forwarding<?=$ext;?>" class="card p-3 text-decoration-none text-end">
+					<small class="text-muted">Next</small>
+					<div class="fw-bold text-primary">Port Forwarding »</div>
+				</a>
+			</div>
 		</div>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
