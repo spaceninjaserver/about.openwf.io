@@ -22,9 +22,13 @@
 			<li>Set <code>"nrsAddress"</code> to <code>"nrs.source.wf"</code></li>
 			<li>Set <code>"dtls"</code> to <code>99</code></li>
 			<li>Set <code>"hubAddress"</code> to <code>"127.0.0.1:6951"</code></li>
-			<li>Set <code>"udpProxyUpstream"</code> (under <code>"tunables"</code>) to the address clients can use to reach your HUB server e.g. <code>"%THIS_MACHINE%:6952"</code></li>
+			<li>
+				Set <code>"udpProxyUpstream"</code> (under <code>"tunables"</code>) to <code>"%THIS_MACHINE%:6952"</code>
+				<ul>
+					<li>Note that <code>%THIS_MACHINE%</code> will automatically be substituted by SpaceNinjaServer</li>
+				</ul>
+			</li>
 		</ul>
-		<p>Note that <code>%THIS_MACHINE%</code> here will automatically be substituted by SpaceNinjaServer. Of course, this assumes that the web and hub servers are on the same machine.</p>
 
 		<div class="row g-3 my-4">
 			<div class="col-6">
