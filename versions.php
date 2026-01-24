@@ -40,6 +40,31 @@
 				<tbody>
 					<!-- https://steamdb.info/depot/230411/manifests/ -->
 					<?php foreach ([
+							"2026.01.14.13.46" => "41.0.7",
+							"2026.01.08.11.06" => "41.0.6",
+							"2025.12.18.13.45" => "41.0.5",
+							"2025.12.17.11.49" => "41.0.4",
+							"2025.12.15.16.05" => "41.0.3",
+							"2025.12.11.17.09" => "41.0.2",
+						] as $buildVersion => $gameVersion): ?>
+						<tr id="<?=$gameVersion;?>" data-base-manifest="7186674829434135359" data-mega="https://mega.nz/file/lwhwQaAC#6tRwO7U22hsa9SQBHQyvAjMGFtB0W8c1D7qRogScNJ8" data-magnet="magnet:?xt=urn:btih:ad150cc683494f549bd16ecab763bb060c6f860a&dn=41.0.2-41.0.7.7z&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce">
+							<td><code><?=$buildVersion;?></code></td>
+							<td>=&nbsp;<?=$gameVersion;?></td>
+							<td>The&nbsp;Old&nbsp;Peace</td>
+							<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#<?=$gameVersion;?>">Download</a></td>
+						</tr>
+					<?php endforeach; ?>
+					<tr id="7186674829434135359">
+						<td><code>2025.12.11.08.31</code></td>
+						<td>&lt;&nbsp;41.0.2</td>
+						<td>The&nbsp;Old&nbsp;Peace</td>
+						<td><abbr title="Metadata Patches, Scripting API, etc. are fully functional in the Bootstrapper.">Full modding support</abbr></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7186674829434135359">Download</a></td>
+					</tr>
+					<?php foreach ([
 							"2025.12.10.16.35" => "41.0.1",
 							"2025.12.10.08.11" => "41.0.0",
 						] as $buildVersion => $gameVersion): ?>
