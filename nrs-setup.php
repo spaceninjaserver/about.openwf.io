@@ -9,7 +9,7 @@
 <body data-bs-theme="dark">
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
-		<p><abbr title="NAT Relay Server">NRS</abbr> is used to exchange presence and session information, which is needed to establish squads. Unlike other server infrastructure, there is currently no self-hostable NRS server due to abuse concerns. However, a <abbr title="Proxying is currently not implemented, so people behind strict NAT will not be able to establish peer-to-peer connections with each other.">partial</abbr> NRS reimplementation for versions 35.5.0 - 40.0.x is currently hosted publicly. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
+		<p><abbr title="NAT Relay Server">NRS</abbr> is used to exchange presence and session information, which is needed to establish squads. Unlike other server infrastructure, there is currently no self-hostable NRS server due to abuse concerns. However, a <abbr title="Proxying is currently not implemented, so people behind strict NAT will not be able to establish peer-to-peer connections with each other.">partial</abbr> NRS reimplementation for versions 35.5.0 - 41.0.x is currently hosted publicly. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
 		<ul>
 			<li>Set <code>"nrsAddress"</code> to <code>"nrs.source.wf"</code></li>
 			<li>Set <code>"dtls"</code> to <code>99</code></li>
