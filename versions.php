@@ -1019,7 +1019,7 @@
 						<td><code>2014.05.23.12.12</code></td>
 						<td>≈&nbsp;13.4.1</td>
 						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
-						<td>Crashes when trying to revive; won't boot if you last booted a recent verison<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Crashes when trying to revive; won't boot if you last booted a recent version<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#7211838851606425341">Download</a></td>
 					</tr>
