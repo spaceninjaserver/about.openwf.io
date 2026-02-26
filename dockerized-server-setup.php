@@ -19,7 +19,7 @@
 		<ol>
 			<li>Run <code>git clone https://onlyg.it/OpenWF/Docker-AIO "OpenWF Dockerized Server"</code> to set up an OpenWF Dockerized Server folder in the working directory</li>
 			<li>Open the OpenWF Dockerized Server folder</li>
-			<li>(Optional) If you have a GB of free space, you might want to download stripped assets such as <abbr title="Ability videos show a brief clip of an ability in action. They can be seen by hovering over an ability in the Arsenal, Codex, etc.">ability videos</abbr> so the client can request them on-demand: Run <code>git clone https://openwf.io/0.git</code> in the <code>static-data</code> folder</li>
+			<li>(Optional) If you have a GB of free space, you might want to download stripped assets such as <abbr title="Ability videos show a brief clip of an ability in action. They can be seen by hovering over an ability in the Arsenal, Codex, etc.">ability videos</abbr> so the client can request them on-demand: Run <code>cd static-data && git clone https://openwf.io/0.git && cd ..</code></li>
 			<li>Now you can run <code>docker compose up</code> to start the server anytime</li>
 		</ol>
 		<h2>Updating</h2>
