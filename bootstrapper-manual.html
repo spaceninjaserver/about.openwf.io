@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>OpenWF Bootstrapper Manual</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		/* https://calamity-inc.github.io/Silver/base.css */
+
+		html
+		{
+			background: #111;
+			color: #fff;
+
+			font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		}
+
+		body
+		{
+			margin: 8px 12px;
+		}
+
+		h1
+		{
+			font-weight: 400;
+			font-size: 2.5em;
+			margin-block: 0.3em;
+		}
+
+		h2
+		{
+			font-weight: 350;
+			font-size: 2em;
+			margin-block-end: 0.4em;
+		}
+
+		h3
+		{
+			font-weight: 300;
+			font-size: 1.5em;
+			margin-block-end: 0.4em;
+		}
+
+		p
+		{
+			margin-block: 0.5em;
+		}
+
+		code
+		{
+			padding: 1px 2px;
+			border: 1px solid #2f2f2f;
+		}
+
+		li:not(:last-child)
+		{
+			margin-bottom: 4px;
+		}
+
+		a
+		{
+			color: #257afb
+		}
+
+		a:hover
+		{
+			color: #3586ff;
+		}
+
+		a:focus
+		{
+			color: #4791ff;
+		}
+	</style>
+</head>
+<body>
+	<h1>OpenWF Bootstrapper Manual</h1>
+	<p>While the main feature of the Bootstrapper (wtsapi32.dll, dwmapi.dll, or version.dll) is to use a custom server with the game, it has other features as well.</p>
+	<h2>Client Config.json</h2>
+	<p>The Bootstrapper's configuration is in <code>OpenWF/Client Config.json</code> relative to your game folder. It has the following fields:</p>
+	<ul>
+		<li><code>fallback_language</code> — If not empty, this language will be used when Warframe.x64.exe is invoked without a <code>language</code> command line argument.</li>
+		<li><code>fallback_languageVO</code> — If not empty, this voiceover language will be used when Warframe.x64.exe is invoked without a <code>languageVO</code> command line argument.</li>
+		<li><code>fallback_graphicsDriver</code> — If not empty, this graphics driver will be used when Warframe.x64.exe is invoked without a <code>graphicsDriver</code> command line argument.</li>
+		<li><code>fallback_windowMode</code> — If in range, this window mode will be used when Warframe.x64.exe is invoked without a <code>windowMode</code> or <code>fullscreen</code> command line argument. <code>0</code> for windowed. <code>1</code> for fullscreen. U40 and above: <code>2</code> for borderless window.</li>
+		<li><code>fallback_cluster</code> — The cluster to use when Warframe.x64.exe was double-clicked or the argument was simply omitted. Can be <code>public</code>, <code>test</code>, or <code>dev</code> — the latter two enable some more logging.</li>
+
+		<li><code>server_host</code> — The hostname or IP address to redirect game traffic to.</li>
+		<li><code>http_port</code> — The port to use for HTTP traffic. This should match the HTTP port configured on the server.</li>
+		<li><code>https_port</code> — The port to use for HTTPS traffic. This should match the HTTPS port configured on the server.</li>
+		<li><code>secure_connections</code> — Ensures the server connection is secure by using TLS with PKI certificate validation.</li>
+		<li><code>autologin</code> — Uses the provided credentials to automatically login on startup. If another instance is logged in on the same account, it will be forcefully logged out.</li>
+		<li><code>autologin_email</code></li>
+		<li><code>autologin_password</code> — The whirlpool hash of the password to use for autologin. You can simply enter your password and it will automatically be hashed and overwritten.</li>
+
+		<li><code>high_damage_numbers_patch</code> — If true, patches the game to display the exact number of damage that you dealt to fix -2147483648 showing up on high damage.</li>
+		<li><code>simulacrum_blacklisted</code> — If true, blacklisted enemies are shown in the Simulacrum. Defaults to false to match the game.</li>
+		<li><code>simulacrum_whitelisted</code> — If true, whitelisted enemies are shown in the Simulacrum. Defaults to true to match the game.</li>
+		<li><code>pause_always_stops_time</code></li>
+		<li><code>disable_firewall_prompt</code> — If true, prevents the game from showing "Please ensure that your firewall permits UDP ports 4950 & 4955" after login.</li>
+
+		<li><code>ee_log_in_console</code> — If true, writes everything that gets written to EE.log to the console as well.</li>
+		<li><code>skip_mission_start_timer</code> — If true, disables the 5 second wait before a mission starts.</li>
+		<li><code>disable_profanity_filter</code> — If true, allows you to use rude words when naming weapons, custom markers, etc.</li>
+		<li><code>logout_on_request_failure</code> — If false, the game will ignore HTTP request failures/timeouts instead of forcing a logout.</li>
+		<li><code>fov_override</code> — If not 0, overrides the game's FOV setting. You can use any value from 1 to 226.</li>
+		<li><code>forced_profile_dir</code> — An absolute path to a folder that will be used to read and write your game settings. Notably, this can be used to have the same settings regardless of username.</li>
+		<li><code>auto_start_scripts</code> — A list of scripts to automatically start.</li>
+		<li><code>alternative_loading</code> — Enables an alternative loading mode (<code>Server.FastLoad</code>) which also skips daily tribute and intro cutscenes when loading into a relay. However, this breaks some parts of The New War and possibly other missions.</li>
+		<li><code>save_all_metadata</code> — If true, implicitly creates an empty patch on every metadata read to make it available for get_effective_metadata requests. May degrade performance.</li>
+		<li><code>write_all_metadata_reads_to_console</code> — If true, writes all metadata reads to the console. May degrade performance.</li>
+		<li><code>write_all_metadata_reads_to_ee_log</code> — If true, writes all metadata reads to EE.log. May degrade performance.</li>
+		<li><code>write_patched_metadata_reads_to_console</code> — If true, writes patched metadata reads to the console. May degrade performance.</li>
+		<li><code>write_patched_metadata_reads_to_ee_log</code> — If true, writes patched metadata reads to EE.log. May degrade performance.</li>
+		<li><code>client_http_logging</code> — If true, writes requests to builtin HTTP server to the console.</li>
+		<li><code>client_http_port</code> — Defines the port of the builtin HTTP server. Used for the HTTP Interface and Content Management, documented below.</li>
+		<li><code>disable_overlay</code> — Can be used to disable the overlay, e.g. used to show "OpenWF @ &lt;server&gt;" before login. Default is false on Windows but true on Linux.</li>
+		<li><code>overlay_compatibility_mode</code> — If true, renders the overlay in a more crude way. Default is false on Windows but true on Linux.</li>
+		<li><code>keep_console_open</code> — If true, keeps the console open in the same way as other options that enable logging to the console.</li>
+	</ul>
+	<h2>HTTP Interface</h2>
+	<p>While the game is running, you can visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a> to modify some of the above options, access additional features like teleportation, and use scripts.</p>
+	<p>This web interface uses the game's language or <code>?lang=</code> query parameter to check for translations. The builtin translations are mirrored from <a href="https://onlyg.it/OpenWF/Translations">https://onlyg.it/OpenWF/Translations</a>. You can provide a <code>OpenWF/webui-dict.cat.txt</code> file to provide a custom work-in-progress translation.</p>
+	<p>Developers can also use the HTTP interface to interact with the Bootstrapper. In addition to commands (documented below), the following routes are available: <code>/ping</code>, <code>/save_all_metadata</code>, <code>/write_all_metadata_reads_to_console</code>, <code>/write_all_metadata_reads_to_ee_log</code>, <code>/write_patched_metadata_reads_to_console</code>, <code>/write_patched_metadata_reads_to_ee_log</code>, <code>/pause_always_stops_time</code>, <code>/server_host</code>, <code>/status</code>, <code>/toggle_console</code>, <code>/scripts</code>, <code>/start_script</code>, <code>/start_script_inline</code>, <code>/autostart_scripts</code>, <code>/add_autostart_script</code>, <code>/remove_autostart_script</code>, <code>/apply_hotfix</code>, <code>/version</code>, <code>/game_version</code>, <code>/memory</code>, <code>/get_effective_metadata</code>, <code>/get_effective_metadata_as_json</code></p>
+	<h2>Command Line Arguments</h2>
+	<p>The Bootstrapper adds the following command line arguments, which can be used to override their respective config fields: <code>owfServerHost</code>, <code>owfServerHttpPort</code>, <code>owfServerHttpsPort</code>, <code>owfClientHttpPort</code>, <code>owfAutologin</code> (0 or 1), <code>owfEmail</code>,  <code>owfPassword</code></p>
+	<h2>Version Compatibility</h2>
+	<p>The Bootstapper generally works in all versions, but certain additional features only support specific versions (for now):</p>
+	<ul>
+		<li>Label Replacements: &gt;= U23</li>
+		<li>Metadata Patches: &gt;= U35.5</li>
+		<li>Scripting: &gt;= U33.6</li>
+		<li>Forced Profile Dir: &gt;= U35.5</li>
+		<li>High Damage Numbers Patch: &gt;= U36</li>
+		<li>Pause Always Stops Time: &gt;= U37</li>
+		<li>IRC Authentication: &lt;= U15 and &gt;= U33.6</li>
+		<li>Disable XP-based Level Cap: &gt;= U35.5</li>
+		<li>Overlay: &gt;= U33.6</li>
+	</ul>
+	<h2>Tunables</h2>
+	<p>When connecting to a server, the Bootstrapper requests <code>/custom/tunables.json</code>. The resulting JSON object may provide the following fields:</p>
+	<ul>
+		<li><code>prohibit_skip_mission_start_timer</code> — If true, prohibits <code>skip_mission_start_timer</code>.</li>
+		<li><code>prohibit_disable_profanity_filter</code> — If true, prohibits <code>disable_profanity_filter</code>.</li>
+		<li><code>prohibit_fov_override</code> — If true, prohibits <code>fov_override</code>.</li>
+		<li><code>prohibit_freecam</code> — If true, prohibits <code>freecam</code>.</li>
+		<li><code>prohibit_teleport</code> — If true, prohibits <code>teleport</code>.</li>
+		<li><code>prohibit_scripts</code> — If true, prohibits the execution of user-defined scripts.</li>
+		<li><code>disable_websocket</code> — If true, the Bootstrapper will not attempt to establish a WebSocket connection to the server (documented below).</li>
+		<li><code>motd</code> — If given, this string may be shown on the overlay before login.</li>
+		<li><code>token</code> — If given, this string will be provided as a query parameter in the login request to indicate acknowledgement of the tunables.</li>
+		<li><code>irc</code> — If given, this string will be used as the IRC server address for pre-U17 versions.</li>
+		<li><code>udp_proxy_upstream</code> — If given, starts a UDP proxy at <code>127.0.0.1:6951</code> with the given IP-port pair as an upstream.</li>
+	</ul>
+	<p>To aid in troubleshooting, the Bootstrapper assumes that a compatible server responds to this request with status code 200 and a valid JSON object, otherwise showing a warning popup.</p>
+	<h2>Traffic Deviations</h2>
+	<ul>
+		<li>login.php, worldState.php, hubInstances, & hub requests have two query parameters added: <code>buildLabel</code> to indicate the client's buildLabel, and <code>clientMod</code> to indicate the Bootstrapper's name and version.</li>
+		<li>If Metadata Patches are in use, login.php requests also get a <code>metadataPatchesInUse=1</code> query parameter.</li>
+		<li>inventory.php & missionInventoryUpdate.php requests have the extra query parameter <code>xpBasedLevelCapDisabled</code> to indicate that the client has been patched to accept any PlayerLevel and doesn't need XPInfo to match.</li>
+		<li>The IRC <code>USER</code> message 'realname' field is changed to <code>nonce=...</code>, or <code>token=...</code> if <code>secure_connections</code> is true.</li>
+	</ul>
+	<p>And the other way around:</p>
+	<ul>
+		<li>login.php responses can contain 2 JSON objects separated by a tab (<code>"\t"</code>) in which case the first one is the login response and the second one is tunables.</li>
+		<li>hub responses can start with <code>udp_proxy_upstream</code> instead of <code>hub</code> in which case the <code>udp_proxy_upstream</code> tunable will be updated and the client will connect to HUB via <code>127.0.0.1:6951</code>.</li>
+	</ul>
+	<h2>Label Replacements</h2>
+	<p>Label Replacements are loaded by instantiating the <code>OpenWF/Label Replacements.pluto</code> script. You can modify this script but by default it loads replacements from <code>OpenWF/Label Replacements.cat.txt</code>. As implied by the extension, it uses the <a href="https://github.com/calamity-inc/Soup/blob/senpai/docs/user/cat.md" target="_blank">CaT</a> format. Note that nested nodes are ignored.</p>
+	<h2>Metadata Patches</h2>
+	<p>Metadata Patches are loaded from <code>.txt</code> files in the <code>OpenWF/Metadata Patches/</code> folder.</p>
+	<p>They are parsed line by line. If a line starts with <code>/</code>, a new patch for the given absolute path is started.</p>
+	<p>It is possible to have a single patch affect multiple paths by using ampersands. The start of a patch can also take up multiple lines if the ampersand is at the end of the line or the beginning of the next line.</p>
+	<p>For the remaining processing, leading and trailing spaces and tabs are ignored:</p>
+	<ul>
+		<li>Lines starting with <code>&gt;</code> also start a new patch but can be used at any indentation level.</li>
+		<li>Any line not starting with a special token (<code>&gt;</code>, <code>r|</code>, ...) is added as a prefix to the effective metadata. This works to add top-level properties but also to replace them because the game resolves duplicates by ignoring subsequent entries.</li>
+		<li>Lines starting with <code>r|</code> create replacements, e.g. <code>r|A|Z</code> replaces all instances of <code>A</code> with <code>Z</code> in affected metadata.</li>
+		<li>Lines starting with <code>s|</code> create regex substitutions, e.g. <code>s|(?m)^(.+)=1$|$1=0</code> would replace a value of 1 on any line with a 0, using the 'm' flag here so ^ and $ also match on line boundaries. See <a href="https://github.com/calamity-inc/Soup/blob/senpai/docs/user/regex.md" target="_blank">here</a> for more information about the Regex engine.</li>
+		<li>Lines starting with <code>q|</code> create query assignments, e.g. <code>q|Upgrades.0.Value|123</code> sets the Value field of the first item in the Upgrades array to 123.</li>
+		<li>Lines starting with <code>$</code> are used to set flags. Currently there is only <code>$clear</code> which can be used to replace the entire metadata.</li>
+	</ul>
+	<p>If multiple patches affect the same absolute path, they are combined.</p>
+	<h2>Content Management</h2>
+	<p>The Bootstrapper handles the client's content requests by consulting the <code>OpenWF/Content/</code> folder, forwarding the request to the configured server in case a file is not found.</p>
+	<p>At minimum, the client will request <code>/0/H.Cache.bin!D_---------------------w</code>. The Bootstrapper has 3 modes for managing this file:</p>
+	<ul>
+		<li><b>Managed</b> — If content replacements are in use, they are copied over into the content folder along with backups, and new cache manifests (<code>B.Cache.Windows.bin</code> and <code>H.Cache.bin</code>) will be created to ensure your content is loaded. Otherwise,</li>
+		<li><b>Unmanaged</b> — If <code>OpenWF/Content/0/UNMANAGED</code> exists, it is assumed that <code>OpenWF/Content/0/H.Cache.bin!D_---------------------w</code> is correctly in place and no attempts to correct it will be made. Otherwise,</li>
+		<li><b>Default</b> — The Bootstrapper will provide a <code>OpenWF/Content/0/H.Cache.bin!D_---------------------w</code> file that should require no extra content requests except for undoing content replacements.</li>
+	</ul>
+	<h2>WebSocket Connection to Server</h2>
+	<p>After login, the Bootstrapper will attempt to establish a WebSocket connection with <code>ws://server_host:http_port/custom/ws</code>. If the WebSocket upgrade succeeds, the Bootstrapper sends <code>{"auth_game":{"accountId":...,"nonce":...}}</code>. With this connection in place, the server can send <code>{"sync_inventory":true}</code> to trigger an inventory request, <code>{"sync_world_state":true}</code> to trigger a worldState request, and <code>{"tunables":{...}}</code> or <code>{"tunables_delta":{...}}</code> to update tunables.</p>
+	<h2>Command API</h2>
+	<p>The command API is a versatile way for developers to interact with the Bootstrapper. Commands are available via HTTP, WebSocket, and the scripting API. For example, to enable <code>skip_mission_start_timer</code>, one can use HTTP with <code>/skip_mission_start_timer?true</code>, WebSocket with <code>send("skip_mission_start_timer?true")</code> or scripting with <code>owf_command("skip_mission_start_timer?true")</code>.</p>
+	<p>The following commands are available: <code>logout</code>, <code>save_config</code>, <code>reload_hotkeys</code>, <code>reload_label_replacements</code>, <code>reload_metadata_patches</code>, <code>available_scripts</code>, <code>running_scripts</code>, <code>autostart_scripts</code>, <code>script_log</code>, <code>clear_script_log</code>, <code>stop_script</code>, <code>high_damage_numbers_patch</code>, <code>skip_mission_start_timer</code>, <code>simulacrum_blacklisted</code>, <code>simulacrum_whitelisted</code>, <code>alternative_loading</code>, <code>ee_log_in_console</code>, <code>fov_override</code>, <code>freecam</code>, <code>lockcam</code>, <code>gamecam</code>, <code>teleport</code>, <code>enable_pause_always_stops_time</code>, <code>disable_pause_always_stops_time</code>, <code>request_bgscript_broadcasts</code>, <code>download_latest_hotfix</code>, <code>check_for_updates</code></p>
+	<h2>Feedback</h2>
+	<p>I hope this document was useful. If you have any feature requests or bug reports regarding the Bootstrapper, feel free to submit them at <a href="https://onlyg.it/OpenWF/Bootstrapper/issues">https://onlyg.it/OpenWF/Bootstrapper/issues</a>.</p>
+	<br>
+</body>
+</html>

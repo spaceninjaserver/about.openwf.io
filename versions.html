@@ -1,0 +1,1538 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Version Archive | OpenWF</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="_assets/bootstrap.min.css">
+</head>
+<body data-bs-theme="dark">
+	<nav class="navbar navbar-expand-sm bg-body-tertiary">
+	<div class="container">
+		<a class="navbar-brand" href="." >OpenWF</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-content">
+			<ul class="navbar-nav me-auto mb-0">
+				<li class="nav-item"><a class="nav-link active" href="versions.html">Version Archive</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="client-setup.html">Client Setup</a></li>
+						<li><a class="dropdown-item" href="web-server-setup.html">Web Server Setup</a></li>
+						<li><a class="dropdown-item" href="import.html">Importing</a></li>
+						<li><a class="dropdown-item" href="chat-server-setup.html">Chat Server Setup</a></li>
+						<li><a class="dropdown-item" href="hub-server-setup.html">Hub Server Setup</a></li>
+						<li><a class="dropdown-item" href="nrs-setup.html">NRS Setup</a></li>
+						<li><a class="dropdown-item" href="port-forwarding.html">Port Forwarding</a></li>
+						<li><a class="dropdown-item" href="dockerized-server-setup.html">Dockerized Server Setup</a></li>
+						<li><a class="dropdown-item" href="https://onlyg.it/janisslsm/warframe-companion-patcher" target="_blank">Companion App</a></li>
+						<li><a class="dropdown-item" href="asset-replacements-guide.html">Asset Replacements</a></li>
+					</ul>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="contribute.html">Contribute</a></li>
+				<li class="nav-item"><a class="nav-link" href="https://discord.gg/PNNZ3asUuY" target="_blank">Discord</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<script>
+	// User-facing stuff really has no reason to be served over insecure HTTP.
+	if (location.host == "openwf.io" && location.protocol == "http:")
+	{
+		location.protocol = "https:";
+	}
+</script>	<div class="container mt-3">
+		<div id="main-view">
+			<div class="d-flex flex-wrap gap-2 mb-3">
+				<div>Filters:</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="filter-steam" checked>
+					<label class="form-check-label" for="filter-steam">Steam manifests</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="filter-dirty" checked>
+					<label class="form-check-label" for="filter-dirty">User installations</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="filter-patch" checked>
+					<label class="form-check-label" for="filter-patch">Update patches</label>
+				</div>
+			</div>
+			<table class="table table-sm table-hover">
+				<thead>
+					<tr>
+						<th colspan="2">Version</th>
+						<th>Title</th>
+						<th>Notes</th>
+						<th>Kind</th>
+						<th>Download</th>
+					</tr>
+				</thead>
+				<tbody>
+					<!-- https://steamdb.info/depot/230411/manifests/ -->
+											<tr id="41.0.7" data-base-manifest="7186674829434135359" data-mega="https://mega.nz/file/lwhwQaAC#6tRwO7U22hsa9SQBHQyvAjMGFtB0W8c1D7qRogScNJ8" data-magnet="magnet:?xt=urn:btih:ad150cc683494f549bd16ecab763bb060c6f860a&dn=41.0.2-41.0.7.7z&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce">
+							<td><code>2026.01.14.13.46</code></td>
+							<td>=&nbsp;41.0.7</td>
+							<td>The&nbsp;Old&nbsp;Peace</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#41.0.7">Download</a></td>
+						</tr>
+											<tr id="41.0.6" data-base-manifest="7186674829434135359" data-mega="https://mega.nz/file/lwhwQaAC#6tRwO7U22hsa9SQBHQyvAjMGFtB0W8c1D7qRogScNJ8" data-magnet="magnet:?xt=urn:btih:ad150cc683494f549bd16ecab763bb060c6f860a&dn=41.0.2-41.0.7.7z&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce">
+							<td><code>2026.01.08.11.06</code></td>
+							<td>=&nbsp;41.0.6</td>
+							<td>The&nbsp;Old&nbsp;Peace</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#41.0.6">Download</a></td>
+						</tr>
+											<tr id="41.0.5" data-base-manifest="7186674829434135359" data-mega="https://mega.nz/file/lwhwQaAC#6tRwO7U22hsa9SQBHQyvAjMGFtB0W8c1D7qRogScNJ8" data-magnet="magnet:?xt=urn:btih:ad150cc683494f549bd16ecab763bb060c6f860a&dn=41.0.2-41.0.7.7z&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce">
+							<td><code>2025.12.18.13.45</code></td>
+							<td>=&nbsp;41.0.5</td>
+							<td>The&nbsp;Old&nbsp;Peace</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#41.0.5">Download</a></td>
+						</tr>
+											<tr id="41.0.4" data-base-manifest="7186674829434135359" data-mega="https://mega.nz/file/lwhwQaAC#6tRwO7U22hsa9SQBHQyvAjMGFtB0W8c1D7qRogScNJ8" data-magnet="magnet:?xt=urn:btih:ad150cc683494f549bd16ecab763bb060c6f860a&dn=41.0.2-41.0.7.7z&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce">
+							<td><code>2025.12.17.11.49</code></td>
+							<td>=&nbsp;41.0.4</td>
+							<td>The&nbsp;Old&nbsp;Peace</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#41.0.4">Download</a></td>
+						</tr>
+											<tr id="41.0.3" data-base-manifest="7186674829434135359" data-mega="https://mega.nz/file/lwhwQaAC#6tRwO7U22hsa9SQBHQyvAjMGFtB0W8c1D7qRogScNJ8" data-magnet="magnet:?xt=urn:btih:ad150cc683494f549bd16ecab763bb060c6f860a&dn=41.0.2-41.0.7.7z&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce">
+							<td><code>2025.12.15.16.05</code></td>
+							<td>=&nbsp;41.0.3</td>
+							<td>The&nbsp;Old&nbsp;Peace</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#41.0.3">Download</a></td>
+						</tr>
+											<tr id="41.0.2" data-base-manifest="7186674829434135359" data-mega="https://mega.nz/file/lwhwQaAC#6tRwO7U22hsa9SQBHQyvAjMGFtB0W8c1D7qRogScNJ8" data-magnet="magnet:?xt=urn:btih:ad150cc683494f549bd16ecab763bb060c6f860a&dn=41.0.2-41.0.7.7z&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce">
+							<td><code>2025.12.11.17.09</code></td>
+							<td>=&nbsp;41.0.2</td>
+							<td>The&nbsp;Old&nbsp;Peace</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#41.0.2">Download</a></td>
+						</tr>
+										<tr id="7186674829434135359">
+						<td><code>2025.12.11.08.31</code></td>
+						<td>&lt;&nbsp;41.0.2</td>
+						<td>The&nbsp;Old&nbsp;Peace</td>
+						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7186674829434135359">Download</a></td>
+					</tr>
+											<tr id="41.0.1" data-base-manifest="2095600306818101508" data-mega="https://mega.nz/file/RwwiHLDD#gOzb7tqTiwtEPwqH0nwXzGnigF9S_jSGNJz1u0qsq3c" data-magnet="magnet:?xt=urn:btih:d4bd3b8409cba706704e9ca6b5ad43d95bf25cc6&dn=41.0.0-41.0.1.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
+							<td><code>2025.12.10.16.35</code></td>
+							<td>=&nbsp;41.0.1</td>
+							<td>The&nbsp;Old&nbsp;Peace</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#41.0.1">Download</a></td>
+						</tr>
+											<tr id="41.0.0" data-base-manifest="2095600306818101508" data-mega="https://mega.nz/file/RwwiHLDD#gOzb7tqTiwtEPwqH0nwXzGnigF9S_jSGNJz1u0qsq3c" data-magnet="magnet:?xt=urn:btih:d4bd3b8409cba706704e9ca6b5ad43d95bf25cc6&dn=41.0.0-41.0.1.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
+							<td><code>2025.12.10.08.11</code></td>
+							<td>=&nbsp;41.0.0</td>
+							<td>The&nbsp;Old&nbsp;Peace</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#41.0.0">Download</a></td>
+						</tr>
+										<tr id="2095600306818101508">
+						<td><code>2025.12.09.14.18</code></td>
+						<td>&lt;&nbsp;41.0.0</td>
+						<td>The&nbsp;Old&nbsp;Peace</td>
+						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#2095600306818101508">Download</a></td>
+					</tr>
+											<tr id="40.0.5.1" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+							<td><code>2025.10.29.12.05</code></td>
+							<td>=&nbsp;40.0.5.1</td>
+							<td>The&nbsp;Vallis&nbsp;Undermind</td>
+							<td></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#40.0.5.1">Download</a></td>
+						</tr>
+											<tr id="40.0.5" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+							<td><code>2025.10.28.13.00</code></td>
+							<td>=&nbsp;40.0.5</td>
+							<td>The&nbsp;Vallis&nbsp;Undermind</td>
+							<td></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#40.0.5">Download</a></td>
+						</tr>
+											<tr id="40.0.4" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+							<td><code>2025.10.23.13.35</code></td>
+							<td>=&nbsp;40.0.4</td>
+							<td>The&nbsp;Vallis&nbsp;Undermind</td>
+							<td></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#40.0.4">Download</a></td>
+						</tr>
+											<tr id="40.0.3" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+							<td><code>2025.10.21.11.10</code></td>
+							<td>=&nbsp;40.0.3</td>
+							<td>The&nbsp;Vallis&nbsp;Undermind</td>
+							<td></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#40.0.3">Download</a></td>
+						</tr>
+											<tr id="40.0.2" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+							<td><code>2025.10.16.14.47</code></td>
+							<td>=&nbsp;40.0.2</td>
+							<td>The&nbsp;Vallis&nbsp;Undermind</td>
+							<td></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#40.0.2">Download</a></td>
+						</tr>
+											<tr id="40.0.1" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+							<td><code>2025.10.15.14.12</code></td>
+							<td>=&nbsp;40.0.1</td>
+							<td>The&nbsp;Vallis&nbsp;Undermind</td>
+							<td></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#40.0.1">Download</a></td>
+						</tr>
+											<tr id="40.0.0" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+							<td><code>2025.10.15.09.36</code></td>
+							<td>=&nbsp;40.0.0</td>
+							<td>The&nbsp;Vallis&nbsp;Undermind</td>
+							<td></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#40.0.0">Download</a></td>
+						</tr>
+										<tr id="4384985961440518177">
+						<td><code>2025.10.14.16.10</code></td>
+						<td>&lt;&nbsp;40.0.0</td>
+						<td>The&nbsp;Vallis&nbsp;Undermind</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4384985961440518177">Download</a></td>
+					</tr>
+					<tr id="39.1.3" data-base-manifest="8391191747297658560" data-mega="https://mega.nz/file/t1ImwaQY#fova1j0G6u5RUhksghiYCLDkCP_a2oLge-FQScKh30w" data-magnet="magnet:?xt=urn:btih:04f15ff0082809b38804d2ccc6e2edadd6f40468&dn=39.1.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
+						<td><code>2025.09.02.14.13</code></td>
+						<td>=&nbsp;39.1.3</td>
+						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
+						<td></td>
+						<td>Update&nbsp;patch</td>
+						<td><a href="#39.1.3">Download</a></td>
+					</tr>
+					<tr id="39.1.2" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:813024986e7baeae77bd9bc84a1aabff2f4b5792&dn=39.1.2%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-39.1.2/" data-cat-labels="magnet:?xt=urn:btih:a5497d2d79ae24abde60999ad4480a57c8ae7dc3&dn=cat%20labels%20for%2039.1.2&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+						<td><code>2025.06.26.13.57</code></td>
+						<td>=&nbsp;39.1.2</td>
+						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#39.1.2">Download</a></td>
+					</tr>
+					<tr id="39.1.0" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:02000a8ab234e7d42a18fd650d1ef5dcebde75ba&dn=39.1.0&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-39.1.0/" data-cat-labels="magnet:?xt=urn:btih:a1cb7b0285974747502a3675db7e7e742ce9357a&dn=cat%20labels%20for%2039.1.0&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
+						<td><code>2025.08.26.09.49</code></td>
+						<td>=&nbsp;39.1.0</td>
+						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#39.1.0">Download</a></td>
+					</tr>
+					<tr id="39.0.7" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5958ef3d9ebacd98ea447ddafef118297b35911&dn=39.0.7&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-39.0.7/" data-cat-labels="magnet:?xt=urn:btih:fa592a64597adecaf3f6c7faf4725f1693a8ec90&dn=cat%20labels%20for%2039.0.6%20and%2039.0.7&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
+						<td><code>2025.07.23.12.28</code></td>
+						<td>=&nbsp;39.0.7</td>
+						<td>Isleweaver</td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#39.0.7">Download</a></td>
+					</tr>
+					<tr id="8391191747297658560">
+						<td><code>2025.06.23.11.39</code></td>
+						<td>&lt;&nbsp;39.0.0</td>
+						<td>Isleweaver</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8391191747297658560">Download</a></td>
+					</tr>
+					<tr id="38.6.3" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:99ffc6db0a41ad8043214bb490b43049e79591de&dn=38.6.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.6.3/" data-cat-labels="magnet:?xt=urn:btih:64b87b489d409f6849ca939f0c2c9ce52029db93&dn=cat%20labels%20for%2038.6.2%20and%2038.6.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
+						<td><code>2025.05.23.11.28</code></td>
+						<td>=&nbsp;38.6.3</td>
+						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#38.6.3">Download</a></td>
+					</tr>
+					<tr id="6046892458385712496">
+						<td><code>2025.05.20.10.18</code></td>
+						<td>&lt;&nbsp;38.6.0</td>
+						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
+						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6046892458385712496">Download</a></td>
+					</tr>
+					<tr id="38.5.11" data-langs="en,ru,uk" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:89183353a366d99d6bdac480155a283e0d78b634&dn=38.5.11%20%28en%2C%20ru%2C%20uk%2C%20dx11%2C%20dx12%29&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-38.5.11/" data-cat-labels="magnet:?xt=urn:btih:fa6915c393a7edc5f017bd5b62bfc9f77e15443b&dn=cat%20labels%20for%2038.5.11&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+						<td><code>2025.04.15.15.16</code></td>
+						<td>=&nbsp;38.5.11</td>
+						<td>Techrot&nbsp;Encore</td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#38.5.11">Download</a></td>
+					</tr>
+					<tr id="38.5.5" data-langs="en,ja" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5c305ac1892ae39930f71e9e1289402f847f410&dn=38.5.5&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.5.5/" data-cat-labels="magnet:?xt=urn:btih:c8e46a406a5b554fe9158a8dc615d6befc2b7638&dn=cat%20labels%20for%2038.5.5&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
+						<td><code>2025.03.27.08.48</code></td>
+						<td>=&nbsp;38.5.5</td>
+						<td>Techrot&nbsp;Encore</td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#38.5.5">Download</a></td>
+					</tr>
+					<tr id="4212893560910494140">
+						<td><code>2025.03.18.09.51</code></td>
+						<td>&lt;&nbsp;38.5.0</td>
+						<td>Techrot&nbsp;Encore</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4212893560910494140">Download</a></td>
+					</tr>
+					<tr id="38.0.12" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:0cbc3f5d26065d6909536d0e322774fc53e4a91f&dn=38.0.12&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.0.12/" data-cat-labels="magnet:?xt=urn:btih:fe2c9f14e6aa9b27cf1a67c5b54aafb78dc6ed66&dn=cat%20labels%20for%2038.0.12&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
+						<td><code>2025.02.19.16.14</code></td>
+						<td>=&nbsp;38.0.12</td>
+						<td>1999</td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#38.0.12">Download</a></td>
+					</tr>
+					<tr id="38.0.11" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:03cce7abccb6e723066dad8847a85578b5ff0958&dn=38.0.11%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-38.0.11/" data-cat-labels="magnet:?xt=urn:btih:b633df3dd7296182da966b82dec35f23a129a0e1&dn=cat%20labels%20for%2038.0.11&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
+						<td><code>2025.02.13.12.01</code></td>
+						<td>=&nbsp;38.0.11</td>
+						<td>1999</td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#38.0.11">Download</a></td>
+					</tr>
+					<tr id="38.0.7" data-langs="es" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:bf6ea8112deb1329a526be2f531145db9c4e37de&dn=38.0.7&tr=http%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&ws=http://ia600606.us.archive.org/1/items/&ws=http://ia800606.us.archive.org/1/items/&ws=https://archive.org/download/" data-cat-labels="magnet:?xt=urn:btih:f9f6e1737f3024ad7fe2ca48493d23e693c34f74&dn=cat%20labels%20for%2038.0.6%20and%2038.0.7&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
+						<td><code>2025.01.13.14.52</code></td>
+						<td>=&nbsp;38.0.7</td>
+						<td>1999</td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#38.0.7">Download</a></td>
+					</tr>
+					<tr id="3864063200081954630">
+						<td><code>2024.12.11.14.26</code></td>
+						<td>&lt;&nbsp;38.0.0</td>
+						<td>1999</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#3864063200081954630">Download</a></td>
+					</tr>
+					<tr id="513490184226321110">
+						<td><code>2024.10.11.10.06</code></td>
+						<td>=&nbsp;37.0.6</td>
+						<td>Koumei&nbsp;&amp;&nbsp;the&nbsp;Five&nbsp;Fates</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#513490184226321110">Download</a></td>
+					</tr>
+					<tr id="2655930801276651913">
+						<td><code>2024.09.30.16.56</code></td>
+						<td>&lt;&nbsp;37.0.0</td>
+						<td>Koumei&nbsp;&amp;&nbsp;the&nbsp;Five&nbsp;Fates</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#2655930801276651913">Download</a></td>
+					</tr>
+					<tr id="36.1.6.1" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f74ea51ad956ebbe29e6769bc28df5f74d0f4f49&dn=36.1.6.1%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-36.1.6.1/">
+						<td><code>2024.08.28.10.54<!-- /2QPbMhfBQLpPfYn7EsW-rA --></code></td>
+						<td>=&nbsp;36.1.6.1</td>
+						<td>The&nbsp;Lotus&nbsp;Eaters</td>
+						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#36.1.6.1">Download</a></td>
+					</tr>
+					<tr id="8111233839173446959">
+						<td><code>2024.08.21.20.02</code></td>
+						<td>=&nbsp;36.1.2</td>
+						<td>The&nbsp;Lotus&nbsp;Eaters</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8111233839173446959">Download</a></td>
+					</tr>
+					<tr id="7104716125379362906">
+						<td><code>2024.07.17.17.07</code></td>
+						<td>=&nbsp;36.0.7</td>
+						<td>Jade&nbsp;Shadows</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7104716125379362906">Download</a></td>
+					</tr>
+					<tr id="8456987056335242580">
+						<td><code>2024.06.25.16.44</code></td>
+						<td>=&nbsp;36.0.4</td>
+						<td>Jade&nbsp;Shadows</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8456987056335242580">Download</a></td>
+					</tr>
+					<tr id="8444137865636064549">
+						<td><code>2024.06.12.18.42</code></td>
+						<td>&lt;&nbsp;36.0.0</td>
+						<td>Jade&nbsp;Shadows</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8444137865636064549">Download</a></td>
+					</tr>
+					<tr id="4262681179882731333">
+						<td><code>2024.03.24.20.00</code></td>
+						<td>=&nbsp;35.5.0</td>
+						<td>Dante&nbsp;Unbound</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4262681179882731333">Download</a></td>
+					</tr>
+					<tr id="35.1.2" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:1e991c226ce5ecd89a5026de83b1f4f63ba13395&dn=35.1.2%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-35.1.2/">
+						<td><code>2024.02.27.13.21</code></td>
+						<td>=&nbsp;35.1.2</td>
+						<td>Whispers&nbsp;in&nbsp;the&nbsp;Walls</td>
+						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#35.1.2">Download</a></td>
+					</tr>
+					<tr id="3417254152679980994">
+						<td><code>2024.02.16.17.13</code></td>
+						<td>=&nbsp;35.1.0</td>
+						<td>Whispers&nbsp;in&nbsp;the&nbsp;Walls</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#3417254152679980994">Download</a></td>
+					</tr>
+					<tr id="35.0.11" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:3cfc9ae38e3edb5d3e11ab343b85e5c735c1fe43&dn=35.0.11%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-35.0.11/">
+						<td><code>2024.01.15.16.13</code></td>
+						<td>=&nbsp;35.0.11</td>
+						<td>Whispers&nbsp;in&nbsp;the&nbsp;Walls</td>
+						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#35.0.11">Download</a></td>
+					</tr>
+					<tr id="34.0.8" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:ed5f977e8cf0b7b9f9f71a2bf671e89bf873c27f&dn=34.0.8&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-34.0.8/">
+						<td><code>2023.11.06.13.39</code></td>
+						<td>=&nbsp;34.0.8</td>
+						<td>Abyss&nbsp;of&nbsp;Dagath</td>
+						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#34.0.8">Download</a></td>
+					</tr>
+					<tr id="33.6.9" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:abf08b2b5f0f8898c5a5309e2ce312063393fce8&dn=33.6.9%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-33.6.9/">
+						<td><code>2023.09.12.09.10</code></td>
+						<td>=&nbsp;33.6.9</td>
+						<td>Echoes&nbsp;of&nbsp;Duviri</td>
+						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#33.6.9">Download</a></td>
+					</tr>
+					<tr id="4487452668036984689">
+						<td><code>2023.07.26.16.38</code></td>
+						<td>≈&nbsp;33.6.0</td>
+						<td>Echoes&nbsp;of&nbsp;Duviri</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4487452668036984689">Download</a></td>
+					</tr>
+					<tr id="33.5.6" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:01ce1cd28adc5dbed9af0f0942a236599d4f35e5&dn=33.5.6%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-33.5.6/">
+						<td><code>2023.07.06.16.50</code></td>
+						<td>=&nbsp;33.5.6</td>
+						<td>The&nbsp;Seven&nbsp;Crimes&nbsp;of&nbsp;Kullervo</td>
+						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#33.5.6">Download</a></td>
+					</tr>
+					<tr id="7706746084885057576">
+						<td><code>2023.06.22.13.21</code></td>
+						<td>≈&nbsp;33.5.2</td>
+						<td>The&nbsp;Seven&nbsp;Crimes&nbsp;of&nbsp;Kullervo</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7706746084885057576">Download</a></td>
+					</tr>
+					<tr id="1040973097284770411">
+						<td><code>2023.06.21.07.11</code></td>
+						<td>≈&nbsp;33.5.0</td>
+						<td>The&nbsp;Seven&nbsp;Crimes&nbsp;of&nbsp;Kullervo</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1040973097284770411">Download</a></td>
+					</tr>
+					<tr id="33.0.14" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:fe114e811c8ba953b59892313eb13b720a1b0e07&dn=33.0.14%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-33.0.14/">
+						<td><code>2023.05.25.13.39</code></td>
+						<td>=&nbsp;33.0.14</td>
+						<td>The&nbsp;Duviri&nbsp;Paradox</td>
+						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#33.0.14">Download</a></td>
+					</tr>
+					<tr id="33.0.10" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:6b3d0f51d796314b2d43ffaaa45c0c29d9dfb97a&dn=33.0.10%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-33.0.10/">
+						<td><code>2023.05.12.11.43</code></td>
+						<td>=&nbsp;33.0.10</td>
+						<td>The&nbsp;Duviri&nbsp;Paradox</td>
+						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#33.0.10">Download</a></td>
+					</tr>
+					<tr id="503269306359201928">
+						<td><code>2023.04.25.23.40</code></td>
+						<td>≈&nbsp;33.0.0</td>
+						<td>The&nbsp;Duviri&nbsp;Paradox</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#503269306359201928">Download</a></td>
+					</tr>
+					<tr id="2084947150827453084">
+						<td><code>2023.02.13.10.22</code></td>
+						<td>≈&nbsp;32.3.0</td>
+						<td>Citrine's&nbsp;Last&nbsp;Wish</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#2084947150827453084">Download</a></td>
+					</tr>
+					<tr id="1591604753021484150">
+						<td><code>2022.11.30.08.13</code></td>
+						<td>≈&nbsp;32.2.0</td>
+						<td>Lua's&nbsp;Prey</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1591604753021484150">Download</a></td>
+					</tr>
+					<tr id="2433324865707385268">
+						<td><code>2022.09.06.19.24</code></td>
+						<td>≈&nbsp;32.0.0</td>
+						<td>Veilbreaker</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#2433324865707385268">Download</a></td>
+					</tr>
+					<tr id="7280281005656793707">
+						<td><code>2022.07.25.16.59</code></td>
+						<td>≈&nbsp;31.7.1</td>
+						<td>Echoes&nbsp;of&nbsp;the&nbsp;Zariman</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7280281005656793707">Download</a></td>
+					</tr>
+					<tr id="8725083537193522917">
+						<td><code>2022.06.09.08.45</code></td>
+						<td>≈&nbsp;31.6.0</td>
+						<td>Echoes&nbsp;of&nbsp;the&nbsp;Zariman</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8725083537193522917">Download</a></td>
+					</tr>
+					<tr id="4634493262513910961">
+						<td><code>2022.04.29.12.53</code></td>
+						<td>≈&nbsp;31.5.0</td>
+						<td>Angels&nbsp;of&nbsp;the&nbsp;Zariman</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4634493262513910961">Download</a></td>
+					</tr>
+					<tr id="1198361709927223847">
+						<td><code>2022.02.09.08.55</code></td>
+						<td>≈&nbsp;31.1.0</td>
+						<td>The&nbsp;New&nbsp;War</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1198361709927223847">Download</a></td>
+					</tr>
+					<tr id="563653176338996292">
+						<td><code>2021.12.15.00.15</code></td>
+						<td>≈&nbsp;31.0.0</td>
+						<td>The&nbsp;New&nbsp;War</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#563653176338996292">Download</a></td>
+					</tr>
+					<tr id="8243603931064121923">
+						<td><code>2021.09.08.19.27</code></td>
+						<td>≈&nbsp;30.7.2</td>
+						<td>Sisters&nbsp;of&nbsp;Parvos</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8243603931064121923">Download</a></td>
+					</tr>
+					<tr id="4538343592657854566">
+						<td><code>2021.09.08.19.27</code></td>
+						<td>≈&nbsp;30.7.1</td>
+						<td>Sisters&nbsp;of&nbsp;Parvos</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4538343592657854566">Download</a></td>
+					</tr>
+					<tr id="1659398175797234554">
+						<td><code>2021.07.05.17.03</code></td>
+						<td>≈&nbsp;30.5.0</td>
+						<td>Sisters&nbsp;of&nbsp;Parvos</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1659398175797234554">Download</a></td>
+					</tr>
+					<tr id="896988770099174429">
+						<td><code>2021.06.02.13.38</code></td>
+						<td>≈&nbsp;30.3.4</td>
+						<td>Call&nbsp;of&nbsp;the&nbsp;Tempestarii</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#896988770099174429">Download</a></td>
+					</tr>
+					<tr id="1516755954909330587">
+						<td><code>2021.05.25.09.41</code></td>
+						<td>≈&nbsp;30.3.0</td>
+						<td>Call&nbsp;of&nbsp;the&nbsp;Tempestarii</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1516755954909330587">Download</a></td>
+					</tr>
+					<tr id="1471695976410467945">
+						<td><code>2021.04.13.19.58</code></td>
+						<td>≈&nbsp;30.0.0</td>
+						<td>Call&nbsp;of&nbsp;the&nbsp;Tempestarii</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1471695976410467945">Download</a></td>
+					</tr>
+					<tr id="2360447165794825746">
+						<td><code>2021.03.19.10.30</code></td>
+						<td>≈&nbsp;29.10.0</td>
+						<td>Orphix&nbsp;Venom</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#2360447165794825746">Download</a></td>
+					</tr>
+					<tr id="5695018007407901588">
+						<td><code>2021.01.25.08.49</code></td>
+						<td>≈&nbsp;29.6.8</td>
+						<td>Orphix&nbsp;Venom</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5695018007407901588">Download</a></td>
+					</tr>
+					<tr id="2281391866826940520">
+						<td><code>2020.11.19.17.52</code></td>
+						<td>≈&nbsp;29.5.0</td>
+						<td>Echoes&nbsp;of&nbsp;Deimos<!-- Login screen says "Heart of Deimos" --></td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#2281391866826940520">Download</a></td>
+					</tr>
+					<tr id="4589169429267220816">
+						<td><code>2020.11.04.18.58</code></td>
+						<td>≈&nbsp;29.3.1</td>
+						<td>Heart&nbsp;of&nbsp;Deimos</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4589169429267220816">Download</a></td>
+					</tr>
+					<tr id="1198696432420157033">
+						<td><code>2020.08.25.18.35</code></td>
+						<td>≈&nbsp;29.0.0</td>
+						<td>Heart&nbsp;of&nbsp;Deimos</td>
+						<td></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1198696432420157033">Download</a></td>
+					</tr>
+					<tr id="4862052161935324630">
+						<td><code>2020.08.12.19.57</code></td>
+						<td>≈&nbsp;28.3.0</td>
+						<td>Derelict&nbsp;Shift<!-- Login screen says "The Deadlock Protocol" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4862052161935324630">Download</a></td>
+					</tr>
+					<tr id="8322392782655512672">
+						<td><code>2020.06.12.16.46</code></td>
+						<td>≈&nbsp;28.0.0</td>
+						<td>The&nbsp;Deadlock&nbsp;Protocol</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8322392782655512672">Download</a></td>
+					</tr>
+					<tr id="940429389442729133">
+						<td><code>2020.03.24.20.24</code></td>
+						<td>≈&nbsp;27.3.0</td>
+						<td>Empyrean</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#940429389442729133">Download</a></td>
+					</tr>
+					<tr id="3078917755629993445">
+						<td><code>2020.03.05.16.06</code></td>
+						<td>≈&nbsp;27.2.0</td>
+						<td>Empyrean</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#3078917755629993445">Download</a></td>
+					</tr>
+					<tr id="5383208407459190147">
+						<td><code>2019.12.13.15.04</code></td>
+						<td>≈&nbsp;27.0.0</td>
+						<td>Empyrean</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5383208407459190147">Download</a></td>
+					</tr>
+					<tr id="1746499861411165604">
+						<td><code>2019.12.13.00.31</code></td>
+						<td>≈&nbsp;26.1.3</td>
+						<td>Rising&nbsp;Tide</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1746499861411165604">Download</a></td>
+					</tr>
+					<tr id="5191423722994130705">
+						<td><code>2019.11.22.21.24</code></td>
+						<td>≈&nbsp;26.1.0</td>
+						<td>Rising&nbsp;Tide</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5191423722994130705">Download</a></td>
+					</tr>
+					<tr id="4211752956119480973">
+						<td><code>2019.11.05.12.52</code></td>
+						<td>≈&nbsp;26.0.4</td>
+						<td>The&nbsp;Old&nbsp;Blood</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4211752956119480973">Download</a></td>
+					</tr>
+					<tr id="5213493012981659231">
+						<td><code>2019.10.31.22.42</code></td>
+						<td>≈&nbsp;26.0.0</td>
+						<td>The&nbsp;Old&nbsp;Blood</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5213493012981659231">Download</a></td>
+					</tr>
+					<tr id="6484357939617346090">
+						<td><code>2019.09.09.12.43</code></td>
+						<td>≈&nbsp;25.7.5</td>
+						<td>Saint&nbsp;of&nbsp;Altra</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6484357939617346090">Download</a></td>
+					</tr>
+					<tr id="6955217559566015186">
+						<td><code>2019.08.29.21.58</code></td>
+						<td>≈&nbsp;25.7.0</td>
+						<td>Saint&nbsp;of&nbsp;Altra</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6955217559566015186">Download</a></td>
+					</tr>
+					<tr id="8839989774604564585">
+						<td><code>2019.08.29.20.01</code></td>
+						<td>≈&nbsp;25.7.0</td>
+						<td>Saint&nbsp;of&nbsp;Altra</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8839989774604564585">Download</a></td>
+					</tr>
+					<tr id="3318532863308652389">
+						<td><code>2019.05.22.23.12</code></td>
+						<td>≈&nbsp;25.0.0</td>
+						<td>The&nbsp;Jovian&nbsp;Concord</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#3318532863308652389">Download</a></td>
+					</tr>
+					<tr id="192898029640470386">
+						<td><code>2019.04.04.21.31</code></td>
+						<td>≈&nbsp;24.6.0</td>
+						<td>Buried&nbsp;Debts</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#192898029640470386">Download</a></td>
+					</tr>
+					<tr id="4942488930993990244">
+						<td><code>2019.03.15.18.11</code></td>
+						<td>≈&nbsp;24.5.1</td>
+						<td>Buried&nbsp;Debts</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4942488930993990244">Download</a></td>
+					</tr>
+					<tr id="4404971551504983924">
+						<td><code>2019.03.08.00.37</code></td>
+						<td>≈&nbsp;24.4.0</td>
+						<td>Buried&nbsp;Debts</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4404971551504983924">Download</a></td>
+					</tr>
+					<tr id="1904743723246597237">
+						<td><code>2019.03.07.20.21</code></td>
+						<td>≈&nbsp;24.4.0</td>
+						<td>Fortuna</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1904743723246597237">Download</a></td>
+					</tr>
+					<!-- 174676543101364914 is 2018.11.29.15.55, Fortuna, but has a broken font. -->
+					<tr id="8040761247114336449">
+						<td><code>2018.11.29.15.55</code></td>
+						<td>≈&nbsp;24.1.2</td>
+						<td>Fortuna</td>
+						<td>Gear wheel is broken<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8040761247114336449">Download</a></td>
+					</tr>
+					<tr id="3725569727599851360">
+						<td><code>2018.11.15.16.49</code></td>
+						<td>≈&nbsp;24.0.8</td>
+						<td>Fortuna</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#3725569727599851360">Download</a></td>
+					</tr>
+					<!-- 8461211368258506784 is 2018.11.15.16.49 but needs Tools folder from another manifest + has a broken font. -->
+					<tr id="6046541448142309692">
+						<td><code>2018.11.08.14.45</code></td>
+						<td>≈&nbsp;24.0.0</td>
+						<td>Fortuna</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6046541448142309692">Download</a></td>
+					</tr>
+					<tr id="8049567794324118250">
+						<td><code>2018.10.11.23.29</code></td>
+						<td>≈&nbsp;23.10.0</td>
+						<td>Chimera</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8049567794324118250">Download</a></td>
+					</tr>
+					<tr id="1234607834806579897">
+						<td><code>2018.09.28.19.09</code></td>
+						<td>≈&nbsp;23.9.1</td>
+						<td>Mask&nbsp;of&nbsp;the&nbsp;Revenant</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1234607834806579897">Download</a></td>
+					</tr>
+					<tr id="677450530474051174">
+						<td><code>2018.08.01.08.09</code></td>
+						<td>≈&nbsp;23.2.0</td>
+						<td>The&nbsp;Sacrifice</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#677450530474051174">Download</a></td>
+					</tr>
+					<tr id="8058901711639962245">
+						<td><code>2018.06.14.23.21</code></td>
+						<td>≈&nbsp;23.0.0</td>
+						<td>The&nbsp;Sacrifice<!-- Login screen says "Beasts of the Sanctuary" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8058901711639962245">Download</a></td>
+					</tr>
+					<tr id="566447983471491143">
+						<td><code>2018.05.17.16.28</code></td>
+						<td>≈&nbsp;22.20.0</td>
+						<td>Beasts&nbsp;of&nbsp;the&nbsp;Sanctuary</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#566447983471491143">Download</a></td>
+					</tr>
+					<tr id="8448828347811631025">
+						<td><code>2018.04.20.02.04</code></td>
+						<td>≈&nbsp;22.18.0</td>
+						<td>Beasts&nbsp;of&nbsp;the&nbsp;Sanctuary</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8448828347811631025">Download</a></td>
+					</tr>
+					<tr id="5922375304465722812">
+						<td><code>2018.03.15.19.39</code></td>
+						<td>≈&nbsp;22.16.0</td>
+						<td>Plains&nbsp;of&nbsp;Eidolon</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5922375304465722812">Download</a></td>
+					</tr>
+					<tr id="6640882772717519747">
+						<td><code>2018.03.07.14.18</code></td>
+						<td>≈&nbsp;22.15.0</td>
+						<td>Plains&nbsp;of&nbsp;Eidolon</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6640882772717519747">Download</a></td>
+					</tr>
+					<tr id="8004325165498360760">
+						<td><code>2018.02.22.14.34</code></td>
+						<td>≈&nbsp;22.13.4</td>
+						<td>Plains&nbsp;of&nbsp;Eidolon</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8004325165498360760">Download</a></td>
+					</tr>
+					<!-- 8621631773919294851 is 2018.01.26.12.22, can log in but then you're stuck due to Script Error: attempt to call method 'GetOperator' (a nil value): In ?(844) originating from /Lotus/Scripts/PlayerShip.lua::SpawnPets with owner /Layer0/ScriptTrigger2 -->
+					<tr id="4946799727072561536">
+						<td><code>2018.01.04.13.12</code></td>
+						<td>≈&nbsp;22.8.2</td>
+						<td>Plains&nbsp;of&nbsp;Eidolon</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4946799727072561536">Download</a></td>
+					</tr>
+					<tr id="5301169201249491747">
+						<td><code>2017.12.12.12.15</code></td>
+						<td>≈&nbsp;22.7.0</td>
+						<td>Plains&nbsp;of&nbsp;Eidolon</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5301169201249491747">Download</a></td>
+					</tr>
+					<!-- 5914709226935570547 is 2017.12.08.15.29, fails to start due to an assertion failure -->
+					<tr id="5869273198520287595">
+						<td><code>2017.11.16.17.34</code></td>
+						<td>≈&nbsp;22.2.4</td>
+						<td>Plains&nbsp;of&nbsp;Eidolon</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. -->This version and prior versions may require an active voice chat session for audio.</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5869273198520287595">Download</a></td>
+					</tr>
+					<tr id="4661126446448856114">
+						<td><code>2017.10.12.17.04</code></td>
+						<td>≈&nbsp;22.0.0</td>
+						<td>Plains&nbsp;of&nbsp;Eidolon</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4661126446448856114">Download</a></td>
+					</tr>
+					<tr id="1835327182756411758">
+						<td><code>2017.07.26.13.59</code></td>
+						<td>≈&nbsp;21.2.0</td>
+						<td>Chains&nbsp;of&nbsp;Harrow</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1835327182756411758">Download</a></td>
+					</tr>
+					<tr id="2970877824413815022">
+						<td><code>2017.06.29.03.54</code></td>
+						<td>≈&nbsp;21.0.1</td>
+						<td>Chains&nbsp;of&nbsp;Harrow</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#2970877824413815022">Download</a></td>
+					</tr>
+					<tr id="9187782625344917768">
+						<td><code>2017.06.29.02.13</code></td>
+						<td>≈&nbsp;21.0.0</td>
+						<td>Chains&nbsp;of&nbsp;Harrow</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#9187782625344917768">Download</a></td>
+					</tr>
+					<tr id="3099723078202393524">
+						<td><code>2017.05.05.15.41</code></td>
+						<td>≈&nbsp;20.4.0</td>
+						<td>Octavia's&nbsp;Anthem</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#3099723078202393524">Download</a></td>
+					</tr>
+					<tr id="4574874014936523212">
+						<td><code>2017.03.26.04.21</code></td>
+						<td>≈&nbsp;20.0.3</td>
+						<td>Octavia's&nbsp;Anthem</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4574874014936523212">Download</a></td>
+					</tr>
+					<!-- 8705016425420648723 is 2017.03.24.17.25, ~20.0.0, seems to have a broken cache as the loading scaleform doesn't show properly and it doesn't proceed to the login screen -->
+					<tr id="6263571497645662720">
+						<td><code>2017.03.06.15.49</code></td>
+						<td>≈&nbsp;19.13.0</td>
+						<td>The&nbsp;Glast&nbsp;Gambit</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6263571497645662720">Download</a></td>
+					</tr>
+					<!-- 2663512682334598162 is 2017.03.03.17.01, ~19.12.1, fails to start due to an assertion failure -->
+					<!-- 4864838558963648894 is 2017.03.02.14.59, ~19.12.0, fails to start due to an assertion failure -->
+					<tr id="19.5.3" data-langs="en" data-drivers="dx9,dx11" data-magnet="magnet:?xt=urn:btih:dd5c6ddb1e417b9c5a1fe10619b8a8b08c2bf43b&dn=19.5.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-19.5.3/">
+						<td><code>2016.12.23.09.26</code></td>
+						<td>≈&nbsp;19.5.3</td>
+						<td>The&nbsp;Glast&nbsp;Gambit</td>
+						<td></td>
+						<td><abbr title="A full game installation that may not work with all configurations.">User&nbsp;installation</abbr></td>
+						<td><a href="#19.5.3">Download</a></td>
+					</tr>
+					<tr id="4666421798085404101">
+						<td><code>2016.12.21.19.13</code></td>
+						<td>≈&nbsp;19.5.0</td>
+						<td>The&nbsp;Glast&nbsp;Gambit</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4666421798085404101">Download</a></td>
+					</tr>
+					<!-- 6118281920152298389 only contains installscript.vdf -->
+					<tr id="8998041413872250076">
+						<td><code>2016.12.16.14.33</code></td>
+						<td>≈&nbsp;19.4.1</td>
+						<td>The&nbsp;War&nbsp;Within</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8998041413872250076">Download</a></td>
+					</tr>
+					<!-- 6784000424578492584 is 2016.11.11.17.46, ~19.0.0, fails to start due to an assertion failure -->
+					<tr id="7585839495921050946">
+						<td><code>2016.09.30.12.04</code></td>
+						<td>≈&nbsp;18.22.1</td>
+						<td>The&nbsp;Silver&nbsp;Grove</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7585839495921050946">Download</a></td>
+					</tr>
+					<tr id="2086935969100698619">
+						<td><code>2016.08.26.11.08</code></td>
+						<td>≈&nbsp;18.18.5</td>
+						<td>The&nbsp;Silver&nbsp;Grove</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#2086935969100698619">Download</a></td>
+					</tr>
+					<tr id="3584168904277131181">
+						<td><code>2016.08.19.17.12</code></td>
+						<td>≈&nbsp;18.18.0</td>
+						<td>The&nbsp;Silver&nbsp;Grove</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#3584168904277131181">Download</a></td>
+					</tr>
+					<!-- 8065552974390268707 is 2016.07.08.16.56, ~18.16.0. Seems to have a broken cache as everyone is A-posing and subtitle texts don't resolve. -->
+					<!-- 2087739745223261142 is 2016.03.31.15.16, ~18.7.1 Sands of Inaros. Chat scaleform is broken which steals UI focus so can't even access navigation. -->
+					<tr id="1331043799698924734">
+						<td><code>2016.03.04.10.06</code></td>
+						<td>≈&nbsp;18.5.0</td>
+						<td>Sands&nbsp;of&nbsp;Inaros</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1331043799698924734">Download</a></td>
+					</tr>
+					<tr id="5378301586494814297">
+						<td><code>2015.12.09.17.09</code></td>
+						<td>≈&nbsp;18.0.6</td>
+						<td>The&nbsp;Second&nbsp;Dream</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5378301586494814297">Download</a></td>
+					</tr>
+					<!-- 4603106986143048670 is 2015.12.08.16.01, same issues as previous version. -->
+					<!-- 5567085556474789237 is 2015.12.05.18.07, should be ~18.0.2 The Second Dream, but says The Jordas Precept on the login screen. Seems to have a broken cache as enemy spawns are broken. -->
+					<tr id="2275730668734249647">
+						<td><code>2015.10.21.12.48</code></td>
+						<td>≈&nbsp;17.8.0</td>
+						<td>The&nbsp;Jordas&nbsp;Precept</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#2275730668734249647">Download</a></td>
+					</tr>
+					<tr id="7055925076570413672">
+						<td><code>2015.10.15.12.24</code></td>
+						<td>≈&nbsp;17.7.1</td>
+						<td>The&nbsp;Jordas&nbsp;Precept</td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7055925076570413672">Download</a></td>
+					</tr>
+					<tr id="232461576962714068">
+						<td><code>2015.05.14.16.29</code></td>
+						<td>≈&nbsp;16.5.5</td>
+						<td>Tubemen&nbsp;of&nbsp;Regor</td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#232461576962714068">Download</a></td>
+					</tr>
+					<tr id="567734397704178704">
+						<td><code>2015.03.21.08.17</code></td>
+						<td>≈&nbsp;16.0.2</td>
+						<td>Sanctuary</td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#567734397704178704">Download</a></td>
+					</tr>
+					<tr id="5952644847955190118">
+						<td><code>2015.02.13.10.41</code></td>
+						<td>≈&nbsp;15.14.1</td>
+						<td>Eyes&nbsp;of&nbsp;Blight</td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5952644847955190118">Download</a></td>
+					</tr>
+					<tr id="7377933404197762308">
+						<td><code>2014.11.27.14.35</code></td>
+						<td>≈&nbsp;15.5.0</td>
+						<td>Mesa&nbsp;Update</td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7377933404197762308">Download</a></td>
+					</tr>
+					<tr id="6368936033089773713">
+						<td><code>2014.10.29.18.19</code></td>
+						<td>≈&nbsp;15.0.8</td>
+						<td>Archwing</td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6368936033089773713">Download</a></td>
+					</tr>
+					<tr id="1212629036031221707">
+						<td><code>2014.10.28.17.15</code></td>
+						<td>≈&nbsp;15.0.7</td>
+						<td>Archwing</td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1212629036031221707">Download</a></td>
+					</tr>
+					<tr id="1048315274024428186">
+						<td><code>2014.10.27.17.07</code></td>
+						<td>≈&nbsp;15.0.6</td>
+						<td>Archwing</td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1048315274024428186">Download</a></td>
+					</tr>
+					<tr id="6636116079410913663">
+						<td><code>2014.10.24.08.24</code></td>
+						<td>≈&nbsp;15.0.0</td>
+						<td>Archwing<!-- Login screen says "The Mad Cephalon" --></td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6636116079410913663">Download</a></td>
+					</tr>
+					<!-- 4885795964507366541 is 2014.09.24.13.39, needs tools from 2015.10.21.12.48, seems to crash -->
+					<!-- 7887393592947262939 is 2014.09.23.12.04, needs tools from 2015.10.21.12.48, seems to crash -->
+					<!-- 8779732662024957928 is 2014.08.28.13.17, needs tools from 2015.10.21.12.48, crashes after login -->
+					<tr id="7091405412400346572">
+						<td><code>2014.07.21.18.38</code></td>
+						<td>≈&nbsp;14.0.0</td>
+						<td>The Mad Cephalon</td>
+						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7091405412400346572">Download</a></td>
+					</tr>
+					<tr id="7211838851606425341">
+						<td><code>2014.05.23.12.12</code></td>
+						<td>≈&nbsp;13.4.1</td>
+						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
+						<td>Crashes when trying to revive; won't boot if you last booted a recent version<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7211838851606425341">Download</a></td>
+					</tr>
+					<tr id="5876704438298513797">
+						<td><code>2014.04.10.17.47</code></td>
+						<td>≈&nbsp;13.0.0</td>
+						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
+						<td>Works but everyone is A-posing, making enemies non-threats<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5876704438298513797">Download</a></td>
+					</tr>
+					<!-- 3406168191948447048 is 2014.03.05.20.45, can't get past login screen due to script error -->
+					<!-- 7515523599342296232 is 2014.02.19.19.53, seems to crash -->
+					<!-- 4190426140757030330 is 2014.02.07.16.15 (~12.0.3), seems to crash -->
+					<!-- 585340885135755161 is 2013.12.21.01.47, seems to crash -->
+					<!-- 2135033526713381905 is 2013.11.29.16.33 (~11.1.3), broken fonts but technically playable -->
+					<tr id="4839307268506097307">
+						<td><code>2013.11.12.14.03</code></td>
+						<td>≈&nbsp;10.8.0</td>
+						<td>Shadows Of The Dead<!-- Login screen says "Open Beta - Update 10" --></td>
+						<td>Has halloween assets enabled<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4839307268506097307">Download</a></td>
+					</tr>
+					<tr id="1764044531028780660">
+						<td><code>2013.10.11.17.01</code></td>
+						<td>≈&nbsp;10.3.3</td>
+						<td>Shadows Of The Dead<!-- Login screen says "Open Beta - Update 10" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1764044531028780660">Download</a></td>
+					</tr>
+					<!-- 1734697414845714540 is 2013.09.24.17.38, seems to crash -->
+					<!-- 1806108333186250272 is 2013.08.14.11.28, seems to get stuck loading -->
+					<!-- 3366147248454027595 is 2013.07.15.20.46 (~9.1.2), asserts due to some missing flash stuff -->
+					<tr id="767517711548082020">
+						<td><code>2013.07.04.20.17</code></td>
+						<td>≈&nbsp;8.3.0</td>
+						<td>Rise of the Warlords<!-- Login screen says "Open Beta - Update 8" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#767517711548082020">Download</a></td>
+					</tr>
+					<!-- 647709821457915915 is 2013.06.07.23.44, has broken assets -->
+					<tr id="5108594067645371108">
+						<td><code>2013.05.23.16.06</code></td>
+						<td>≈&nbsp;8.0.0</td>
+						<td>Rise of the Warlords<!-- Login screen says "Open Beta - Update 8" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5108594067645371108">Download</a></td>
+					</tr>
+					<!-- 7689210280991293768 is 2013.05.17.15.42, has a broken font/UI, can't even submit login -->
+					<!-- 367921302756169619 (according to WFClassic) is 2013.05.15.13.37 (~7.10.7), can't play due to script error -->
+					<!-- 5140912318581454574 (according to WFClassic) is 2013.05.14.10.33 (~7.10.6), can't play due to script error -->
+					<!-- 1873918047633104541 (according to WFClassic) is 2013.05.13.15.20 (~7.10.5), can't play due to script error -->
+					<!-- 609302931784914878 (according to WFClassic) is 2013.05.10.14.33 (~7.10.4), can't play due to script error -->
+					<!-- 1333808825789667682 (according to WFClassic) is 2013.05.09.14.56 (~7.10.3.5), can't play due to script error -->
+					<!-- 6812997867589219032 is 2013.05.09.10.18, can't play due to script error -->
+					<tr id="1214562332840994196">
+						<td><code>2013.05.08.10.59</code></td>
+						<td>≈&nbsp;7.10.2</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1214562332840994196">Download</a></td>
+					</tr>
+					<tr id="4151868779723562813">
+						<td><code>2013.05.06.10.38</code></td>
+						<td>≈&nbsp;7.10.1</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#4151868779723562813">Download</a></td>
+					</tr>
+					<tr id="588705282697359018">
+						<td><code>2013.05.04.02.15</code></td>
+						<td>≈&nbsp;7.10.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#588705282697359018">Download</a></td>
+					</tr>
+					<tr id="3767535784967645478">
+						<td><code>2013.05.03.18.06</code></td>
+						<td>≈&nbsp;7.10.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#3767535784967645478">Download</a></td>
+					</tr>
+					<tr id="6399786153404128119">
+						<td><code>2013.04.26.17.24</code></td>
+						<td>≈&nbsp;7.9.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6399786153404128119">Download</a></td>
+					</tr>
+					<!-- 5877621706072454395 is 2013.04.25.13.30, missing fonts + script errors -->
+					<tr id="6629234302933135021">
+						<td><code>2013.04.24.11.45</code></td>
+						<td>≈&nbsp;7.8.1</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6629234302933135021">Download</a></td>
+					</tr>
+					<!-- 1241849711849802633 is 2013.04.23.16.17, missing fonts + script errors -->
+					<tr id="1305013661316056540">
+						<td><code>2013.04.19.17.49</code></td>
+						<td>≈&nbsp;7.8.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1305013661316056540">Download</a></td>
+					</tr>
+					<tr id="7565171876923122883">
+						<td><code>2013.04.19.15.46</code></td>
+						<td>≈&nbsp;7.8.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#7565171876923122883">Download</a></td>
+					</tr>
+					<tr id="8278491043607750104">
+						<td><code>2013.04.15.14.48</code></td>
+						<td>≈&nbsp;7.7.4</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8278491043607750104">Download</a></td>
+					</tr>
+					<tr id="6961091191944066345">
+						<td><code>2013.04.12.12.05</code></td>
+						<td>≈&nbsp;7.7.3</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6961091191944066345">Download</a></td>
+					</tr>
+					<tr id="8357063435845098593">
+						<td><code>2013.04.05.12.20</code></td>
+						<td>≈&nbsp;7.7.2</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8357063435845098593">Download</a></td>
+					</tr>
+					<tr id="3065430017475545834">
+						<td><code>2013.04.04.10.09</code></td>
+						<td>≈&nbsp;7.7.1</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#3065430017475545834">Download</a></td>
+					</tr>
+					<tr id="6180757407260335433">
+						<td><code>2013.04.03.14.47</code></td>
+						<td>≈&nbsp;7.7.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#6180757407260335433">Download</a></td>
+					</tr>
+					<tr id="1412521350878833822">
+						<td><code>2013.04.01.16.24</code></td>
+						<td>≈&nbsp;7.6.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1412521350878833822">Download</a></td>
+					</tr>
+					<tr id="5572824118589588358">
+						<td><code>2013.03.28.17.01</code></td>
+						<td>≈&nbsp;7.5.1</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#5572824118589588358">Download</a></td>
+					</tr>
+					<tr id="8927238311553521114">
+						<td><code>2013.03.27.17.06</code></td>
+						<td>≈&nbsp;7.4.1</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#8927238311553521114">Download</a></td>
+					</tr>
+					<tr id="1958670258248515033">
+						<td><code>2013.03.27.09.43</code></td>
+						<td>≈&nbsp;7.4.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#1958670258248515033">Download</a></td>
+					</tr>
+					<tr id="9176710083987114410">
+						<td><code>2013.03.25.11.45</code></td>
+						<td>≈&nbsp;7.3.0</td>
+						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#9176710083987114410">Download</a></td>
+					</tr>
+				</tbody>
+			</table>
+			<h3>2013 Warframe</h3>
+			<p>As you're revisiting the earliest versions, some things to note:</p>
+			<ul>
+				<li>Usage of a client patch (such as the Bootstrapper) is optional for versions before update 8 thanks to the <code>-webserver</code> argument.</li>
+				<li>There is an alternative to SpaceNinjaServer for U7 & U8, that being <a href="https://github.com/mekael/WFClassic" target="_blank">Mekael's WFClassic</a>.</li>
+			</ul>
+			<br>
+		</div>
+		<div id="depot-download-view" class="d-none">
+			<h3>Downloading M:<span class="version-name"></span></h3>
+			<p>There are several ways to download Warframe's Steam depot at manifest version <span class="manifest-id"></span>:</p>
+			<ul>
+				<li>
+					You can use <a href="https://github.com/Sainan/steam-manifest-tools/releases" target="_blank">mango</a> like so: <code>mango download-and-install 230411 <span class="manifest-id"></span></code>
+					<ul>
+						<li>The resulting installation will be stored in <code>install/230411/<span class="manifest-id"></span></code>. You may delete the <code>depot</code> folder after.</li>
+					</ul>
+				</li>
+				<li>
+					You can use <a href="https://github.com/SteamRE/DepotDownloader/releases" target="_blank">DepotDownloader</a> like so: <code>DepotDownloader -app 230410 -depot 230411 -manifest <span class="manifest-id"></span> -username &lt;your steam username&gt; -remember-password</code>
+					<ul>
+						<li>This requires a Steam account with Warframe in its library.</li>
+						<li>Note that DepotDownloader may report errors; these are generally only temporary and it will try again.</li>
+					</ul>
+				</li>
+				<li>
+					You can use <a href="steam://nav/console">Steam's console</a> with the following command: <code>download_depot 230410 230411 <span class="manifest-id"></span></code>
+					<ul>
+						<li>This requires a Steam account with Warframe in its library.</li>
+						<li>The resulting installation will be stored in <code>C:\Program Files (x86)\Steam\steamapps\content\app_230410\depot_230411</code> or equivalent. Once the download is finished, the console will tell you the exact path. Note that you'll want to clean out this folder for subsequent depot downloads to avoid corruption.</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div id="patch-download-view" class="d-none">
+			<h3>Downloading <span class="version-name"></span></h3>
+			<ol>
+				<li><a id="base-download" target="_blank">Download the base version (M:<span class="manifest-id"></span>)</a></li>
+				<li>
+					Download the update patch
+					<ul>
+						<li><a id="mega" target="_blank">From Mega</a></li>
+						<li>Via BitTorrent v1 compatible software: <a class="magnet">Magnet</a></li>
+					</ul>
+				</li>
+				<li>Now you can drop the update patch on top of the base version, replacing the EXE in the process<!-- The updates will take place once you start the game with the Bootstrapper. --></li>
+			</ol>
+		</div>
+		<div id="dirty-download-view" class="d-none">
+			<h3>Downloading <span class="version-name"></span></h3>
+			<p>Please note that this is a full game installation provided by a user. It only has the content required to launch in specific configurations:</p>
+			<ul>
+				<li>language: <span class="language-options"></span></li>
+				<li>graphicsDriver: <span class="graphicsDriver-options"></span></li>
+			</ul>
+			<p>To download it, you will need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
+			<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you can use label replacements to hackily use another language: <a>Magnet</a></p>
+		</div>
+	</div>
+	<script src="_assets/bootstrap.bundle.min.js"></script>
+	<script src="_assets/censorcanary.min.js" defer></script>
+	<script>
+		function formatAlternatives(arr)
+		{
+			if (arr.length > 2)
+			{
+				const last = arr.pop();
+				return arr.join(", ") + ", or " + last;
+			}
+			return arr.join(" or ");
+		}
+
+		window.onhashchange = function()
+		{
+			document.getElementById("main-view").classList.add("d-none");
+			document.getElementById("depot-download-view").classList.add("d-none");
+			document.getElementById("patch-download-view").classList.add("d-none");
+			document.getElementById("dirty-download-view").classList.add("d-none");
+
+			const hash = location.hash.toString().replace("#", "");
+			const tr = hash ? document.getElementById(hash) : undefined;
+			if (tr)
+			{
+				document.querySelectorAll(".version-name").forEach(x => x.textContent = hash);
+
+				const magnet = tr.getAttribute("data-magnet");
+				if (magnet)
+				{
+					document.querySelectorAll(".magnet").forEach(x => x.href = magnet);
+
+					const manifestId = tr.getAttribute("data-base-manifest");
+					if (manifestId)
+					{
+						// Update patch
+						document.getElementById("patch-download-view").classList.remove("d-none");
+						document.getElementById("base-download").href = "#" + manifestId;
+						document.querySelectorAll(".manifest-id").forEach(x => x.textContent = manifestId);
+						document.getElementById("mega").href = tr.getAttribute("data-mega");
+					}
+					else
+					{
+						// User installation
+						document.getElementById("dirty-download-view").classList.remove("d-none");
+						document.querySelectorAll(".language-options").forEach(x => x.textContent = formatAlternatives(tr.getAttribute("data-langs").split(",")));
+						document.querySelectorAll(".graphicsDriver-options").forEach(x => x.textContent = formatAlternatives(tr.getAttribute("data-drivers").split(",")));
+
+						document.querySelector("#dirty-download-view .torrent").href = `supplementals/dirty builds/${new URLSearchParams(new URL(magnet).search).get("dn")}.torrent`;
+
+						const catLabelsMagnet = tr.getAttribute("data-cat-labels");
+						if (catLabelsMagnet)
+						{
+							document.getElementById("cat-labels").classList.remove("d-none");
+							document.querySelector("#cat-labels a").href = catLabelsMagnet;
+						}
+						else
+						{
+							document.getElementById("cat-labels").classList.add("d-none");
+						}
+					}
+				}
+				else
+				{
+					// Manifest
+					document.getElementById("depot-download-view").classList.remove("d-none");
+					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
+				}
+			}
+			else
+			{
+				if (hash)
+				{
+					location.hash = "";
+				}
+				document.getElementById("main-view").classList.remove("d-none");
+			}
+		};
+		window.onhashchange();
+
+		function applyFilters()
+		{
+			const steam = document.getElementById("filter-steam").checked;
+			const dirty = document.getElementById("filter-dirty").checked;
+			const patch = document.getElementById("filter-patch").checked;
+			document.querySelectorAll("tr[id]").forEach(function(tr)
+			{
+				let show;
+				if (tr.getAttribute("data-magnet"))
+				{
+					if (tr.getAttribute("data-langs"))
+					{
+						show = dirty;
+					}
+					else
+					{
+						show = patch;
+					}
+				}
+				else
+				{
+					show = steam;
+				}
+
+				if (show)
+				{
+					tr.classList.remove("d-none");
+				}
+				else
+				{
+					tr.classList.add("d-none");
+				}
+			});
+
+			if (!dirty && !patch)
+			{
+				document.getElementById("filter-steam").setAttribute("disabled", "disabled");
+			}
+			else
+			{
+				document.getElementById("filter-steam").removeAttribute("disabled");
+			}
+			if (!steam && !patch)
+			{
+				document.getElementById("filter-dirty").setAttribute("disabled", "disabled");
+			}
+			else
+			{
+				document.getElementById("filter-dirty").removeAttribute("disabled");
+			}
+			if (!steam && !dirty)
+			{
+				document.getElementById("filter-patch").setAttribute("disabled", "disabled");
+			}
+			else
+			{
+				document.getElementById("filter-patch").removeAttribute("disabled");
+			}
+		}
+		document.getElementById("filter-steam").onchange = applyFilters;
+		document.getElementById("filter-dirty").onchange = applyFilters;
+		document.getElementById("filter-patch").onchange = applyFilters;
+		applyFilters();
+	</script>
+</body>
+</html>
