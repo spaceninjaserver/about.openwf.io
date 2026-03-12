@@ -19,8 +19,8 @@
 			<li>Run Bootstrapper Setup</li>
 			<li>You may remove Bootstrapper Setup from this folder after it has successfully finished</li>
 		</ol>
-		<h3>A note for Linux users</h3>
-		<p>The Linux version of Bootstrapper Setup produces a dwmapi.dll because that's the only way sideloading seemed to work without friction in our testing. However, Warframe versions prior to 29.0.0 did not import this DLL, so you will need to rename it to <code>wtsapi32.dll</code> or <code>version.dll</code> and then force sideloading. To force side-loading, provide an environment variable like <code>WINEDLLOVERRIDES="wtsapi32.dll=n,b"</code>.</p>
+		<!-- <h3>A note for Linux users</h3>
+		<p>The Linux version of Bootstrapper Setup produces a dwmapi.dll because that's the only way sideloading seemed to work without friction in our testing. However, Warframe versions prior to 29.0.0 did not import this DLL, so you will need to rename it to <code>wtsapi32.dll</code> or <code>version.dll</code> and then force sideloading. To force side-loading, provide an environment variable like <code>WINEDLLOVERRIDES="wtsapi32.dll=n,b"</code>.</p> -->
 		<h2>First Run <small>(Optional)</small></h2>
 		<p>In general, you can simply double-click Warframe.x64.exe to start the game now. However, for our first run:</p>
 		<ol>
