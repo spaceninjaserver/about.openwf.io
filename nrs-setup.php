@@ -23,7 +23,7 @@
 			<li>Set <code>"dtls"</code> to <code>99</code></li>
 		</ul>
 		<h3>e-nrs</h3>
-		<p>This instance supports 15.0.0 - 29.10.0. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
+		<p>This instance supports 7.3.0 - 29.10.0. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
 		<ul>
 			<li>Set <code>"nrsAddress"</code> to <code>"e-nrs.source.wf"</code></li>
 			<li>Set <code>"dtls"</code> to <code>99</code></li>
