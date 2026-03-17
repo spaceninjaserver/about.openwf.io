@@ -64,8 +64,8 @@
 		<p>If you're not using Docker:</p>
 		<ul>
 			<li>Open SpaceNinjaServer's config.json</li>
-			<li>Set <code>"httpsCertFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem"</code> (edit accordingly)</li>
-			<li>Set <code>"httpsKeyFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem"</code> (edit accordingly)</li>
+			<li>Set <code>"httpsCertFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem"</code> (adjust accordingly)</li>
+			<li>Set <code>"httpsKeyFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem"</code> (adjust accordingly)</li>
 			<li>Replace the cert files in your IRC server with fullchain.pem for cert.pem and privkey.pem for key.pem, then restart it to apply.</li>
 		</ul>
 		<p>If you are using Docker:</p>
@@ -74,20 +74,20 @@
 			<li>
 				Add the following to SpaceNinjaServer's volumes:
 				<ul>
-					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem:/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem:ro</code> (edit accordingly)</li>
-					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem:/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem:ro</code> (edit accordingly)</li>
+					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem:/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem:ro</code> (adjust accordingly)</li>
+					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem:/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem:ro</code> (adjust accordingly)</li>
 				</ul>
 			</li>
 			<li>
 				Add the following to warframe-irc-server's volumes:
 				<ul>
-					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem:/app/cert/cert.pem:ro</code> (edit accordingly)</li>
-					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem:/app/cert/key.pem:ro</code> (edit accordingly)</li>
+					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem:/app/cert/cert.pem:ro</code> (adjust accordingly)</li>
+					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem:/app/cert/key.pem:ro</code> (adjust accordingly)</li>
 				</ul>
 			</li>
 			<li>Open SpaceNinjaServer's config.json</li>
-			<li>Set <code>"httpsCertFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem"</code> (edit accordingly)</li>
-			<li>Set <code>"httpsKeyFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem"</code> (edit accordingly)</li>
+			<li>Set <code>"httpsCertFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem"</code> (adjust accordingly)</li>
+			<li>Set <code>"httpsKeyFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem"</code> (adjust accordingly)</li>
 			<li>Restart the dockerized server for changes to apply fully</li>
 		</ul>
 		<h2>Securely Connecting</h2>
