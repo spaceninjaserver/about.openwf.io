@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hardening Security | OpenWF</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="_assets/bootstrap.min.css">
+</head>
+<body data-bs-theme="dark">
+	<nav class="navbar navbar-expand-sm bg-body-tertiary">
+	<div class="container">
+		<a class="navbar-brand" href="." >OpenWF</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar-content">
+			<ul class="navbar-nav me-auto mb-0">
+				<li class="nav-item"><a class="nav-link" href="versions">Version Archive</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="client-setup">Client Setup</a></li>
+						<li><a class="dropdown-item" href="web-server-setup">Web Server Setup</a></li>
+						<li><a class="dropdown-item" href="import">Importing</a></li>
+						<li><a class="dropdown-item" href="chat-server-setup">Chat Server Setup</a></li>
+						<li><a class="dropdown-item" href="hub-server-setup">Hub Server Setup</a></li>
+						<li><a class="dropdown-item" href="nrs-setup">NRS Setup</a></li>
+						<li><a class="dropdown-item" href="port-forwarding">Port Forwarding</a></li>
+						<li><a class="dropdown-item" href="dockerized-server-setup">Dockerized Server Setup</a></li>
+						<li><a class="dropdown-item active" href="hardening-security">Hardening Security</a></li>
+						<li><a class="dropdown-item" href="metadata-patching">Metadata Patching</a></li>
+						<li><a class="dropdown-item" href="https://onlyg.it/janisslsm/warframe-companion-patcher" target="_blank">Companion App</a></li>
+						<li><a class="dropdown-item" href="asset-replacements-guide">Asset Replacements</a></li>
+					</ul>
+				</li>
+				<li class="nav-item"><a class="nav-link" href="contribute">Contribute</a></li>
+				<li class="nav-item"><a class="nav-link" href="https://discord.gg/PNNZ3asUuY" target="_blank">Discord</a></li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<script>
+	// User-facing stuff really has no reason to be served over insecure HTTP.
+	if (location.host == "openwf.io" && location.protocol == "http:")
+	{
+		location.protocol = "https:";
+	}
+</script>	<div class="container mt-3">
+		<p>It's hard to not at least have some level of security nowadays, so you don't have to worry about a passive listener seeing sensitive information, but a <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack" target="_blank">man-in-the-middle (MITM) attack</a> could defeat encryption, revealing your credentials, chat messages, etc. To prevent this, we can use the same security that you are already used to when browsing the web.</p>
+		<h2>Prerequisites</h2>
+		<p>You're going to need...</p>
+		<ul>
+			<li><a href="https://certbot.eff.org/">Certbot</a> (you only need the <code>certbot</code> command to work; this guide will explain the rest)</li>
+			<li>A domain name that points to your server's IP address ("hostname"). For simplicity, we're going to use <a href="http://my.iptls.com/" target="_blank">x-x-x-x.iptls.com</a> for this.</li>
+		</ul>
+		<h2>Obtaining A Certificate</h2>
+		<p>With SpaceNinjaServer (or the Dockerized Server) running:</p>
+		<ul>
+			<li><code>cd</code> into the "SpaceNinjaServer" or "OpenWF Dockerized Server" folder</li>
+			<li>Run <code>certbot certonly --non-interactive --agree-tos --key-type rsa --webroot -w . -d $(curl http://my.iptls.com)</code></li>
+		</ul>
+		<p>You should now have a certificate. We're going to assume it's stored in <code>/etc/letsencrypt/live/x-x-x-x.iptls.com/</code>.</p>
+		<h2>Installing The Certificate</h2>
+		<p>If you're not using Docker:</p>
+		<ul>
+			<li>Open SpaceNinjaServer's config.json</li>
+			<li>Set <code>"httpsCertFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem"</code> (edit accordingly)</li>
+			<li>Set <code>"httpsKeyFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem"</code> (edit accordingly)</li>
+			<li>Replace the cert files in your IRC server with fullchain.pem for cert.pem and privkey.pem for key.pem, then restart it to apply.</li>
+		</ul>
+		<p>If you are using Docker:</p>
+		<ul>
+			<li>Open the docker-compose.yml</li>
+			<li>
+				Add the following to SpaceNinjaServer's volumes:
+				<ul>
+					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem:/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem:ro</code> (edit accordingly)</li>
+					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem:/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem:ro</code> (edit accordingly)</li>
+				</ul>
+			</li>
+			<li>
+				Add the following to warframe-irc-server's volumes:
+				<ul>
+					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem:/app/cert/cert.pem:ro</code> (edit accordingly)</li>
+					<li><code>/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem:/app/cert/key.pem:ro</code> (edit accordingly)</li>
+				</ul>
+			</li>
+			<li>Open SpaceNinjaServer's config.json</li>
+			<li>Set <code>"httpsCertFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/fullchain.pem"</code> (edit accordingly)</li>
+			<li>Set <code>"httpsKeyFile"</code> to <code>"/etc/letsencrypt/live/x-x-x-x.iptls.com/privkey.pem"</code> (edit accordingly)</li>
+			<li>Restart the dockerized server for changes to apply fully</li>
+		</ul>
+		<h2>Securely Connecting</h2>
+		<p>The client config can now have <code>secure_connections</code> set to true, with <code>server_host</code> being the hostname we got a certificate for.</p>
+		<p>With <code>secure_connections</code>, a MITM attack will now be surfaced via a connection failure and the attacker won't receive your credentials, chat messages, etc.</p>
+	</div>
+	<script src="_assets/bootstrap.bundle.min.js"></script>
+	<script src="_assets/censorcanary.min.js" defer></script>
+</body>
+</html>
