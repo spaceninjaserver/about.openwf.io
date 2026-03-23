@@ -1233,7 +1233,7 @@
 					</tr>
 				</tbody>
 			</table>
-			<p>Do <b>you</b> have older game files on one of your old hard drives maybe? We have a <b>100€ bounty</b> on <b>pre-7.3.0</b> game files. See the announcements in <a href="https://discord.gg/PNNZ3asUuY">our Discord</a> for more information about our ongoing archival efforts..</p>
+			<p>Do <b>you</b> have older game files on one of your old hard drives maybe? We have a <b>100€ bounty</b> on <b>pre-7.3.0</b> game files. See the announcements in <a href="https://discord.gg/PNNZ3asUuY">our Discord</a> for more information about our ongoing archival efforts.</p>
 			<h3>2013 Warframe</h3>
 			<p>As you're revisiting the earliest versions, some things to note:</p>
 			<ul>
