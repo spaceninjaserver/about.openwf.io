@@ -1,5 +1,7 @@
 name: dynstat
-on: [push, workflow_dispatch]
+on:
+  push:
+    branches: [ "main" ]
 permissions:
   contents: write
 jobs:
