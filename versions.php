@@ -38,6 +38,28 @@
 				<tbody>
 					<!-- https://steamdb.info/depot/230411/manifests/ -->
 					<?php foreach ([
+							"2026.02.13.16.03" => "41.1.2",
+							"2026.02.12.13.11" => "41.1.1",
+							"2026.02.10.16.04"/* /ik84b+fTALyGErEcu1hc5Q */ => "41.1.0",
+						] as $buildVersion => $gameVersion): ?>
+						<tr id="<?=$gameVersion;?>" data-base-manifest="843737746734465482" data-mega="https://mega.nz/file/cxRnTBiZ#Xf7O8vo02U1jRgqXC9g2jwAT7h5rtCs4uWd8DOyjMGw" data-magnet="magnet:?xt=urn:btih:54a94a4ae8ff17bde1459861a9cfd45c8e45db6e&dn=41.1.x.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce">
+							<td><code><?=$buildVersion;?></code></td>
+							<td>=&nbsp;<?=$gameVersion;?></td>
+							<td>Vauban&nbsp;Heirloom<!-- Login screen says "The Old Peace" --></td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#<?=$gameVersion;?>">Download</a></td>
+						</tr>
+					<?php endforeach; ?>
+					<tr id="843737746734465482">
+						<td><code>2026.02.10.16.04</code><!-- /o-nHGWuMy+ZR1EuJ6xNcnQ --></td>
+						<td>&lt;&nbsp;41.1.0</td>
+						<td>Vauban&nbsp;Heirloom<!-- Login screen says "The Old Peace" --></td>
+						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+						<td>Steam&nbsp;manifest</td>
+						<td><a href="#843737746734465482">Download</a></td>
+					</tr>
+					<?php foreach ([
 							"2026.01.14.13.46" => "41.0.7",
 							"2026.01.08.11.06" => "41.0.6",
 							"2025.12.18.13.45" => "41.0.5",
