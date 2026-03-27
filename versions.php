@@ -1293,7 +1293,12 @@
 		<div id="patch-download-view" class="d-none">
 			<h3>Downloading <span class="version-name"></span></h3>
 			<ol>
-				<li><a id="base-download" target="_blank">Download the base version (M:<span class="manifest-id"></span>)</a></li>
+				<li>
+					<a id="base-download" target="_blank">Download the base version (M:<span class="manifest-id"></span>)</a>
+					<ul>
+						<li>You must download this exact manifest version as the update patch only contains the data for updates to this specific base version</li>
+					</ul>
+				</li>
 				<li>
 					Download the update patch
 					<ul>
