@@ -13,19 +13,19 @@
 		<h3>e-nrs</h3>
 		<p>This instance supports 7.3.0 - 41.1.2 and <abbr title="Proxying allows people behind strict NAT to establish indirect connections to each other.">proxying</abbr>. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
 		<ul>
-			<li>Set <code>"nrsAddress"</code> to <code>"e-nrs.source.wf"</code></li>
+			<li>Set <code>"nrsAddresses"</code> to <code>["e-nrs.source.wf"]</code></li>
 			<li>Set <code>"dtls"</code> to <code>99</code></li>
 		</ul>
 		<h3>o-nrs</h3>
 		<p>This instance supports 35.5.0 - 40.0.5.1. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
 		<ul>
-			<li>Set <code>"nrsAddress"</code> to <code>"o-nrs.source.wf"</code></li>
+			<li>Set <code>"nrsAddresses"</code> to <code>["o-nrs.source.wf"]</code></li>
 			<li>Set <code>"dtls"</code> to <code>99</code></li>
 		</ul>
 		<h3>c-nrs</h3>
 		<p>This instance supports 41.0.x. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
 		<ul>
-			<li>Set <code>"nrsAddress"</code> to <code>"c-nrs.source.wf:6500"</code></li>
+			<li>Set <code>"nrsAddresses"</code> to <code>["c-nrs.source.wf:6500"]</code></li>
 			<li>Set <code>"dtls"</code> to <code>99</code></li>
 		</ul>
 
