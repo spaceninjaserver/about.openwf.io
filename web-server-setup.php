@@ -11,13 +11,13 @@
 	<div class="container mt-3">
 		<p>This guide will explain the process of setting up <a href="https://onlyg.it/OpenWF/SpaceNinjaServer" target="_blank">SpaceNinjaServer</a> so you'll have your very own Warframe web server.</p>
 		<h2>Prerequisites</h2>
-		<p>Ensure the following software is installed on your machine:</p>
+		<p>Ensure all of the following software is installed on your machine:</p>
 		<ul>
 			<li>Git (<a href="https://git-scm.com/downloads" target="_blank">Download</a>)</li>
 			<li>Node.js (<a href="https://nodejs.org/en/download" target="_blank">Download</a></a>)</li>
 			<li>MongoDB (<a href="https://www.mongodb.com/try/download/community" target="_blank">Download</a></a>)</li>
 		</ul>
-		<p>Alternatively, for a more <i>contained</i> approach, <a href="dockerized-server-setup<?=$ext;?>">you can use Docker</a>.</p>
+		<!-- <p>Alternatively, for a more <i>contained</i> approach, <a href="dockerized-server-setup<?=$ext;?>">you can use Docker</a>.</p> -->
 		<h2>Setup</h2>
 		<ol>
 			<li>Run <code>git clone https://openwf.io/SpaceNinjaServer.git</code> in a command prompt to download SpaceNinjaServer in the current working directory</li>
