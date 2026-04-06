@@ -1306,13 +1306,7 @@
 						<li>Via BitTorrent v1 compatible software: <a class="magnet">Magnet</a></li>
 					</ul>
 				</li>
-				<li>
-					(Optional) Do the <a href="/client-setup<?=$ext;?>" target="_blank">client setup</a> now and attempt to start the game
-					<ul>
-						<li>This would be your quick and easy way to detect if the download succeeded before diluting the files</li>
-					</ul>
-				</li>
-				<li>Now you can drop the update patch on top of the base version, replacing existing files</li>
+				<li>Now you can drop the update patch on top of the base version, replacing the EXE in the process<!-- The updates will take place once you start the game with the Bootstrapper. --></li>
 			</ol>
 		</div>
 		<div id="dirty-download-view" class="d-none">
