@@ -22,12 +22,6 @@
 			<li>Set <code>"nrsAddresses"</code> to <code>["o-nrs.source.wf"]</code></li>
 			<li>Set <code>"dtls"</code> to <code>99</code></li>
 		</ul>
-		<h3>c-nrs</h3>
-		<p>This instance supports 41.0.x. You can configure SpaceNinjaServer to instruct your clients to connect to it like so:</p>
-		<ul>
-			<li>Set <code>"nrsAddresses"</code> to <code>["c-nrs.source.wf:6500"]</code></li>
-			<li>Set <code>"dtls"</code> to <code>99</code></li>
-		</ul>
 
 		<div class="row g-3 my-4">
 			<div class="col-6">
