@@ -908,6 +908,14 @@
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#7585839495921050946">Download</a></td>
 					</tr>
+					<tr id="18.21.3" data-langs="en" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:df6a2e901f43141184ccea70e79361d1c97fdd03&dn=18.21.3%20%28en%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-18.21.3/">
+						<td><code>2016.09.26.14.29</code></td>
+						<td>≈&nbsp;18.21.3</td>
+						<td>The&nbsp;Silver&nbsp;Grove</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#18.21.3">Download</a></td>
+					</tr>
 					<tr id="2086935969100698619">
 						<td><code>2016.08.26.11.08</code></td>
 						<td>≈&nbsp;18.18.5</td>
