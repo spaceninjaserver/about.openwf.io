@@ -1091,6 +1091,14 @@
 					<!-- 1734697414845714540 is 2013.09.24.17.38, seems to crash -->
 					<!-- 1806108333186250272 is 2013.08.14.11.28, seems to get stuck loading -->
 					<!-- 3366147248454027595 is 2013.07.15.20.46 (~9.1.2), asserts due to some missing flash stuff -->
+					<tr id="9.1.0" data-langs="en" data-drivers="dx9" data-magnet="magnet:?xt=urn:btih:2e438360cf4055110b7219f7e584d5308300e4bb&dn=9.1.0%20%28en%2C%20dx9%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-9.1.0/">
+						<td><code>2013.07.13.03.21</code></td>
+						<td>=&nbsp;9.1.0</td>
+						<td>Vor's&nbsp;Revenge<!-- Login screen says "Open Beta - Update 9" --></td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#9.1.0">Download</a></td>
+					</tr>
 					<tr id="767517711548082020">
 						<td><code>2013.07.04.20.17</code></td>
 						<td>≈&nbsp;8.3.0</td>
