@@ -1051,6 +1051,14 @@
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#7211838851606425341">Download</a></td>
 					</tr>
+					<tr id="13.4.0" data-langs="en" data-drivers="dx9" data-magnet="magnet:?xt=urn:btih:cc8e135a1dfc7a230499e16daae6ecf4affe7f93&dn=13.4.0%20%28en%2C%20dx9%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-13.4.0/">
+						<td><code>2014.05.21.15.02</code></td>
+						<td>≈&nbsp;13.4.0</td>
+						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
+						<td>Won't boot if you last booted a recent version<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#13.4.0">Download</a></td>
+					</tr>
 					<tr id="5876704438298513797">
 						<td><code>2014.04.10.17.47</code></td>
 						<td>≈&nbsp;13.0.0</td>
