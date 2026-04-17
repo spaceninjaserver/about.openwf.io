@@ -26,7 +26,7 @@
 		<ol>
 			<li>Open a command prompt/terminal in the game installation folder</li>
 			<li>Run <code>Warframe.x64.exe -owfServerHost:demo.openwf.io</code></li>
-			<li>Attempting to log in with any credentials should show you that the request was successfully redirected (<a href="_assets/demo.avif" target="_blank">what that looks like</a>)</li>
+			<li>Attempting to log in with any credentials will fail but you will see that the request was successfully redirected (<a href="_assets/demo.avif" target="_blank">what that looks like</a>)</li>
 		</ol>
 		<p>While on the login screen, you also have an opportunity to visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a>, which is available while the game is running. You may not find any immediately-useful options, but it's good to keep in mind; maybe bookmark it.</p>
 		<h2>Configuration</h2>
