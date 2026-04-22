@@ -1285,11 +1285,19 @@
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#9176710083987114410">Download</a></td>
 					</tr>
+					<tr id="5.2.0" data-langs="ru" data-drivers="dx11,dx9" data-magnet="magnet:?xt=urn:btih:b622ed375bac8ec2bdcd7c51696f9af0032e2a01&dn=5.2.0%20%28ru%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-5.2.0/">
+						<td><code>2012.12.31.16.20</code></td>
+						<td>≈&nbsp;5.2.0</td>
+						<td>Beta 2</td>
+						<td>32-bit only so incompatible with Bootstrapper. Hacky English translation patch included.</td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#5.2.0">Download</a></td>
+					</tr>
 					<tr id="5.1.0" data-langs="ru" data-drivers="dx11,dx9" data-magnet="magnet:?xt=urn:btih:008069c7e4cfcc62a2a0fe239738943aa2ce19b0&dn=5.1.0%20%28ru%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-5.1.0/">
 						<td><code>2012.12.31.16.20</code></td>
 						<td>≈&nbsp;5.1.0</td>
 						<td>Beta 2</td>
-						<td>32-bit only so incompatible with Bootstrapper. May crash from unknown items.</td>
+						<td>32-bit only so incompatible with Bootstrapper.</td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#5.1.0">Download</a></td>
 					</tr>
