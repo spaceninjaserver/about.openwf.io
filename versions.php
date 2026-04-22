@@ -811,7 +811,7 @@
 						<td><code>2017.11.16.17.34</code></td>
 						<td>≈&nbsp;22.2.4</td>
 						<td>Plains&nbsp;of&nbsp;Eidolon</td>
-						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. -->This version and prior versions may require an active voice chat session for audio.</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. -->This version may require an active voice chat session for audio.</td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#5869273198520287595">Download</a></td>
 					</tr>
@@ -1337,6 +1337,7 @@
 					</ul>
 				</li>
 			</ul>
+			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
 		</div>
 		<div id="patch-download-view" class="d-none">
 			<h3>Downloading <span class="version-name"></span></h3>
@@ -1356,6 +1357,7 @@
 				</li>
 				<li>Now you can drop the update patch on top of the base version, replacing the EXE in the process<!-- The updates will take place once you start the game with the Bootstrapper. --></li>
 			</ol>
+			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
 		</div>
 		<div id="dirty-download-view" class="d-none">
 			<h3>Downloading <span class="version-name"></span></h3>
@@ -1366,6 +1368,7 @@
 			</ul>
 			<p>To download it, you will need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
 			<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you can use label replacements to hackily use another language: <a>Magnet</a></p>
+			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
 		</div>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
@@ -1434,6 +1437,22 @@
 					// Manifest
 					document.getElementById("depot-download-view").classList.remove("d-none");
 					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
+				}
+
+				if (tr.children[3].textContent)
+				{
+					document.querySelectorAll(".version-notes").forEach(elm =>
+					{
+						elm.classList.remove("d-none");
+						elm.querySelector("span").textContent = tr.children[3].textContent;
+					});
+				}
+				else
+				{
+					document.querySelectorAll(".version-notes").forEach(elm =>
+					{
+						elm.classList.add("d-none");
+					});
 				}
 			}
 			else
