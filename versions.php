@@ -1308,7 +1308,7 @@
 			<p>As you're revisiting the earliest versions, some things to note:</p>
 			<ul>
 				<li>Usage of a client patch (such as the Bootstrapper) is optional for versions below U8 as you can simply pass <code>-webserver:http://localhost/api/</code> as an argument.</li>
-				<li>There is an alternative to SpaceNinjaServer for U8 and below, that being <a href="https://github.com/mekael/WFClassic" target="_blank">Mekael's WFClassic</a>.</li>
+				<li>There is an alternative to SpaceNinjaServer for U7 & U8, that being <a href="https://github.com/mekael/WFClassic" target="_blank">Mekael's WFClassic</a>.</li>
 			</ul>
 			<br>
 		</div>
