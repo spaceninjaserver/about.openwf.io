@@ -1059,6 +1059,14 @@
 						<td>User&nbsp;installation</td>
 						<td><a href="#13.4.0">Download</a></td>
 					</tr>
+					<tr id="13.1.1" data-langs="zh" data-drivers="dx11,dx9" data-magnet="magnet:?xt=urn:btih:0f64afeae1ce9a539d1eae2a4246eba070ee20d8&dn=13.1.1%20%28x86%2C%20zh%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-13.1.1/">
+						<td><code>2014.04.23.18.00</code></td>
+						<td>≈&nbsp;13.1.1</td>
+						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
+						<td>Use <a href="https://github.com/Sainan/32-bitstrapper" target="_blank">32-Bitstrapper</a> instead of Bootstrapper. Hacky English translation patch included.</td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#13.1.1">Download</a></td>
+					</tr>
 					<tr id="5876704438298513797">
 						<td><code>2014.04.10.17.47</code></td>
 						<td>≈&nbsp;13.0.0</td>
@@ -1289,7 +1297,7 @@
 						<td><code>2013.01.04.10.41</code></td>
 						<td>≈&nbsp;5.2.0</td>
 						<td>Beta 2</td>
-						<td>32-bit only so incompatible with Bootstrapper. Hacky English translation patch included.</td>
+						<td>Use webserver argument instead of Bootstrapper. Hacky English translation patch included.</td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#5.2.0">Download</a></td>
 					</tr>
@@ -1297,7 +1305,7 @@
 						<td><code>2012.12.31.16.20</code></td>
 						<td>≈&nbsp;5.1.0</td>
 						<td>Beta 2</td>
-						<td>32-bit only so incompatible with Bootstrapper.</td>
+						<td>Use webserver argument instead of Bootstrapper.</td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#5.1.0">Download</a></td>
 					</tr>
@@ -1444,7 +1452,7 @@
 					document.querySelectorAll(".version-notes").forEach(elm =>
 					{
 						elm.classList.remove("d-none");
-						elm.querySelector("span").textContent = tr.children[3].textContent;
+						elm.querySelector("span").innerHTML = tr.children[3].innerHTML;
 					});
 				}
 				else
