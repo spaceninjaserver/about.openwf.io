@@ -1340,8 +1340,9 @@
 				<li>
 					You can use <a href="steam://nav/console">Steam's console</a> with the following command: <code>download_depot 230410 230411 <span class="manifest-id"></span></code>
 					<ul>
-						<li>This requires a Steam account with Warframe in its library.</li>
-						<li>The resulting installation will be stored in <code>C:\Program Files (x86)\Steam\steamapps\content\app_230410\depot_230411</code> or equivalent. Once the download is finished, the console will tell you the exact path. Note that you'll want to clean out this folder for subsequent depot downloads to avoid corruption.</li>
+						<li>This method is not recommended unless you absolutely know what you are doing.</li>
+						<!-- <li>This requires a Steam account with Warframe in its library.</li>
+						<li>The resulting installation will be stored in <code>C:\Program Files (x86)\Steam\steamapps\content\app_230410\depot_230411</code> or equivalent. Once the download is finished, the console will tell you the exact path. Note that you'll want to clean out this folder for subsequent depot downloads to avoid corruption.</li> -->
 					</ul>
 				</li>
 			</ul>
