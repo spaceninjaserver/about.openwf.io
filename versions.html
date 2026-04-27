@@ -1604,7 +1604,7 @@
 					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
 				}
 
-				if (tr.children[3].textContent)
+				if (tr.children[3].textContent && tr.children[3].textContent != "Chinese only")
 				{
 					document.querySelectorAll(".version-notes").forEach(elm =>
 					{
