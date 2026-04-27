@@ -1417,6 +1417,7 @@
 			return arr.join(" or ");
 		}
 
+		let table_scrollY;
 		window.onhashchange = function()
 		{
 			document.getElementById("main-view").classList.add("d-none");
@@ -1495,6 +1496,12 @@
 					location.hash = "";
 				}
 				document.getElementById("main-view").classList.remove("d-none");
+
+				if (table_scrollY)
+				{
+					window.scrollTo(0, table_scrollY);
+					table_scrollY = undefined;
+				}
 			}
 		};
 		window.onhashchange();
@@ -1562,6 +1569,14 @@
 		document.getElementById("filter-dirty").onchange = applyFilters;
 		document.getElementById("filter-patch").onchange = applyFilters;
 		applyFilters();
+
+		document.querySelectorAll("tr td:nth-child(6) a").forEach(a =>
+		{
+			a.onclick = function(e)
+			{
+				table_scrollY = window.scrollY;
+			};
+		});
 	</script>
 </body>
 </html>
