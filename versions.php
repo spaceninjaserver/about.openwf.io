@@ -5,6 +5,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="_assets/bootstrap.min.css">
+	<style>
+		.table-only-note { display: none }
+		table .table-only-note { display: inline }
+	</style>
 </head>
 <body data-bs-theme="dark">
 	<?php require "_components/navbar.php"; ?>
@@ -903,7 +907,7 @@
 						<td><code>2016.11.12.20.09</code></td>
 						<td>≈&nbsp;19.0.1</td>
 						<td>The&nbsp;War&nbsp;Within</td>
-						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#19.0.1">Download</a></td>
 					</tr>
@@ -928,7 +932,7 @@
 						<td><code>2016.09.02.15.22</code></td>
 						<td>≈&nbsp;18.19.3</td>
 						<td>The&nbsp;Silver&nbsp;Grove</td>
-						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#18.19.3">Download</a></td>
 					</tr>
@@ -1329,7 +1333,7 @@
 						<td><code>2012.12.31.16.20</code></td>
 						<td>≈&nbsp;5.1.0</td>
 						<td>Beta 2</td>
-						<td>Use webserver argument instead of Bootstrapper.</td>
+						<td>Use webserver argument instead of Bootstrapper.<span class="table-only-note"> Russian only.</span></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#5.1.0">Download</a></td>
 					</tr>
@@ -1473,7 +1477,7 @@
 					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
 				}
 
-				if (tr.children[3].textContent)
+				if (tr.children[3].textContent && tr.children[3].textContent != "Chinese only")
 				{
 					document.querySelectorAll(".version-notes").forEach(elm =>
 					{
