@@ -992,7 +992,7 @@
 						<td><code>2015.10.15.12.24</code></td>
 						<td>≈&nbsp;17.7.1</td>
 						<td>The&nbsp;Jordas&nbsp;Precept</td>
-						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><!-- Rename DLL & -->Use <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">"Tools" folder from 2015.10.21.12.48</a></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#7055925076570413672">Download</a></td>
 					</tr>
@@ -1008,7 +1008,7 @@
 						<td><code>2015.05.14.16.29</code></td>
 						<td>≈&nbsp;16.5.5</td>
 						<td>Tubemen&nbsp;of&nbsp;Regor</td>
-						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><!-- Rename DLL & -->Use <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">"Tools" folder from 2015.10.21.12.48</a></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#232461576962714068">Download</a></td>
 					</tr>
@@ -1032,7 +1032,7 @@
 						<td><code>2015.03.21.08.17</code></td>
 						<td>≈&nbsp;16.0.2</td>
 						<td>Sanctuary</td>
-						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><!-- Rename DLL & -->Use <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">"Tools" folder from 2015.10.21.12.48</a></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#567734397704178704">Download</a></td>
 					</tr>
@@ -1040,7 +1040,7 @@
 						<td><code>2015.02.13.10.41</code></td>
 						<td>≈&nbsp;15.14.1</td>
 						<td>Eyes&nbsp;of&nbsp;Blight</td>
-						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><!-- Rename DLL & -->Use <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">"Tools" folder from 2015.10.21.12.48</a></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#5952644847955190118">Download</a></td>
 					</tr>
@@ -1048,7 +1048,7 @@
 						<td><code>2014.11.27.14.35</code></td>
 						<td>≈&nbsp;15.5.0</td>
 						<td>Mesa&nbsp;Update</td>
-						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><!-- Rename DLL & -->Use <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">"Tools" folder from 2015.10.21.12.48</a></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#7377933404197762308">Download</a></td>
 					</tr>
@@ -1056,7 +1056,7 @@
 						<td><code>2014.10.29.18.19</code></td>
 						<td>≈&nbsp;15.0.8</td>
 						<td>Archwing</td>
-						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><!-- Rename DLL & -->Use <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">"Tools" folder from 2015.10.21.12.48</a></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#6368936033089773713">Download</a></td>
 					</tr>
@@ -1064,7 +1064,7 @@
 						<td><code>2014.10.28.17.15</code></td>
 						<td>≈&nbsp;15.0.7</td>
 						<td>Archwing</td>
-						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><!-- Rename DLL & -->Use <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">"Tools" folder from 2015.10.21.12.48</a></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#1212629036031221707">Download</a></td>
 					</tr>
@@ -1072,7 +1072,7 @@
 						<td><code>2014.10.27.17.07</code></td>
 						<td>≈&nbsp;15.0.6</td>
 						<td>Archwing</td>
-						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><!-- Rename DLL & -->Use <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">"Tools" folder from 2015.10.21.12.48</a></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#1048315274024428186">Download</a></td>
 					</tr>
@@ -1080,7 +1080,7 @@
 						<td><code>2014.10.24.08.24</code></td>
 						<td>≈&nbsp;15.0.0</td>
 						<td>Archwing<!-- Login screen says "The Mad Cephalon" --></td>
-						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><!-- Rename DLL & -->Use <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">"Tools" folder from 2015.10.21.12.48</a></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#6636116079410913663">Download</a></td>
 					</tr>
@@ -1091,7 +1091,7 @@
 						<td><code>2014.07.21.18.38</code></td>
 						<td>≈&nbsp;14.0.0</td>
 						<td>The Mad Cephalon</td>
-						<td><!-- Rename DLL & -->Copy "Tools" folder from 2015.10.21.12.48</td>
+						<td><!-- Rename DLL & -->Use <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">"Tools" folder from 2015.10.21.12.48</a></td>
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#7091405412400346572">Download</a></td>
 					</tr>
