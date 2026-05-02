@@ -1015,7 +1015,7 @@
 					<tr id="16.2.0" data-langs="zh" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:05d149999298197c9fa2350ba291d693edd7d962&dn=16.2.0%20%28zh%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-16.2.0/">
 						<td><code>2015.04.01.16.41</code></td>
 						<td>≈&nbsp;16.2.0</td>
-						<td>Tubemen&nbsp;of&nbsp;Regor</td>
+						<td>Sanctuary</td>
 						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.2.0">Download</a></td>
@@ -1023,7 +1023,7 @@
 					<tr id="16.1.6" data-langs="zh" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:f508bab8b87f10a39e78121a01ddc4a83a4a01a9&dn=16.1.6%20%28zh%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-16.1.6/">
 						<td><code>2015.03.31.09.37</code></td>
 						<td>≈&nbsp;16.1.6</td>
-						<td>Tubemen&nbsp;of&nbsp;Regor</td>
+						<td>Sanctuary</td>
 						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.1.6">Download</a></td>
@@ -1031,7 +1031,7 @@
 					<tr id="16.1.5" data-langs="zh" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:f8101356a2ec16cce86e1b526f5809a91591d21d&dn=16.1.5%20%28zh%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-16.1.5/">
 						<td><code>2015.03.30.18.00</code></td>
 						<td>≈&nbsp;16.1.5</td>
-						<td>Tubemen&nbsp;of&nbsp;Regor</td>
+						<td>Sanctuary</td>
 						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.1.5">Download</a></td>
@@ -1039,7 +1039,7 @@
 					<tr id="16.1.4.1" data-langs="zh" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:259e1363b839420d0cddcc5fd12fa7d6e451a6cb&dn=16.1.4.1%20%28zh%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-16.1.4.1/">
 						<td><code>2015.03.28.18.05</code></td>
 						<td>≈&nbsp;16.1.4.1</td>
-						<td>Tubemen&nbsp;of&nbsp;Regor</td>
+						<td>Sanctuary</td>
 						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.1.4.1">Download</a></td>
@@ -1047,7 +1047,7 @@
 					<tr id="16.1.3" data-langs="zh" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:a8d21e8db8ed32c7b995039e4bc450039fe0eeed&dn=16.1.3%20%28zh%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-16.1.3/">
 						<td><code>2015.03.26.16.15</code></td>
 						<td>≈&nbsp;16.1.3</td>
-						<td>Tubemen&nbsp;of&nbsp;Regor</td>
+						<td>Sanctuary</td>
 						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.1.3">Download</a></td>
