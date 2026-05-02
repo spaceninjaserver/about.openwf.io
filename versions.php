@@ -996,6 +996,14 @@
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#7055925076570413672">Download</a></td>
 					</tr>
+					<tr id="17.2.6" data-langs="zh" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:dc58bd145abe0969ed721228dcbb948a6da4c036&dn=17.2.6%20%28zh%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-17.2.6/">
+						<td><code>2015.08.28.16.24</code></td>
+						<td>≈&nbsp;17.2.6</td>
+						<td>Echoes&nbsp;of&nbsp;the&nbsp;Sentient</td>
+						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#17.2.6">Download</a></td>
+					</tr>
 					<tr id="16.11.5" data-langs="en,zh,de,es,fr,it,ja,ko,pl,pt,ru,tc,tr,uk" data-drivers="dx9,dx10" data-magnet="magnet:?xt=urn:btih:8f0dfd6f6dcf2485da42eca4d27cfe54f0b9dbe2&dn=16.11.5%20%28dx9%2C%20dx10%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-16.11.5/">
 						<td><code>2015.07.15.11.43</code></td>
 						<td>≈&nbsp;16.11.5</td>
