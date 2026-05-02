@@ -1012,6 +1012,14 @@
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#232461576962714068">Download</a></td>
 					</tr>
+					<tr id="16.2.0" data-langs="zh" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:05d149999298197c9fa2350ba291d693edd7d962&dn=16.2.0%20%28zh%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-16.2.0/">
+						<td><code>2015.04.01.16.41</code></td>
+						<td>≈&nbsp;16.2.0</td>
+						<td>Tubemen&nbsp;of&nbsp;Regor</td>
+						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#16.2.0">Download</a></td>
+					</tr>
 					<tr id="16.1.6" data-langs="zh" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:f508bab8b87f10a39e78121a01ddc4a83a4a01a9&dn=16.1.6%20%28zh%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-16.1.6/">
 						<td><code>2015.03.31.09.37</code></td>
 						<td>≈&nbsp;16.1.6</td>
