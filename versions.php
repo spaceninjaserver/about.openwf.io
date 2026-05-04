@@ -1455,6 +1455,15 @@
 				</li>
 			</ul>
 			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
+			<div class="row g-3 my-4">
+				<div class="col-6"></div>
+				<div class="col-6">
+					<a href="client-setup<?=$ext;?>" class="card p-3 text-decoration-none text-end">
+						<small class="text-muted">Next</small>
+						<div class="fw-bold text-primary">Client Setup »</div>
+					</a>
+				</div>
+			</div>
 		</div>
 		<div id="patch-download-view" class="d-none">
 			<h3>Downloading <span class="version-name"></span></h3>
@@ -1475,6 +1484,15 @@
 				<li>Now you can drop the update patch on top of the base version, replacing the EXE in the process<!-- The updates will take place once you start the game with the Bootstrapper. --></li>
 			</ol>
 			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
+			<div class="row g-3 my-4">
+				<div class="col-6"></div>
+				<div class="col-6">
+					<a href="client-setup<?=$ext;?>" class="card p-3 text-decoration-none text-end">
+						<small class="text-muted">Next</small>
+						<div class="fw-bold text-primary">Client Setup »</div>
+					</a>
+				</div>
+			</div>
 		</div>
 		<div id="dirty-download-view" class="d-none">
 			<h3>Downloading <span class="version-name"></span></h3>
@@ -1486,6 +1504,15 @@
 			<p>To download it, you will need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
 			<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you can use label replacements to hackily use another language: <a>Magnet</a></p>
 			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
+			<div class="row g-3 my-4">
+				<div class="col-6"></div>
+				<div class="col-6">
+					<a href="client-setup<?=$ext;?>" class="card p-3 text-decoration-none text-end">
+						<small class="text-muted">Next</small>
+						<div class="fw-bold text-primary">Client Setup »</div>
+					</a>
+				</div>
+			</div>
 		</div>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>

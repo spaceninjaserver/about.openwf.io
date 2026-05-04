@@ -10,8 +10,8 @@
 	<?php require "_components/navbar.php"; ?>
 	<div class="container mt-3">
 		<p>This guide will explain the process of setting up the Bootstrapper in a Warframe install, which will allow you to connect to custom servers.</p>
-		<h2>Prerequisites</h2>
-		<p>This guide assumes that you have a supported version of Warframe. Please see <a href="versions<?=$ext;?>" target="_blank">here</a> for supported versions and download instructions.</p>
+		<!-- <h2>Prerequisites</h2>
+		<p>This guide assumes that you have a supported version of Warframe. Please see <a href="versions<?=$ext;?>" target="_blank">here</a> for supported versions and download instructions.</p> -->
 		<h2>Setup</h2>
 		<ol>
 			<li><a href="https://ipfs.io/ipfs/bafkreifedzhddsiz4tfxwkzuzu6722seqvzhp7fdxkvdd6ao3canjesyda?filename=Bootstrapper+Setup.exe" target="_blank">Download Bootstrapper Setup</a> (<a href="https://onlyg.it/OpenWF/Bootstrapper-Setup" target="_blank">source code</a>, <a href="https://openwf.io/supplementals/Bootstrapper%20Setup.sh" download>Linux version</a>)</li>
@@ -41,7 +41,12 @@
 		<p>For more information, check out the Bootstrapper's comprehensive manual, which you can find <a href="bootstrapper-manual<?=(!empty($ext) ? ".html" : "");?>" target="_blank">online</a> and in the <code>OpenWF/Reference Manual.html</code> file.</p>
 
 		<div class="row g-3 my-4">
-			<div class="col-6"></div>
+			<div class="col-6">
+				<a href="versions<?=$ext;?>" class="card p-3 text-decoration-none">
+					<small class="text-muted">Previous</small>
+					<div class="fw-bold text-primary">« Version Archive</div>
+				</a>
+			</div>
 			<div class="col-6">
 				<a href="web-server-setup<?=$ext;?>" class="card p-3 text-decoration-none text-end">
 					<small class="text-muted">Next</small>
