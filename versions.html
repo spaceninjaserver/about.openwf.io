@@ -1550,29 +1550,60 @@
 		<div id="depot-download-view" class="d-none">
 			<h3>Downloading M:<span class="version-name"></span></h3>
 			<p>There are several ways to download Warframe's Steam depot at manifest version <span class="manifest-id"></span>:</p>
-			<ul>
-				<li>
-					You can use <a href="https://github.com/Sainan/steam-manifest-tools/releases" target="_blank">mango</a> like so: <code>mango download-and-install 230411 <span class="manifest-id"></span></code>
-					<ul>
-						<li>The resulting installation will be stored in <code>install/230411/<span class="manifest-id"></span></code>. You may delete the <code>depot</code> folder after.</li>
-					</ul>
-				</li>
-				<li>
-					You can use <a href="https://github.com/SteamRE/DepotDownloader/releases" target="_blank">DepotDownloader</a> like so: <code>DepotDownloader -app 230410 -depot 230411 -manifest <span class="manifest-id"></span> -username &lt;your steam username&gt; -remember-password</code>
-					<ul>
-						<li>This requires a Steam account with Warframe in its library.</li>
-						<li>Note that DepotDownloader may report errors; these are generally only temporary and it will try again.</li>
-					</ul>
-				</li>
-				<li>
-					You can use <a href="steam://nav/console">Steam's console</a> with the following command: <code>download_depot 230410 230411 <span class="manifest-id"></span></code>
-					<ul>
-						<li>This method is not recommended unless you absolutely know what you are doing.</li>
-						<!-- <li>This requires a Steam account with Warframe in its library.</li>
-						<li>The resulting installation will be stored in <code>C:\Program Files (x86)\Steam\steamapps\content\app_230410\depot_230411</code> or equivalent. Once the download is finished, the console will tell you the exact path. Note that you'll want to clean out this folder for subsequent depot downloads to avoid corruption.</li> -->
-					</ul>
-				</li>
-			</ul>
+			<div class="accordion" id="depot-download-accordion">
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-mango" aria-expanded="true" aria-controls="collapse-mango">
+							Using Mango
+						</button>
+					</h2>
+					<div id="collapse-mango" class="accordion-collapse collapse show" data-bs-parent="#depot-download-accordion">
+						<div class="accordion-body">
+							<ol>
+								<li><a href="https://github.com/Sainan/steam-manifest-tools/releases" target="_blank">Download mango</a> and extract it</li>
+								<li>Open a command prompt in the folder where you have mango.exe</li>
+								<li>Run <code>mango download-and-install 230411 <span class="manifest-id"></span></code></li>
+							</ol>
+							<p class="mb-0">The resulting installation will be stored in <code>install/230411/<span class="manifest-id"></span></code>. You may delete the <code>depot</code> folder after.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-depot-downloader" aria-expanded="false" aria-controls="collapse-depot-downloader">
+							Using DepotDownloader
+						</button>
+					</h2>
+					<div id="collapse-depot-downloader" class="accordion-collapse collapse" data-bs-parent="#depot-download-accordion">
+						<div class="accordion-body">
+							<p>This method is not recommended unless you absolutely know what you are doing. You will also need a Steam account with Warframe in its library.</p>
+							<ol>
+								<li><a href="https://github.com/SteamRE/DepotDownloader/releases" target="_blank">Download DepotDownloader</a> and extract it</li>
+								<li>Open a command prompt in the folder where you have DepotDownloader.exe</li>
+								<li>Run <code>DepotDownloader -app 230410 -depot 230411 -manifest <span class="manifest-id"></span> -username &lt;your steam username&gt; -remember-password</code></li>
+							</ol>
+							<p class="mb-0">Note that DepotDownloader may report errors; these are generally only temporary and it will try again.</p>
+						</div>
+					</div>
+				</div>
+				<div class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-steam-console" aria-expanded="false" aria-controls="collapse-steam-console">
+							Using Steam's console
+						</button>
+					</h2>
+					<div id="collapse-steam-console" class="accordion-collapse collapse" data-bs-parent="#depot-download-accordion">
+						<div class="accordion-body">
+							<p>This method is not recommended unless you absolutely know what you are doing. You will also need a Steam account with Warframe in its library.</p>
+							<ol>
+								<li><a href="steam://nav/console">Open Steam's console</a></li>
+								<li>Run <code>download_depot 230410 230411 <span class="manifest-id"></span></code></li>
+							</ol>
+							<p class="mb-0">The resulting installation will be stored in <code>C:\Program Files (x86)\Steam\steamapps\content\app_230410\depot_230411</code> or equivalent. Once the download is finished, the console will tell you the exact path. Note that you'll want to clean out this folder for subsequent depot downloads to avoid corruption.</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
 			<div class="row g-3 my-4">
 				<div class="col-6"></div>
