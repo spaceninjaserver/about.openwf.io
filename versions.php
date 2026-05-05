@@ -1171,7 +1171,7 @@
 						<td><code>2014.04.23.18.00</code></td>
 						<td>≈&nbsp;13.1.1</td>
 						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
-						<td>Use <a href="https://github.com/Sainan/32-bitstrapper" target="_blank">32-Bitstrapper</a> instead of Bootstrapper. Hacky English translation patch included.</td>
+						<td>Use <a href="https://github.com/Sainan/32-bitstrapper" target="_blank">32-Bitstrapper</a> instead of Bootstrapper. Hacky English patch included.</td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#13.1.1">Download</a></td>
 					</tr>
@@ -1405,7 +1405,7 @@
 						<td><code>2013.01.04.10.41</code></td>
 						<td>≈&nbsp;5.2.0</td>
 						<td>Beta 2</td>
-						<td>Not supported by any client patch; <a href="https://discord.com/channels/1108159019635462206/1484684329622962277/1484684329622962277" target="_blank">instructions on Discord</a>. Hacky English translation patch included.</td>
+						<td>Not supported by any client patch; <a href="https://discord.com/channels/1108159019635462206/1484684329622962277/1484684329622962277" target="_blank">instructions on Discord</a>. Hacky English patch included.</td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#5.2.0">Download</a></td>
 					</tr>
