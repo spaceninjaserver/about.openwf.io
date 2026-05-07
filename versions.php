@@ -1227,7 +1227,7 @@
 						<td><code>2013.07.13.03.21</code></td>
 						<td>=&nbsp;9.1.0</td>
 						<td>Vor's&nbsp;Revenge<!-- Login screen says "Open Beta - Update 9" --></td>
-						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Chat is broken<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#9.1.0">Download</a></td>
 					</tr>
