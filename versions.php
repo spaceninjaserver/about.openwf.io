@@ -28,6 +28,10 @@
 					<input class="form-check-input" type="checkbox" id="filter-patch" checked>
 					<label class="form-check-label" for="filter-patch">Update patches</label>
 				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="checkbox" id="filter-cafee" checked>
+					<label class="form-check-label" for="filter-cafee">Café releases</label>
+				</div>
 			</div>
 			<table class="table table-sm table-hover">
 				<thead>
@@ -903,6 +907,14 @@
 						<td>Steam&nbsp;manifest</td>
 						<td><a href="#8998041413872250076">Download</a></td>
 					</tr>
+					<tr id="19.0.3" data-magnet="magnet:?xt=urn:btih:3edf9a1f32a7a76e7e0291408cb40c876e6d3c68&dn=Warframe.2016.11.14.19.10_unpacked&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-19.0.3/">
+						<td><code>2016.11.12.20.09</code></td>
+						<td>≈&nbsp;19.0.3</td>
+						<td>The&nbsp;War&nbsp;Within</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Café&nbsp;release</td>
+						<td><a href="#19.0.3">Download</a></td>
+					</tr>
 					<tr id="19.0.1" data-langs="zh" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:dca455a794c645428c675cef64fe27ca8c923328&dn=19.0.1%20%28zh%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-19.0.1/">
 						<td><code>2016.11.12.20.09</code></td>
 						<td>≈&nbsp;19.0.1</td>
@@ -1546,6 +1558,21 @@
 				</div>
 			</div>
 		</div>
+		<div id="cafee-download-view" class="d-none">
+			<h3>Downloading <span class="version-name"></span></h3>
+			<p>To download this version of Warframe, you only need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
+			<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you can use label replacements to hackily use another language: <a>Magnet</a></p>
+			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
+			<div class="row g-3 my-4">
+				<div class="col-6"></div>
+				<div class="col-6">
+					<a href="client-setup<?=$ext;?>" class="card p-3 text-decoration-none text-end">
+						<small class="text-muted">Next</small>
+						<div class="fw-bold text-primary">Client Setup »</div>
+					</a>
+				</div>
+			</div>
+		</div>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
 	<script src="_assets/censorcanary.min.js" defer></script>
@@ -1567,6 +1594,7 @@
 			document.getElementById("depot-download-view").classList.add("d-none");
 			document.getElementById("patch-download-view").classList.add("d-none");
 			document.getElementById("dirty-download-view").classList.add("d-none");
+			document.getElementById("cafee-download-view").classList.add("d-none");
 
 			const hash = location.hash.toString().replace("#", "");
 			const tr = hash ? document.getElementById(hash) : undefined;
@@ -1590,22 +1618,32 @@
 					}
 					else
 					{
-						// User installation
-						document.getElementById("dirty-download-view").classList.remove("d-none");
-						document.querySelectorAll(".language-options").forEach(x => x.textContent = formatAlternatives(tr.getAttribute("data-langs").split(",")));
-						document.querySelectorAll(".graphicsDriver-options").forEach(x => x.textContent = formatAlternatives(tr.getAttribute("data-drivers").split(",")));
+						const torrentName = new URLSearchParams(new URL(magnet).search).get("dn");
 
-						document.querySelector("#dirty-download-view .torrent").href = `supplementals/dirty builds/${new URLSearchParams(new URL(magnet).search).get("dn")}.torrent`;
+						document.querySelectorAll(".torrent").forEach(x => x.href = `supplementals/torrents/${torrentName}.torrent`);
 
-						const catLabelsMagnet = tr.getAttribute("data-cat-labels");
-						if (catLabelsMagnet)
+						if (tr.getAttribute("data-langs"))
 						{
-							document.getElementById("cat-labels").classList.remove("d-none");
-							document.querySelector("#cat-labels a").href = catLabelsMagnet;
+							// User installation
+							document.getElementById("dirty-download-view").classList.remove("d-none");
+							document.querySelectorAll(".language-options").forEach(x => x.textContent = formatAlternatives(tr.getAttribute("data-langs").split(",")));
+							document.querySelectorAll(".graphicsDriver-options").forEach(x => x.textContent = formatAlternatives(tr.getAttribute("data-drivers").split(",")));
+
+							const catLabelsMagnet = tr.getAttribute("data-cat-labels");
+							if (catLabelsMagnet)
+							{
+								document.getElementById("cat-labels").classList.remove("d-none");
+								document.querySelector("#cat-labels a").href = catLabelsMagnet;
+							}
+							else
+							{
+								document.getElementById("cat-labels").classList.add("d-none");
+							}
 						}
 						else
 						{
-							document.getElementById("cat-labels").classList.add("d-none");
+							// Café release
+							document.getElementById("cafee-download-view").classList.remove("d-none");
 						}
 					}
 				}
@@ -1651,9 +1689,12 @@
 
 		function applyFilters()
 		{
-			const steam = document.getElementById("filter-steam").checked;
-			const dirty = document.getElementById("filter-dirty").checked;
-			const patch = document.getElementById("filter-patch").checked;
+			const filters = {
+				steam: document.getElementById("filter-steam").checked,
+				dirty: document.getElementById("filter-dirty").checked,
+				patch: document.getElementById("filter-patch").checked,
+				cafee: document.getElementById("filter-cafee").checked,
+			};
 			document.querySelectorAll("tr[id]").forEach(function(tr)
 			{
 				let show;
@@ -1661,16 +1702,20 @@
 				{
 					if (tr.getAttribute("data-langs"))
 					{
-						show = dirty;
+						show = filters.dirty;
+					}
+					else if (tr.getAttribute("data-base-manifest"))
+					{
+						show = filters.patch;
 					}
 					else
 					{
-						show = patch;
+						show = filters.cafee;
 					}
 				}
 				else
 				{
-					show = steam;
+					show = filters.steam;
 				}
 
 				if (show)
@@ -1683,34 +1728,29 @@
 				}
 			});
 
-			if (!dirty && !patch)
+			if (Object.values(filters).filter(x => x).length == 1)
 			{
-				document.getElementById("filter-steam").setAttribute("disabled", "disabled");
+				for (const [key, value] of Object.entries(filters))
+				{
+					if (value)
+					{
+						document.getElementById(`filter-${key}`).setAttribute("disabled", "disabled");
+						break;
+					}
+				}
 			}
 			else
 			{
-				document.getElementById("filter-steam").removeAttribute("disabled");
-			}
-			if (!steam && !patch)
-			{
-				document.getElementById("filter-dirty").setAttribute("disabled", "disabled");
-			}
-			else
-			{
-				document.getElementById("filter-dirty").removeAttribute("disabled");
-			}
-			if (!steam && !dirty)
-			{
-				document.getElementById("filter-patch").setAttribute("disabled", "disabled");
-			}
-			else
-			{
-				document.getElementById("filter-patch").removeAttribute("disabled");
+				for (const key in filters)
+				{
+					document.getElementById(`filter-${key}`).removeAttribute("disabled");
+				}
 			}
 		}
 		document.getElementById("filter-steam").onchange = applyFilters;
 		document.getElementById("filter-dirty").onchange = applyFilters;
 		document.getElementById("filter-patch").onchange = applyFilters;
+		document.getElementById("filter-cafee").onchange = applyFilters;
 		applyFilters();
 
 		document.querySelectorAll("tr td:nth-child(6) a").forEach(a =>

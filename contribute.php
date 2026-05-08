@@ -18,7 +18,7 @@
 			<li><a href="https://onlyg.it/OpenWF/Translations" target="_blank">Bootstrapper</a></li>
 		</ul>
 		<h2>Seeding</h2>
-		<p>We'd appreciate long-term seeding of update patches and user installations provided via BitTorrent v1 for <a href="/versions<?=$ext;?>">old versions</a>.</p>
+		<p>We'd appreciate long-term seeding of <a href="/versions<?=$ext;?>">old versions</a> which are distributed via BitTorrent v1 (all of them except for Steam manifest versions).</p>
 		<!-- <p>We are looking into IPFS for censorship-resistance. You could help the project out by pinning some things to your own node(s):</p>
 		<ul>
 			<li>OpenWF Website: <code>ipfs pin add /ipns/openwf.io</code></li>
