@@ -471,7 +471,7 @@
 						<td><code>2021.12.21.14.24</code></td>
 						<td>=&nbsp;31.0.5</td>
 						<td>The&nbsp;New&nbsp;War</td>
-						<td><span class="table-only-note">Russian only</span></td>
+						<td><span class="table-only-note">Russian only.</span></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#31.0.5">Download</a></td>
 					</tr>
@@ -712,7 +712,7 @@
 						<td><code>2018.11.29.15.55</code></td>
 						<td>≈&nbsp;24.1.2</td>
 						<td>Fortuna</td>
-						<td>Gear wheel is broken<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Gear wheel is broken.<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#8040761247114336449">Download</a></td>
 					</tr>
@@ -927,7 +927,7 @@
 						<td><code>2016.11.12.20.09</code></td>
 						<td>≈&nbsp;19.0.1</td>
 						<td>The&nbsp;War&nbsp;Within</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#19.0.1">Download</a></td>
 					</tr>
@@ -952,7 +952,7 @@
 						<td><code>2016.09.02.15.22</code></td>
 						<td>≈&nbsp;18.19.3</td>
 						<td>The&nbsp;Silver&nbsp;Grove</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#18.19.3">Download</a></td>
 					</tr>
@@ -996,7 +996,7 @@
 						<td><code>2015.10.22.11.01</code></td>
 						<td>≈&nbsp;17.8.1</td>
 						<td>The&nbsp;Jordas&nbsp;Precept</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#17.8.1">Download</a></td>
 					</tr>
@@ -1012,7 +1012,7 @@
 						<td><code>2015.10.15.12.24</code></td>
 						<td>≈&nbsp;17.7.1</td>
 						<td>The&nbsp;Jordas&nbsp;Precept</td>
-						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a></td>
+						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a>.</td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#7055925076570413672">Download</a></td>
 					</tr>
@@ -1020,7 +1020,7 @@
 						<td><code>2015.08.28.16.24</code></td>
 						<td>≈&nbsp;17.2.6</td>
 						<td>Echoes&nbsp;of&nbsp;the&nbsp;Sentient</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#17.2.6">Download</a></td>
 					</tr>
@@ -1044,7 +1044,7 @@
 						<td><code>2015.05.12.16.24</code></td>
 						<td>≈&nbsp;16.5.0</td>
 						<td>Tubemen&nbsp;of&nbsp;Regor</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.5.0">Download</a></td>
 					</tr>
@@ -1052,7 +1052,7 @@
 						<td><code>2015.04.23.19.08</code></td>
 						<td>≈&nbsp;16.4.0</td>
 						<td>Sanctuary</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.4.0">Download</a></td>
 					</tr>
@@ -1060,7 +1060,7 @@
 						<td><code>2015.04.13.14.30</code></td>
 						<td>≈&nbsp;16.3.2</td>
 						<td>Sanctuary</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.3.2">Download</a></td>
 					</tr>
@@ -1068,7 +1068,7 @@
 						<td><code>2015.04.01.16.41</code></td>
 						<td>≈&nbsp;16.2.0</td>
 						<td>Sanctuary</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.2.0">Download</a></td>
 					</tr>
@@ -1076,7 +1076,7 @@
 						<td><code>2015.03.31.09.37</code></td>
 						<td>≈&nbsp;16.1.6</td>
 						<td>Sanctuary</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.1.6">Download</a></td>
 					</tr>
@@ -1084,7 +1084,7 @@
 						<td><code>2015.03.30.18.00</code></td>
 						<td>≈&nbsp;16.1.5</td>
 						<td>Sanctuary</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.1.5">Download</a></td>
 					</tr>
@@ -1092,7 +1092,7 @@
 						<td><code>2015.03.28.18.05</code></td>
 						<td>≈&nbsp;16.1.4.1</td>
 						<td>Sanctuary</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.1.4.1">Download</a></td>
 					</tr>
@@ -1100,7 +1100,7 @@
 						<td><code>2015.03.26.16.15</code></td>
 						<td>≈&nbsp;16.1.3</td>
 						<td>Sanctuary</td>
-						<td><span class="table-only-note">Chinese only</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><span class="table-only-note">Chinese only.</span><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#16.1.3">Download</a></td>
 					</tr>
@@ -1108,7 +1108,7 @@
 						<td><code>2015.03.21.08.17</code></td>
 						<td>≈&nbsp;16.0.2</td>
 						<td>Sanctuary</td>
-						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a></td>
+						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a>.</td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#567734397704178704">Download</a></td>
 					</tr>
@@ -1124,7 +1124,7 @@
 						<td><code>2014.11.27.14.35</code></td>
 						<td>≈&nbsp;15.5.0</td>
 						<td>Mesa&nbsp;Update</td>
-						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a></td>
+						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a>.</td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#7377933404197762308">Download</a></td>
 					</tr>
@@ -1132,7 +1132,7 @@
 						<td><code>2014.10.29.18.19</code></td>
 						<td>≈&nbsp;15.0.8</td>
 						<td>Archwing</td>
-						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a></td>
+						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a>.</td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#6368936033089773713">Download</a></td>
 					</tr>
@@ -1140,7 +1140,7 @@
 						<td><code>2014.10.28.17.15</code></td>
 						<td>≈&nbsp;15.0.7</td>
 						<td>Archwing</td>
-						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a></td>
+						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a>.</td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#1212629036031221707">Download</a></td>
 					</tr>
@@ -1148,7 +1148,7 @@
 						<td><code>2014.10.27.17.07</code></td>
 						<td>≈&nbsp;15.0.6</td>
 						<td>Archwing</td>
-						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a></td>
+						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a>.</td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#1048315274024428186">Download</a></td>
 					</tr>
@@ -1156,7 +1156,7 @@
 						<td><code>2014.10.24.08.24</code></td>
 						<td>≈&nbsp;15.0.0</td>
 						<td>Archwing<!-- Login screen says "The Mad Cephalon" --></td>
-						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a></td>
+						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a>.</td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#6636116079410913663">Download</a></td>
 					</tr>
@@ -1167,7 +1167,7 @@
 						<td><code>2014.07.21.18.38</code></td>
 						<td>≈&nbsp;14.0.0</td>
 						<td>The Mad Cephalon</td>
-						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a></td>
+						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a>.</td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#7091405412400346572">Download</a></td>
 					</tr>
@@ -1183,7 +1183,7 @@
 						<td><code>2014.05.21.15.02</code></td>
 						<td>≈&nbsp;13.4.0</td>
 						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
-						<td>Won't boot if you last booted a recent version<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Won't boot if you last booted a recent version.<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#13.4.0">Download</a></td>
 					</tr>
@@ -1199,7 +1199,7 @@
 						<td><code>2014.04.10.17.47</code></td>
 						<td>≈&nbsp;13.0.0</td>
 						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
-						<td>Works but everyone is A-posing, making enemies non-threats<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Everyone is A-posing, making enemies non-threats.<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#5876704438298513797">Download</a></td>
 					</tr>
@@ -1217,7 +1217,7 @@
 						<td><code>2014.02.14.17.05</code></td>
 						<td>≈&nbsp;12.1.2</td>
 						<td>Zephyr Rises</td>
-						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. -->Cannot use melee</td>
+						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. -->Cannot use melee.</td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#12.1.2">Download</a></td>
 					</tr>
@@ -1228,7 +1228,7 @@
 						<td><code>2013.11.12.14.03</code></td>
 						<td>≈&nbsp;10.8.0</td>
 						<td>Shadows Of The Dead<!-- Login screen says "Open Beta - Update 10" --></td>
-						<td>Has halloween assets enabled<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Has halloween assets enabled.<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#4839307268506097307">Download</a></td>
 					</tr>
@@ -1247,7 +1247,7 @@
 						<td><code>2013.07.13.03.21</code></td>
 						<td>=&nbsp;9.1.0</td>
 						<td>Vor's&nbsp;Revenge<!-- Login screen says "Open Beta - Update 9" --></td>
-						<td>Chat is broken<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Chat is broken.<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#9.1.0">Download</a></td>
 					</tr>
@@ -1279,7 +1279,7 @@
 						<td><code>2013.05.08.10.59</code></td>
 						<td>≈&nbsp;7.10.2</td>
 						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
-						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Has some texture issues.<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#1214562332840994196">Download</a></td>
 					</tr>
@@ -1287,7 +1287,7 @@
 						<td><code>2013.05.06.10.38</code></td>
 						<td>≈&nbsp;7.10.1</td>
 						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
-						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Has some texture issues.<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#4151868779723562813">Download</a></td>
 					</tr>
@@ -1295,7 +1295,7 @@
 						<td><code>2013.05.04.02.15</code></td>
 						<td>≈&nbsp;7.10.0</td>
 						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
-						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Has some texture issues.<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#588705282697359018">Download</a></td>
 					</tr>
@@ -1303,7 +1303,7 @@
 						<td><code>2013.05.03.18.06</code></td>
 						<td>≈&nbsp;7.10.0</td>
 						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
-						<td>Has some texture issues<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Has some texture issues.<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#3767535784967645478">Download</a></td>
 					</tr>
@@ -1662,7 +1662,7 @@
 					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
 				}
 
-				if (tr.children[3].textContent && tr.children[3].textContent != "Chinese only" && tr.children[3].textContent != "Russian only")
+				if (tr.children[3].textContent && tr.children[3].textContent != "Chinese only." && tr.children[3].textContent != "Russian only.")
 				{
 					document.querySelectorAll(".version-notes").forEach(elm =>
 					{
