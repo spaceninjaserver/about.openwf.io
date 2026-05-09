@@ -586,6 +586,14 @@
 						<td>Steam&nbsp;release</td>
 						<td><a href="#1198361709927223847">Download</a></td>
 					</tr>
+					<tr id="31.0.5" data-langs="ru" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:56b3c69b7c3ed3b0e47858a4ac88bd5ee2a75a10&dn=31.0.5%20%28ru%2C%20dx11%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-31.0.5/">
+						<td><code>2021.12.21.14.24</code></td>
+						<td>=&nbsp;31.0.5</td>
+						<td>The&nbsp;New&nbsp;War</td>
+						<td><span class="table-only-note">Russian only</span></td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#31.0.5">Download</a></td>
+					</tr>
 					<tr id="563653176338996292">
 						<td><code>2021.12.15.00.15</code></td>
 						<td>≈&nbsp;31.0.0</td>
@@ -1773,7 +1781,7 @@
 					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
 				}
 
-				if (tr.children[3].textContent && tr.children[3].textContent != "Chinese only")
+				if (tr.children[3].textContent && tr.children[3].textContent != "Chinese only" && tr.children[3].textContent != "Russian only")
 				{
 					document.querySelectorAll(".version-notes").forEach(elm =>
 					{
