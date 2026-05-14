@@ -1441,7 +1441,7 @@
 						<td><code>2012.12.31.16.20</code></td>
 						<td>≈&nbsp;5.1.0</td>
 						<td>Beta 2</td>
-						<td>Not supported by any client patch; <a href="https://discord.com/channels/1108159019635462206/1484684329622962277/1484684329622962277" target="_blank">instructions on Discord</a>.<span class="table-only-note"> Russian only.</span></td>
+						<td>Not supported by any client patch; <a href="https://discord.com/channels/1108159019635462206/1484684329622962277/1484684329622962277" target="_blank">instructions on Discord</a>. Hacky English patch <a href="supplementals/5.1.0 hacky english patch.7z" download>here</a>.</td>
 						<td>User&nbsp;installation</td>
 						<td><a href="#5.1.0">Download</a></td>
 					</tr>
