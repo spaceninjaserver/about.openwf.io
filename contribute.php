@@ -18,13 +18,7 @@
 			<li><a href="https://onlyg.it/OpenWF/Translations" target="_blank">Bootstrapper</a></li>
 		</ul>
 		<h2>Seeding</h2>
-		<p>We'd appreciate long-term seeding of <a href="/versions<?=$ext;?>">old versions</a> which are distributed via BitTorrent v1 (all of them except for Steam manifest versions).</p>
-		<!-- <p>We are looking into IPFS for censorship-resistance. You could help the project out by pinning some things to your own node(s):</p>
-		<ul>
-			<li>OpenWF Website: <code>ipfs pin add /ipns/openwf.io</code></li>
-			<li>SpaceNinjaServer git mirror: <code>ipfs pin add /ipns/sns.openwf.io</code> (<a href="https://ipfs.io/ipns/k51qzi5uqu5diybf2prwdxnyiewvnjn5jshwiv5awoqrn9z5tfen8p31x15jk9/#repo=https%3A%2F%2Fipfs.io%2Fipns%2Fsns.openwf.io" target="_blank">gitview</a>)</li>
-		</ul>
-		<p>Note that IPNS names are resolved to their CID when pinning, so an hourly cronjob is recommended.</p> -->
+		<p>We'd appreciate long-term seeding of <a href="/versions<?=$ext;?>" target="_blank">old versions</a> which are distributed via BitTorrent v1 (all of them except for Steam manifest versions). An RSS feed for them is available at <a href="https://about.openwf.io/supplementals/torrents.xml" target="_blank">https://about.openwf.io/supplementals/torrents.xml</a>.</p>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
 	<script src="_assets/censorcanary.min.js" defer></script>
