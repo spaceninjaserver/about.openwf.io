@@ -31,6 +31,5 @@
 		<p>For more details, consult the Bootstrapper's manual, which fully documents the syntax for Metadata Patches.</p>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
-	<script src="_assets/censorcanary.min.js" defer></script>
 </body>
 </html>

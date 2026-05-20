@@ -24,6 +24,5 @@
 		</ol>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
-	<script src="_assets/censorcanary.min.js" defer></script>
 </body>
 </html>
