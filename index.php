@@ -19,7 +19,7 @@
 		<p>The versions supported by OpenWF will always be available to play and revisit.</p>
 		<a href="versions<?=$ext;?>" class="btn btn-primary">Get Started</a>
 		<h3 class="mt-4"><abbr title="Frequently Asked Questions">FAQ</abbr></h3>
-		<div class="accordion" id="faq-accordion">
+		<div id="faq-accordion" class="accordion mb-3">
 			<div class="accordion-item">
 				<h2 class="accordion-header">
 					<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-ban" aria-expanded="true" aria-controls="collapse-ban">
