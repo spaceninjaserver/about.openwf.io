@@ -46,9 +46,9 @@
 				<tbody>
 					<!-- https://steamdb.info/depot/230411/manifests/ -->
 					<?php foreach ([
-							"2026.02.13.16.03" => "41.1.2",
-							"2026.02.12.13.11" => "41.1.1",
-							"2026.02.10.16.04"/* /ik84b+fTALyGErEcu1hc5Q */ => "41.1.0",
+							"2026.02.13.16.03/m9D"/*2v+Lb-IlcRhQxYG26Cw*/ => "41.1.2",
+							"2026.02.12.13.11/0q2"/*7OO7-Bc-sO-RyGop2fQ*/ => "41.1.1",
+							"2026.02.10.16.04/ik8"/*4b+fTALyGErEcu1hc5Q*/ => "41.1.0",
 						] as $buildVersion => $gameVersion): ?>
 						<tr id="<?=$gameVersion;?>" data-base-manifest="843737746734465482" data-mega="https://mega.nz/file/cxRnTBiZ#Xf7O8vo02U1jRgqXC9g2jwAT7h5rtCs4uWd8DOyjMGw" data-magnet="magnet:?xt=urn:btih:54a94a4ae8ff17bde1459861a9cfd45c8e45db6e&dn=41.1.x.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce">
 							<td><code><?=$buildVersion;?></code></td>
@@ -60,7 +60,7 @@
 						</tr>
 					<?php endforeach; ?>
 					<tr id="843737746734465482">
-						<td><code>2026.02.10.16.04</code><!-- /o-nHGWuMy+ZR1EuJ6xNcnQ --></td>
+						<td><code>2026.02.10.16.04/o-n<!-- HGWuMy+ZR1EuJ6xNcnQ --></code></td>
 						<td>&lt;&nbsp;41.1.0</td>
 						<td>Vauban&nbsp;Heirloom<!-- Login screen says "The Old Peace" --></td>
 						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
@@ -68,12 +68,12 @@
 						<td><a href="#843737746734465482">Download</a></td>
 					</tr>
 					<?php foreach ([
-							"2026.01.14.13.46" => "41.0.7",
-							"2026.01.08.11.06" => "41.0.6",
-							"2025.12.18.13.45" => "41.0.5",
-							"2025.12.17.11.49" => "41.0.4",
-							"2025.12.15.16.05" => "41.0.3",
-							"2025.12.11.17.09" => "41.0.2",
+							"2026.01.14.13.46/5VM"/*6JzeP1sevmSll23nqEA*/ => "41.0.7",
+							"2026.01.08.11.06/NTZ"/*6vFwMk1Ch3Dq00lmcvw*/ => "41.0.6",
+							"2025.12.18.13.45/7IH"/*lOLt4bORtAylh4Msbtw*/ => "41.0.5",
+							"2025.12.17.11.49/4UY"/*yamoAjIb8W1difjwhCQ*/ => "41.0.4",
+							"2025.12.15.16.05/IVy"/*uDDhaQ54R8efItHcWkw*/ => "41.0.3",
+							"2025.12.11.17.09/KJW"/*7sLwR58ZKITGRLBlGng*/ => "41.0.2",
 						] as $buildVersion => $gameVersion): ?>
 						<tr id="<?=$gameVersion;?>" data-base-manifest="7186674829434135359" data-mega="https://mega.nz/file/lwhwQaAC#6tRwO7U22hsa9SQBHQyvAjMGFtB0W8c1D7qRogScNJ8" data-magnet="magnet:?xt=urn:btih:ad150cc683494f549bd16ecab763bb060c6f860a&dn=41.0.2-41.0.7.7z&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce">
 							<td><code><?=$buildVersion;?></code></td>
@@ -93,8 +93,8 @@
 						<td><a href="#7186674829434135359">Download</a></td>
 					</tr>
 					<?php foreach ([
-							"2025.12.10.16.35" => "41.0.1",
-							"2025.12.10.08.11" => "41.0.0",
+							"2025.12.10.16.35/348"/*iBxxMTbP2+TV0FAt6EA*/ => "41.0.1",
+							"2025.12.10.08.11/KjY"/*2fxCtG4UMsO-g6srtNQ*/ => "41.0.0",
 						] as $buildVersion => $gameVersion): ?>
 						<tr id="<?=$gameVersion;?>" data-base-manifest="2095600306818101508" data-mega="https://mega.nz/file/RwwiHLDD#gOzb7tqTiwtEPwqH0nwXzGnigF9S_jSGNJz1u0qsq3c" data-magnet="magnet:?xt=urn:btih:d4bd3b8409cba706704e9ca6b5ad43d95bf25cc6&dn=41.0.0-41.0.1.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
 							<td><code><?=$buildVersion;?></code></td>
@@ -114,13 +114,13 @@
 						<td><a href="#2095600306818101508">Download</a></td>
 					</tr>
 					<?php foreach ([
-							"2025.10.29.12.05" => "40.0.5.1",
-							"2025.10.28.13.00" => "40.0.5",
-							"2025.10.23.13.35" => "40.0.4",
-							"2025.10.21.11.10" => "40.0.3",
-							"2025.10.16.14.47" => "40.0.2",
-							"2025.10.15.14.12" => "40.0.1",
-							"2025.10.15.09.36" => "40.0.0",
+							"2025.10.29.12.05/Iqe"/*eHbWwzs0gP7IhLxExKg*/ => "40.0.5.1",
+							"2025.10.28.13.00/V6K"/*aREdkp-PqqszR3mjfIQ*/ => "40.0.5",
+							"2025.10.23.13.35/Upe"/*nV6Y-M6haKiVwhImR3g*/ => "40.0.4",
+							"2025.10.21.11.10/5md"/*gDNSr76x70x0Qrt17lg*/ => "40.0.3",
+							"2025.10.16.14.47/Gpi"/*0Nvtz7IpNp5G-GCYvaQ*/ => "40.0.2",
+							"2025.10.15.14.12/4Ts"/*H6HYbM2qpPn5o6X255w*/ => "40.0.1",
+							"2025.10.15.09.36/uYi"/*6Y-GqaVVuIcBnpeFLWA*/ => "40.0.0",
 						] as $buildVersion => $gameVersion): ?>
 						<tr id="<?=$gameVersion;?>" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
 							<td><code><?=$buildVersion;?></code></td>
@@ -140,7 +140,7 @@
 						<td><a href="#4384985961440518177">Download</a></td>
 					</tr>
 					<tr id="39.1.3" data-base-manifest="8391191747297658560" data-mega="https://mega.nz/file/t1ImwaQY#fova1j0G6u5RUhksghiYCLDkCP_a2oLge-FQScKh30w" data-magnet="magnet:?xt=urn:btih:04f15ff0082809b38804d2ccc6e2edadd6f40468&dn=39.1.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
-						<td><code>2025.09.02.14.13</code></td>
+						<td><code>2025.09.02.14.13/C1u<!-- uuxHFA5pFWj3h1OydPA --></code></td>
 						<td>=&nbsp;39.1.3</td>
 						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
 						<td></td>
@@ -148,7 +148,7 @@
 						<td><a href="#39.1.3">Download</a></td>
 					</tr>
 					<tr id="39.1.2" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:813024986e7baeae77bd9bc84a1aabff2f4b5792&dn=39.1.2%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-39.1.2/" data-cat-labels="magnet:?xt=urn:btih:a5497d2d79ae24abde60999ad4480a57c8ae7dc3&dn=cat%20labels%20for%2039.1.2&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
-						<td><code>2025.06.26.13.57</code></td>
+						<td><code>2025.06.26.13.57/FcC<!-- EQHekO73H9ITVEswXRg --></code></td>
 						<td>=&nbsp;39.1.2</td>
 						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
 						<td></td>
@@ -156,7 +156,7 @@
 						<td><a href="#39.1.2">Download</a></td>
 					</tr>
 					<tr id="39.1.0" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:02000a8ab234e7d42a18fd650d1ef5dcebde75ba&dn=39.1.0&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-39.1.0/" data-cat-labels="magnet:?xt=urn:btih:a1cb7b0285974747502a3675db7e7e742ce9357a&dn=cat%20labels%20for%2039.1.0&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
-						<td><code>2025.08.26.09.49</code></td>
+						<td><code>2025.08.26.09.49/IjV<!-- 4RCfdEm14t9Q6vK5FgA --></code></td>
 						<td>=&nbsp;39.1.0</td>
 						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
 						<td></td>
@@ -164,7 +164,7 @@
 						<td><a href="#39.1.0">Download</a></td>
 					</tr>
 					<tr id="39.0.7" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5958ef3d9ebacd98ea447ddafef118297b35911&dn=39.0.7&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-39.0.7/" data-cat-labels="magnet:?xt=urn:btih:fa592a64597adecaf3f6c7faf4725f1693a8ec90&dn=cat%20labels%20for%2039.0.6%20and%2039.0.7&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
-						<td><code>2025.07.23.12.28</code></td>
+						<td><code>2025.07.23.12.28/ozc<!-- r7GvXBJpZoUt+gczG1Q --></code></td>
 						<td>=&nbsp;39.0.7</td>
 						<td>Isleweaver</td>
 						<td></td>
@@ -180,7 +180,7 @@
 						<td><a href="#8391191747297658560">Download</a></td>
 					</tr>
 					<tr id="38.6.3" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:99ffc6db0a41ad8043214bb490b43049e79591de&dn=38.6.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.6.3/" data-cat-labels="magnet:?xt=urn:btih:64b87b489d409f6849ca939f0c2c9ce52029db93&dn=cat%20labels%20for%2038.6.2%20and%2038.6.3&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
-						<td><code>2025.05.23.11.28</code></td>
+						<td><code>2025.05.23.11.28/G+E<!-- TfMFY+OLFbUms3Ni1Lw --></code></td>
 						<td>=&nbsp;38.6.3</td>
 						<td>Yareli&nbsp;Prime<!-- Login screen says "Techrot Encore" --></td>
 						<td></td>
@@ -196,7 +196,7 @@
 						<td><a href="#6046892458385712496">Download</a></td>
 					</tr>
 					<tr id="38.5.11" data-langs="en,ru,uk" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:89183353a366d99d6bdac480155a283e0d78b634&dn=38.5.11%20%28en%2C%20ru%2C%20uk%2C%20dx11%2C%20dx12%29&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-38.5.11/" data-cat-labels="magnet:?xt=urn:btih:fa6915c393a7edc5f017bd5b62bfc9f77e15443b&dn=cat%20labels%20for%2038.5.11&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
-						<td><code>2025.04.15.15.16</code></td>
+						<td><code>2025.04.15.15.16/wXl<!-- 4NfXQDSLFhnL2fuzMmw --></code></td>
 						<td>=&nbsp;38.5.11</td>
 						<td>Techrot&nbsp;Encore</td>
 						<td></td>
@@ -204,7 +204,7 @@
 						<td><a href="#38.5.11">Download</a></td>
 					</tr>
 					<tr id="38.5.5" data-langs="en,ja" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f5c305ac1892ae39930f71e9e1289402f847f410&dn=38.5.5&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.5.5/" data-cat-labels="magnet:?xt=urn:btih:c8e46a406a5b554fe9158a8dc615d6befc2b7638&dn=cat%20labels%20for%2038.5.5&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
-						<td><code>2025.03.27.08.48</code></td>
+						<td><code>2025.03.27.08.48/+zB<!-- 2kr0Rgt7XsjdItcDyuQ --></code></td>
 						<td>=&nbsp;38.5.5</td>
 						<td>Techrot&nbsp;Encore</td>
 						<td></td>
@@ -220,7 +220,7 @@
 						<td><a href="#4212893560910494140">Download</a></td>
 					</tr>
 					<tr id="38.0.12" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:0cbc3f5d26065d6909536d0e322774fc53e4a91f&dn=38.0.12&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-38.0.12/" data-cat-labels="magnet:?xt=urn:btih:fe2c9f14e6aa9b27cf1a67c5b54aafb78dc6ed66&dn=cat%20labels%20for%2038.0.12&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
-						<td><code>2025.02.19.16.14</code></td>
+						<td><code>2025.02.19.16.14/tDP<!-- Tz4THsr61daFWpuxkfQ --></code></td>
 						<td>=&nbsp;38.0.12</td>
 						<td>1999</td>
 						<td></td>
@@ -228,7 +228,7 @@
 						<td><a href="#38.0.12">Download</a></td>
 					</tr>
 					<tr id="38.0.11" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:03cce7abccb6e723066dad8847a85578b5ff0958&dn=38.0.11%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-38.0.11/" data-cat-labels="magnet:?xt=urn:btih:b633df3dd7296182da966b82dec35f23a129a0e1&dn=cat%20labels%20for%2038.0.11&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
-						<td><code>2025.02.13.12.01</code></td>
+						<td><code>2025.02.13.12.01/vtc<!-- CDmfVstZ2MTmjxxkwdw --></code></td>
 						<td>=&nbsp;38.0.11</td>
 						<td>1999</td>
 						<td></td>
@@ -236,7 +236,7 @@
 						<td><a href="#38.0.11">Download</a></td>
 					</tr>
 					<tr id="38.0.7" data-langs="es" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:bf6ea8112deb1329a526be2f531145db9c4e37de&dn=38.0.7&tr=http%3A%2F%2Fbt1.archive.org%3A6969%2Fannounce&tr=http%3A%2F%2Fbt2.archive.org%3A6969%2Fannounce&ws=http://ia600606.us.archive.org/1/items/&ws=http://ia800606.us.archive.org/1/items/&ws=https://archive.org/download/" data-cat-labels="magnet:?xt=urn:btih:f9f6e1737f3024ad7fe2ca48493d23e693c34f74&dn=cat%20labels%20for%2038.0.6%20and%2038.0.7&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce">
-						<td><code>2025.01.13.14.52</code></td>
+						<td><code>2025.01.13.14.52/jjA<!-- DUVKQDDhggCQjou+Vng --></code></td>
 						<td>=&nbsp;38.0.7</td>
 						<td>1999</td>
 						<td></td>
@@ -252,7 +252,7 @@
 						<td><a href="#3864063200081954630">Download</a></td>
 					</tr>
 					<tr id="513490184226321110">
-						<td><code>2024.10.11.10.06</code></td>
+						<td><code>2024.10.11.10.06/ZpZ<!-- IF2fwJVeRfvk3jOzwiQ --></code></td>
 						<td>=&nbsp;37.0.6</td>
 						<td>Koumei&nbsp;&amp;&nbsp;the&nbsp;Five&nbsp;Fates</td>
 						<td></td>
@@ -268,7 +268,7 @@
 						<td><a href="#2655930801276651913">Download</a></td>
 					</tr>
 					<tr id="36.1.6.1" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:f74ea51ad956ebbe29e6769bc28df5f74d0f4f49&dn=36.1.6.1%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-36.1.6.1/">
-						<td><code>2024.08.28.10.54<!-- /2QPbMhfBQLpPfYn7EsW-rA --></code></td>
+						<td><code>2024.08.28.10.54/2QP<!-- bMhfBQLpPfYn7EsW-rA --></code></td>
 						<td>=&nbsp;36.1.6.1</td>
 						<td>The&nbsp;Lotus&nbsp;Eaters</td>
 						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
@@ -276,7 +276,7 @@
 						<td><a href="#36.1.6.1">Download</a></td>
 					</tr>
 					<tr id="8111233839173446959">
-						<td><code>2024.08.21.20.02</code></td>
+						<td><code>2024.08.21.20.02/u1P<!-- 56Ry+MBEjBrtihwJqhQ --></code></td>
 						<td>=&nbsp;36.1.2</td>
 						<td>The&nbsp;Lotus&nbsp;Eaters</td>
 						<td></td>
@@ -284,7 +284,7 @@
 						<td><a href="#8111233839173446959">Download</a></td>
 					</tr>
 					<tr id="7104716125379362906">
-						<td><code>2024.07.17.17.07</code></td>
+						<td><code>2024.07.17.17.07/DKw<!-- mMX-wy7aDs8LbUyvqoQ --></code></td>
 						<td>=&nbsp;36.0.7</td>
 						<td>Jade&nbsp;Shadows</td>
 						<td></td>
@@ -292,7 +292,7 @@
 						<td><a href="#7104716125379362906">Download</a></td>
 					</tr>
 					<tr id="8456987056335242580">
-						<td><code>2024.06.25.16.44</code></td>
+						<td><code>2024.06.25.16.44/sRJ<!-- zCY+MehcCuhrT45p8eA --></code></td>
 						<td>=&nbsp;36.0.4</td>
 						<td>Jade&nbsp;Shadows</td>
 						<td></td>
@@ -308,7 +308,7 @@
 						<td><a href="#8444137865636064549">Download</a></td>
 					</tr>
 					<tr id="4262681179882731333">
-						<td><code>2024.03.24.20.00</code></td>
+						<td><code>2024.03.24.20.00/ISH<!-- ulctkICw+rx8HamXrdw --></code></td>
 						<td>=&nbsp;35.5.0</td>
 						<td>Dante&nbsp;Unbound</td>
 						<td></td>
@@ -316,7 +316,7 @@
 						<td><a href="#4262681179882731333">Download</a></td>
 					</tr>
 					<tr id="35.1.2" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:1e991c226ce5ecd89a5026de83b1f4f63ba13395&dn=35.1.2%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-35.1.2/">
-						<td><code>2024.02.27.13.21</code></td>
+						<td><code>2024.02.27.13.21/nZi<!-- v7UkxWYJ-spgQRXCEAA --></code></td>
 						<td>=&nbsp;35.1.2</td>
 						<td>Whispers&nbsp;in&nbsp;the&nbsp;Walls</td>
 						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
@@ -324,7 +324,7 @@
 						<td><a href="#35.1.2">Download</a></td>
 					</tr>
 					<tr id="3417254152679980994">
-						<td><code>2024.02.16.17.13</code></td>
+						<td><code>2024.02.16.17.13/ZdZ<!-- Y6hMS9mnKGTMlW0vRyw --></code></td>
 						<td>=&nbsp;35.1.0</td>
 						<td>Whispers&nbsp;in&nbsp;the&nbsp;Walls</td>
 						<td></td>
@@ -332,7 +332,7 @@
 						<td><a href="#3417254152679980994">Download</a></td>
 					</tr>
 					<tr id="35.0.11" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:3cfc9ae38e3edb5d3e11ab343b85e5c735c1fe43&dn=35.0.11%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-35.0.11/">
-						<td><code>2024.01.15.16.13</code></td>
+						<td><code>2024.01.15.16.13/7gQ<!-- 5EjRCTNURYUBJ+AOETw --></code></td>
 						<td>=&nbsp;35.0.11</td>
 						<td>Whispers&nbsp;in&nbsp;the&nbsp;Walls</td>
 						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
@@ -340,7 +340,7 @@
 						<td><a href="#35.0.11">Download</a></td>
 					</tr>
 					<tr id="34.0.8" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:ed5f977e8cf0b7b9f9f71a2bf671e89bf873c27f&dn=34.0.8&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-34.0.8/">
-						<td><code>2023.11.06.13.39</code></td>
+						<td><code>2023.11.06.13.39/1Tc<!-- sxlckBF8b8jiE4E3eQg --></code></td>
 						<td>=&nbsp;34.0.8</td>
 						<td>Abyss&nbsp;of&nbsp;Dagath</td>
 						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
@@ -348,7 +348,7 @@
 						<td><a href="#34.0.8">Download</a></td>
 					</tr>
 					<tr id="33.6.9" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:abf08b2b5f0f8898c5a5309e2ce312063393fce8&dn=33.6.9%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-33.6.9/">
-						<td><code>2023.09.12.09.10</code></td>
+						<td><code>2023.09.12.09.10/aaj<!-- swBESn+YL+VyL6y03zA --></code></td>
 						<td>=&nbsp;33.6.9</td>
 						<td>Echoes&nbsp;of&nbsp;Duviri</td>
 						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
@@ -364,7 +364,7 @@
 						<td><a href="#4487452668036984689">Download</a></td>
 					</tr>
 					<tr id="33.5.6" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:01ce1cd28adc5dbed9af0f0942a236599d4f35e5&dn=33.5.6%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-33.5.6/">
-						<td><code>2023.07.06.16.50</code></td>
+						<td><code>2023.07.06.16.50/isr<!-- cmLv6J3FZS839QAenoQ --></code></td>
 						<td>=&nbsp;33.5.6</td>
 						<td>The&nbsp;Seven&nbsp;Crimes&nbsp;of&nbsp;Kullervo</td>
 						<td><!-- EXE was originally modified to load Helper.dll. I undid this modification, but it can still be seen by the lack of a digital signature. --></td>
