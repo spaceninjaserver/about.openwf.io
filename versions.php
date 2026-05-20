@@ -339,6 +339,14 @@
 						<td>User&nbsp;installation</td>
 						<td><a href="#35.0.11">Download</a></td>
 					</tr>
+					<tr id="35.0.6" data-langs="en" data-drivers="dx11,dx12" data-magnet="magnet:?xt=urn:btih:1bc2101b12ecffcd4958f6ce08a23b4683d64023&dn=35.0.6%20%28en%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/Warframe-35.0.6/">
+						<td><code>2023.12.19.15.34/ccs<!-- lDhWoFeu8lZi6eT+HXg --></code></td>
+						<td>=&nbsp;35.0.6</td>
+						<td>Whispers&nbsp;in&nbsp;the&nbsp;Walls</td>
+						<td></td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#35.0.6">Download</a></td>
+					</tr>
 					<tr id="34.0.8" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:ed5f977e8cf0b7b9f9f71a2bf671e89bf873c27f&dn=34.0.8&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&ws=https://archive.org/download/Warframe-34.0.8/">
 						<td><code>2023.11.06.13.39/1Tc<!-- sxlckBF8b8jiE4E3eQg --></code></td>
 						<td>=&nbsp;34.0.8</td>
