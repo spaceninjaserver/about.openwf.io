@@ -1178,7 +1178,14 @@
 					</tr>
 					<!-- 4885795964507366541 is 2014.09.24.13.39, needs tools from 2015.10.21.12.48, seems to crash -->
 					<!-- 7887393592947262939 is 2014.09.23.12.04, needs tools from 2015.10.21.12.48, seems to crash -->
-					<!-- 8779732662024957928 is 2014.08.28.13.17, needs tools from 2015.10.21.12.48, crashes after login -->
+					<tr id="8779732662024957928">
+						<td><code>2014.08.28.13.17</code></td>
+						<td>≈&nbsp;14.5.0</td>
+						<td>The Mad Cephalon</td>
+						<td><!-- Rename DLL & -->Needs <a href="https://mega.nz/file/1gAFzTaI#rjrzbZce6zTSprDzc92glCHVlXC55RoFzAcsKeR8VFM" target="_blank">Tools folder from 2015.10.21.12.48</a>.</td>
+						<td>Steam&nbsp;release</td>
+						<td><a href="#8779732662024957928">Download</a></td>
+					</tr>
 					<tr id="7091405412400346572">
 						<td><code>2014.07.21.18.38</code></td>
 						<td>≈&nbsp;14.0.0</td>
