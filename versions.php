@@ -419,6 +419,14 @@
 						<td>Steam&nbsp;release</td>
 						<td><a href="#503269306359201928">Download</a></td>
 					</tr>
+					<tr id="32.3.7" data-langs="en" data-drivers="dx11" data-magnet="magnet:?xt=urn:btih:9b7ca750d41677ccffe16da7eb90e3c8b7421268&dn=32.3.7%20%28en%2C%20dx11%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-32.3.7/">
+						<td><code>2021.12.21.14.24</code></td>
+						<td>=&nbsp;32.3.7</td>
+						<td>Citrine's&nbsp;Last&nbsp;Wish</td>
+						<td></td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#32.3.7">Download</a></td>
+					</tr>
 					<tr id="2084947150827453084">
 						<td><code>2023.02.13.10.22</code></td>
 						<td>≈&nbsp;32.3.0</td>
