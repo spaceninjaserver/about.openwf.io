@@ -703,7 +703,7 @@
 						<td><code>2019.04.04.21.31</code></td>
 						<td>≈&nbsp;24.6.0</td>
 						<td>Buried&nbsp;Debts</td>
-						<td><!-- Currency display may be broken? --><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><!-- Currency display breaks with revive or mod drop chance booster. --><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#192898029640470386">Download</a></td>
 					</tr>
@@ -711,7 +711,7 @@
 						<td><code>2019.03.15.18.11</code></td>
 						<td>≈&nbsp;24.5.1</td>
 						<td>Buried&nbsp;Debts</td>
-						<td><!-- Currency display may be broken? --><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><!-- Currency display breaks with revive or mod drop chance booster. --><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#4942488930993990244">Download</a></td>
 					</tr>
@@ -719,7 +719,7 @@
 						<td><code>2019.03.08.00.37</code></td>
 						<td>≈&nbsp;24.4.1</td>
 						<td>Buried&nbsp;Debts</td>
-						<td><!-- Currency display may be broken? --><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td><!-- Currency display breaks with revive or mod drop chance booster. --><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#4404971551504983924">Download</a></td>
 					</tr>
