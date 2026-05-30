@@ -1621,7 +1621,7 @@
 			<br>
 		</div>
 		<div id="download-view" class="d-none">
-			<h3>Downloading M:<span class="version-name"></span></h3>
+			<h3>Downloading <span id="version-name"></span></h3>
 			<p class="dv-cond dv-cond-depot">There are several ways to download Warframe's Steam depot at manifest version <span class="manifest-id"></span>:</p>
 			<p class="dv-cond dv-cond-patch">First, you will need to download the base version (M:<span class="manifest-id"></span>):<!-- You must download this exact manifest version as the update patch only contains the data for updates to this specific base version --></p>
 			<div id="depot-download-accordion" class="accordion mb-3 dv-cond dv-cond-depot dv-cond-patch">
@@ -1637,7 +1637,7 @@
 								<li>Ensure you have Node.js installed (<a href="https://nodejs.org/en/download" target="_blank">Download</a>)</li>
 								<li>Open a command prompt</li>
 								<li>Install Mango by running <code>npm i -g steam-manifest-tools</code></li>
-								<li>Finally, to download M:<span class="version-name"></span>, run <code>mango download-and-install 230411 <span class="manifest-id"></span></code></li>
+								<li>Finally, to download M:<span class="manifest-id"></span>, run <code>mango download-and-install 230411 <span class="manifest-id"></span></code></li>
 							</ol>
 							<p class="mb-0">The resulting installation will be stored in <code>install/230411/<span class="manifest-id"></span></code>. You may delete the <code>depot</code> folder after.</p>
 						</div>
@@ -1731,12 +1731,12 @@
 				document.getElementById("main-view").classList.add("d-none");
 				document.getElementById("download-view").classList.remove("d-none");
 				document.querySelectorAll(".dv-cond").forEach(elm => elm.classList.add("d-none"));
-				document.querySelectorAll(".version-name").forEach(x => x.textContent = hash);
 				window.scrollTo(0, 0);
 
 				const magnet = tr.getAttribute("data-magnet");
 				if (magnet)
 				{
+					document.getElementById("version-name").textContent = hash;
 					document.querySelectorAll(".magnet").forEach(x => x.href = magnet);
 
 					const manifestId = tr.getAttribute("data-base-manifest");
@@ -1781,6 +1781,7 @@
 				else
 				{
 					// Manifest
+					document.getElementById("version-name").textContent = "M:" + hash;
 					document.querySelectorAll(".dv-cond-depot").forEach(elm => elm.classList.remove("d-none"));
 					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
 				}
