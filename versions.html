@@ -1620,10 +1620,11 @@
 			</ul>
 			<br>
 		</div>
-		<div id="depot-download-view" class="d-none">
+		<div id="download-view" class="d-none">
 			<h3>Downloading M:<span class="version-name"></span></h3>
-			<p>There are several ways to download Warframe's Steam depot at manifest version <span class="manifest-id"></span>:</p>
-			<div id="depot-download-accordion" class="accordion mb-3">
+			<p class="dv-cond dv-cond-depot">There are several ways to download Warframe's Steam depot at manifest version <span class="manifest-id"></span>:</p>
+			<p class="dv-cond dv-cond-patch">First, you will need to download the base version (M:<span class="manifest-id"></span>):<!-- You must download this exact manifest version as the update patch only contains the data for updates to this specific base version --></p>
+			<div id="depot-download-accordion" class="accordion mb-3 dv-cond dv-cond-depot dv-cond-patch">
 				<div class="accordion-item">
 					<h2 class="accordion-header">
 						<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-mango" aria-expanded="true" aria-controls="collapse-mango">
@@ -1678,35 +1679,24 @@
 					</div>
 				</div>
 			</div>
-			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
-			<div class="row g-3 my-4">
-				<div class="col-6"></div>
-				<div class="col-6">
-					<a href="client-setup" class="card p-3 text-decoration-none text-end">
-						<small class="text-muted">Next</small>
-						<div class="fw-bold text-primary">Client Setup »</div>
-					</a>
-				</div>
+			<div class="dv-cond dv-cond-patch">
+				<p>Next, download the update patch:</p>
+				<ul>
+					<li><a id="mega" target="_blank">From Mega</a></li>
+					<li>Via BitTorrent v1 compatible software: <a class="magnet">Magnet</a></li>
+				</ul>
+				<p>Finally, drop the update patch on top of the base version, replacing the EXE in the process.</p>
 			</div>
-		</div>
-		<div id="patch-download-view" class="d-none">
-			<h3>Downloading <span class="version-name"></span></h3>
-			<ol>
-				<li>
-					<a id="base-download" target="_blank">Download the base version (M:<span class="manifest-id"></span>)</a>
-					<ul>
-						<li>You must download this exact manifest version as the update patch only contains the data for updates to this specific base version</li>
-					</ul>
-				</li>
-				<li>
-					Download the update patch
-					<ul>
-						<li><a id="mega" target="_blank">From Mega</a></li>
-						<li>Via BitTorrent v1 compatible software: <a class="magnet">Magnet</a></li>
-					</ul>
-				</li>
-				<li>Now you can drop the update patch on top of the base version, replacing the EXE in the process<!-- The updates will take place once you start the game with the Bootstrapper. --></li>
-			</ol>
+			<div class="dv-cond dv-cond-dirty">
+				<p>Please note that this is a full game installation provided by a user. It only has the content required to launch in specific configurations:</p>
+				<ul>
+					<li>language: <span class="language-options"></span></li>
+					<li>graphicsDriver: <span class="graphicsDriver-options"></span></li>
+				</ul>
+				<p>To download it, you will need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
+				<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you can use label replacements to hackily use another language: <a>Magnet</a></p>
+			</div>
+			<p class="dv-cond dv-cond-cafee">To download this version of Warframe, you only need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
 			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
 			<div class="row g-3 my-4">
 				<div class="col-6"></div>
@@ -1738,21 +1728,6 @@
 				</div>
 			</div>
 		</div>
-		<div id="cafee-download-view" class="d-none">
-			<h3>Downloading <span class="version-name"></span></h3>
-			<p>To download this version of Warframe, you only need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
-			<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you can use label replacements to hackily use another language: <a>Magnet</a></p>
-			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
-			<div class="row g-3 my-4">
-				<div class="col-6"></div>
-				<div class="col-6">
-					<a href="client-setup" class="card p-3 text-decoration-none text-end">
-						<small class="text-muted">Next</small>
-						<div class="fw-bold text-primary">Client Setup »</div>
-					</a>
-				</div>
-			</div>
-		</div>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
 	<script>
@@ -1769,16 +1744,13 @@
 		let table_scrollY;
 		window.onhashchange = function()
 		{
-			document.getElementById("main-view").classList.add("d-none");
-			document.getElementById("depot-download-view").classList.add("d-none");
-			document.getElementById("patch-download-view").classList.add("d-none");
-			document.getElementById("dirty-download-view").classList.add("d-none");
-			document.getElementById("cafee-download-view").classList.add("d-none");
-
 			const hash = location.hash.toString().replace("#", "");
 			const tr = hash ? document.getElementById(hash) : undefined;
 			if (tr)
 			{
+				document.getElementById("main-view").classList.add("d-none");
+				document.getElementById("download-view").classList.remove("d-none");
+				document.querySelectorAll(".dv-cond").forEach(elm => elm.classList.add("d-none"));
 				document.querySelectorAll(".version-name").forEach(x => x.textContent = hash);
 
 				const magnet = tr.getAttribute("data-magnet");
@@ -1790,8 +1762,7 @@
 					if (manifestId)
 					{
 						// Update patch
-						document.getElementById("patch-download-view").classList.remove("d-none");
-						document.getElementById("base-download").href = "#" + manifestId;
+						document.querySelectorAll(".dv-cond-patch").forEach(elm => elm.classList.remove("d-none"));
 						document.querySelectorAll(".manifest-id").forEach(x => x.textContent = manifestId);
 						document.getElementById("mega").href = tr.getAttribute("data-mega");
 					}
@@ -1804,7 +1775,7 @@
 						if (tr.getAttribute("data-langs"))
 						{
 							// User installation
-							document.getElementById("dirty-download-view").classList.remove("d-none");
+							document.querySelectorAll(".dv-cond-dirty").forEach(elm => elm.classList.remove("d-none"));
 							document.querySelectorAll(".language-options").forEach(x => x.textContent = formatAlternatives(tr.getAttribute("data-langs").split(",")));
 							document.querySelectorAll(".graphicsDriver-options").forEach(x => x.textContent = formatAlternatives(tr.getAttribute("data-drivers").split(",")));
 
@@ -1822,14 +1793,14 @@
 						else
 						{
 							// Café release
-							document.getElementById("cafee-download-view").classList.remove("d-none");
+							document.querySelectorAll(".dv-cond-cafee").forEach(elm => elm.classList.remove("d-none"));
 						}
 					}
 				}
 				else
 				{
 					// Manifest
-					document.getElementById("depot-download-view").classList.remove("d-none");
+					document.querySelectorAll(".dv-cond-depot").forEach(elm => elm.classList.remove("d-none"));
 					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
 				}
 
@@ -1852,6 +1823,7 @@
 			else
 			{
 				document.getElementById("main-view").classList.remove("d-none");
+				document.getElementById("download-view").classList.add("d-none");
 
 				if (table_scrollY)
 				{
