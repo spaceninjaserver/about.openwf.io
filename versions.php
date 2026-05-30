@@ -1613,6 +1613,7 @@
 				document.getElementById("download-view").classList.remove("d-none");
 				document.querySelectorAll(".dv-cond").forEach(elm => elm.classList.add("d-none"));
 				document.querySelectorAll(".version-name").forEach(x => x.textContent = hash);
+				window.scrollTo(0, 0);
 
 				const magnet = tr.getAttribute("data-magnet");
 				if (magnet)
