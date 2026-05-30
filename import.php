@@ -14,7 +14,8 @@
 		<p>If you use AlecaFrame, you already have an encrypted version of your inventory. You can use <a href="https://sainan.github.io/alecaframe-inventory-parser/" target="_blank">this tool</a> to help you locate and decrypt it.</p>
 		<h2>Export via warframe-api-helper</h2>
 		<p>You can use <a href="https://github.com/Sainan/warframe-api-helper/releases/latest" target="_blank">warframe-api-helper</a> to get your credentials while the game is running & logged in on live. It will download your inventory for you and store it in <code>inventory.json</code>.</p>
-		<p>However, using the credentials (<code>?accountId=...&nonce=...</code>), it is also possible to get your personal rooms: <code>https://api.warframe.com/api/getShip.php?accountId=...&nonce=...</code></p>
+		<p>Using the credentials it prints (<code>?accountId=...&nonce=...</code>), it is also possible to get your personal rooms: <code>https://api.warframe.com/api/getShip.php?accountId=...&nonce=...</code></p>
+		<p>Closing the game will invalidate these credentials.</p>
 		<h2>Import to SpaceNinjaServer</h2>
 		<p>Now that you have your inventory, open the SpaceNinjaServer WebUI and select the Import tab. You can simply paste the entire thing in the textbox and press the Submit button.</p>
 		<p>If you have a getShip response, you can import it the same way. Otherwise, you are advised to use Unlock All Ship Features in the Cheats tab to avoid being locked out of most things.</p>
