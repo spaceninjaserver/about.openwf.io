@@ -1226,6 +1226,14 @@
 						<td>User&nbsp;installation</td>
 						<td><a href="#13.1.1">Download</a></td>
 					</tr>
+					<tr id="13.0.4" data-langs="en" data-drivers="dx9" data-magnet="magnet:?xt=urn:btih:242a0ee22b90bb281a11f9258a889cb43230b32b&dn=13.0.4%20%28en%2C%20dx9%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-13.0.4/">
+						<td><code>2014.04.12.00.54</code></td>
+						<td>≈&nbsp;13.0.4</td>
+						<td>The Dark Sectors<!-- Login screen says "13 The Dark Sectors: Open Beta" --></td>
+						<td>Won't boot if you last booted a recent version.<!-- Has non-English cache files, but with broken fonts. --><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>User&nbsp;installation</td>
+						<td><a href="#13.0.4">Download</a></td>
+					</tr>
 					<tr id="5876704438298513797">
 						<td><code>2014.04.10.17.47</code></td>
 						<td>≈&nbsp;13.0.0</td>
@@ -1473,7 +1481,8 @@
 			<h3><a name="bounty"></a>Active Bounties</h3>
 			<p><p>Do <b>you</b> have older game files on one of your old hard drives maybe? You might be able to claim one of these bounties!</p>
 			<!-- 100€ donated by Ember for pre-7.3.0 game files -->
-			<!-- 100€ donated by Guitar_Dude09 for U15 or below game files -->
+			<!-- 100€ donated by Guitar_Dude09 for U15 or below game files on 2026-05-21; paid out to Aldqueath for 13.0.4 on 2026-06-06 -->
+			<!-- 100€ donated by Guitar_Dude09 for U15 or below game files on 2026-06-06 -->
 			<table class="table table-hover">
 				<thead>
 					<tr>
