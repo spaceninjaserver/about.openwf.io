@@ -24,13 +24,13 @@
 		<div class="row g-3 my-4">
 			<div class="col-6">
 				<a href="chat-server-setup<?=$ext;?>" class="card p-3 text-decoration-none">
-					<small class="text-muted">Previous</small>
+					<small class="text-muted">Previous Guide</small>
 					<div class="fw-bold text-primary">« Chat Server Setup</div>
 				</a>
 			</div>
 			<div class="col-6">
 				<a href="nrs-setup<?=$ext;?>" class="card p-3 text-decoration-none text-end">
-					<small class="text-muted">Next</small>
+					<small class="text-muted">Next Guide</small>
 					<div class="fw-bold text-primary">NRS Setup »</div>
 				</a>
 			</div>

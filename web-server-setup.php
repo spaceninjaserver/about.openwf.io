@@ -46,13 +46,13 @@
 		<div class="row g-3 my-4">
 			<div class="col-6">
 				<a href="client-setup<?=$ext;?>" class="card p-3 text-decoration-none">
-					<small class="text-muted">Previous</small>
+					<small class="text-muted">Previous Guide</small>
 					<div class="fw-bold text-primary">« Client Setup</div>
 				</a>
 			</div>
 			<div class="col-6">
 				<a href="import<?=$ext;?>" class="card p-3 text-decoration-none text-end">
-					<small class="text-muted">Next</small>
+					<small class="text-muted">Next Guide</small>
 					<div class="fw-bold text-primary">Importing »</div>
 				</a>
 			</div>

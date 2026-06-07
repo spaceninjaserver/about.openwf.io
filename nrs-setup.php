@@ -26,7 +26,7 @@
 		<div class="row g-3 my-4">
 			<div class="col-6">
 				<a href="hub-server-setup<?=$ext;?>" class="card p-3 text-decoration-none">
-					<small class="text-muted">Previous</small>
+					<small class="text-muted">Previous Guide</small>
 					<div class="fw-bold text-primary">« Hub Server Setup</div>
 				</a>
 			</div>

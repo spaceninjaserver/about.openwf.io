@@ -1592,7 +1592,7 @@
 				<div class="col-6"></div>
 				<div class="col-6">
 					<a href="client-setup<?=$ext;?>" class="card p-3 text-decoration-none text-end">
-						<small class="text-muted">Next</small>
+						<small class="text-muted">Next Guide</small>
 						<div class="fw-bold text-primary">Client Setup »</div>
 					</a>
 				</div>
