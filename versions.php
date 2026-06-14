@@ -50,7 +50,7 @@
 							"2026.02.12.13.11/0q2"/*7OO7-Bc-sO-RyGop2fQ*/ => "41.1.1",
 							"2026.02.10.16.04/ik8"/*4b+fTALyGErEcu1hc5Q*/ => "41.1.0",
 						] as $buildVersion => $gameVersion): ?>
-						<tr id="<?=$gameVersion;?>" data-base-manifest="843737746734465482" data-mega="https://mega.nz/file/cxRnTBiZ#Xf7O8vo02U1jRgqXC9g2jwAT7h5rtCs4uWd8DOyjMGw" data-magnet="magnet:?xt=urn:btih:54a94a4ae8ff17bde1459861a9cfd45c8e45db6e&dn=41.1.x.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/OpenWF-Update-Patches/41.1.x.7z">
+						<tr id="<?=$gameVersion;?>" data-base-manifest="843737746734465482" data-mega="https://mega.nz/file/cxRnTBiZ#Xf7O8vo02U1jRgqXC9g2jwAT7h5rtCs4uWd8DOyjMGw" data-magnet="magnet:?xt=urn:btih:54a94a4ae8ff17bde1459861a9cfd45c8e45db6e&dn=41.1.x.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/OpenWF-Update-Patches/41.1.x.7z">
 							<td><code><?=$buildVersion;?></code></td>
 							<td>=&nbsp;<?=$gameVersion;?></td>
 							<td>Vauban&nbsp;Heirloom<!-- Login screen says "The Old Peace" --></td>
@@ -1573,7 +1573,7 @@
 				<p>Next, download the update patch:</p>
 				<ul>
 					<li><a id="mega" target="_blank">From Mega</a></li>
-					<li>Via BitTorrent v1 compatible software: <a class="magnet">Magnet</a></li>
+					<li>Via BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></li>
 				</ul>
 				<p>Finally, drop the update patch on top of the base version, replacing the EXE in the process.</p>
 			</div>
@@ -1626,6 +1626,8 @@
 				const magnet = tr.getAttribute("data-magnet");
 				if (magnet)
 				{
+					const torrentName = new URLSearchParams(new URL(magnet).search).get("dn");
+
 					document.getElementById("version-name").textContent = hash;
 					document.querySelectorAll(".magnet").forEach(x => x.href = magnet);
 
@@ -1636,11 +1638,10 @@
 						document.querySelectorAll(".dv-cond-patch").forEach(elm => elm.classList.remove("d-none"));
 						document.querySelectorAll(".manifest-id").forEach(x => x.textContent = manifestId);
 						document.getElementById("mega").href = tr.getAttribute("data-mega");
+						document.querySelectorAll(".torrent").forEach(x => x.href = `supplementals/torrents/patches/${torrentName}.torrent`);
 					}
 					else
 					{
-						const torrentName = new URLSearchParams(new URL(magnet).search).get("dn");
-
 						document.querySelectorAll(".torrent").forEach(x => x.href = `supplementals/torrents/${torrentName}.torrent`);
 
 						if (tr.getAttribute("data-langs"))
