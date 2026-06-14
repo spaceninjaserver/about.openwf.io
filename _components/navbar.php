@@ -25,7 +25,7 @@ $path = strtok(strtok($_SERVER["REQUEST_URI"], '?'), '.');
 						<li><a class="dropdown-item<?=($path == "/hardening-security" ? " active" : ""); ?>" href="hardening-security<?=$ext;?>">Hardening Security</a></li>
 						<li><a class="dropdown-item<?=($path == "/metadata-patching" ? " active" : ""); ?>" href="metadata-patching<?=$ext;?>">Metadata Patching</a></li>
 						<li><a class="dropdown-item" href="https://onlyg.it/janisslsm/warframe-companion-patcher" target="_blank">Companion App</a></li>
-						<li><a class="dropdown-item<?=($path == "/asset-replacements-guide" ? " active" : ""); ?>" href="asset-replacements-guide<?=$ext;?>">Asset Replacements</a></li>
+						<!-- <li><a class="dropdown-item<?=($path == "/asset-replacements-guide" ? " active" : ""); ?>" href="asset-replacements-guide<?=$ext;?>">Asset Replacements</a></li> -->
 					</ul>
 				</li>
 				<li class="nav-item"><a class="nav-link<?=($path == "/contribute" ? " active" : ""); ?>" href="contribute<?=$ext;?>">Contribute</a></li>
