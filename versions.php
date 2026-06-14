@@ -50,7 +50,7 @@
 							"2026.02.12.13.11/0q2"/*7OO7-Bc-sO-RyGop2fQ*/ => "41.1.1",
 							"2026.02.10.16.04/ik8"/*4b+fTALyGErEcu1hc5Q*/ => "41.1.0",
 						] as $buildVersion => $gameVersion): ?>
-						<tr id="<?=$gameVersion;?>" data-base-manifest="843737746734465482" data-mega="https://mega.nz/file/cxRnTBiZ#Xf7O8vo02U1jRgqXC9g2jwAT7h5rtCs4uWd8DOyjMGw" data-magnet="magnet:?xt=urn:btih:54a94a4ae8ff17bde1459861a9cfd45c8e45db6e&dn=41.1.x.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce">
+						<tr id="<?=$gameVersion;?>" data-base-manifest="843737746734465482" data-mega="https://mega.nz/file/cxRnTBiZ#Xf7O8vo02U1jRgqXC9g2jwAT7h5rtCs4uWd8DOyjMGw" data-magnet="magnet:?xt=urn:btih:54a94a4ae8ff17bde1459861a9cfd45c8e45db6e&dn=41.1.x.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.internetwarriors.net%3A1337%2Fannounce&ws=https://archive.org/download/OpenWF-Update-Patches/41.1.x.7z">
 							<td><code><?=$buildVersion;?></code></td>
 							<td>=&nbsp;<?=$gameVersion;?></td>
 							<td>Vauban&nbsp;Heirloom<!-- Login screen says "The Old Peace" --></td>
@@ -75,7 +75,7 @@
 							"2025.12.15.16.05/IVy"/*uDDhaQ54R8efItHcWkw*/ => "41.0.3",
 							"2025.12.11.17.09/KJW"/*7sLwR58ZKITGRLBlGng*/ => "41.0.2",
 						] as $buildVersion => $gameVersion): ?>
-						<tr id="<?=$gameVersion;?>" data-base-manifest="7186674829434135359" data-mega="https://mega.nz/file/lwhwQaAC#6tRwO7U22hsa9SQBHQyvAjMGFtB0W8c1D7qRogScNJ8" data-magnet="magnet:?xt=urn:btih:ad150cc683494f549bd16ecab763bb060c6f860a&dn=41.0.2-41.0.7.7z&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce">
+						<tr id="<?=$gameVersion;?>" data-base-manifest="7186674829434135359" data-mega="https://mega.nz/file/lwhwQaAC#6tRwO7U22hsa9SQBHQyvAjMGFtB0W8c1D7qRogScNJ8" data-magnet="magnet:?xt=urn:btih:ad150cc683494f549bd16ecab763bb060c6f860a&dn=41.0.2-41.0.7.7z&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&ws=https://archive.org/download/OpenWF-Update-Patches/41.0.2-41.0.7.7z">
 							<td><code><?=$buildVersion;?></code></td>
 							<td>=&nbsp;<?=$gameVersion;?></td>
 							<td>The&nbsp;Old&nbsp;Peace</td>
@@ -96,7 +96,7 @@
 							"2025.12.10.16.35/348"/*iBxxMTbP2+TV0FAt6EA*/ => "41.0.1",
 							"2025.12.10.08.11/KjY"/*2fxCtG4UMsO-g6srtNQ*/ => "41.0.0",
 						] as $buildVersion => $gameVersion): ?>
-						<tr id="<?=$gameVersion;?>" data-base-manifest="2095600306818101508" data-mega="https://mega.nz/file/RwwiHLDD#gOzb7tqTiwtEPwqH0nwXzGnigF9S_jSGNJz1u0qsq3c" data-magnet="magnet:?xt=urn:btih:d4bd3b8409cba706704e9ca6b5ad43d95bf25cc6&dn=41.0.0-41.0.1.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce">
+						<tr id="<?=$gameVersion;?>" data-base-manifest="2095600306818101508" data-mega="https://mega.nz/file/RwwiHLDD#gOzb7tqTiwtEPwqH0nwXzGnigF9S_jSGNJz1u0qsq3c" data-magnet="magnet:?xt=urn:btih:d4bd3b8409cba706704e9ca6b5ad43d95bf25cc6&dn=41.0.0-41.0.1.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https://archive.org/download/OpenWF-Update-Patches/41.0.0-41.0.1.7z">
 							<td><code><?=$buildVersion;?></code></td>
 							<td>=&nbsp;<?=$gameVersion;?></td>
 							<td>The&nbsp;Old&nbsp;Peace</td>
@@ -122,7 +122,7 @@
 							"2025.10.15.14.12/4Ts"/*H6HYbM2qpPn5o6X255w*/ => "40.0.1",
 							"2025.10.15.09.36/uYi"/*6Y-GqaVVuIcBnpeFLWA*/ => "40.0.0",
 						] as $buildVersion => $gameVersion): ?>
-						<tr id="<?=$gameVersion;?>" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+						<tr id="<?=$gameVersion;?>" data-base-manifest="4384985961440518177" data-mega="https://mega.nz/file/NgBjAC5D#7dQpwU9Fds0TcnBcywjX14dxoGUTIy9S1CtzzkQoYyE" data-magnet="magnet:?xt=urn:btih:0ec883146c0b4aee92df77261a198050e1371071&dn=40.0.x.7z&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/OpenWF-Update-Patches/40.0.x.7z">
 							<td><code><?=$buildVersion;?></code></td>
 							<td>=&nbsp;<?=$gameVersion;?></td>
 							<td>The&nbsp;Vallis&nbsp;Undermind</td>
@@ -139,7 +139,7 @@
 						<td>Steam&nbsp;release</td>
 						<td><a href="#4384985961440518177">Download</a></td>
 					</tr>
-					<tr id="39.1.3" data-base-manifest="8391191747297658560" data-mega="https://mega.nz/file/8oBnGRqJ#IDvZrtO8Um_WL4_CoU9xOnu3sXes8NTrq28oGv5dWpo" data-magnet="magnet:?xt=urn:btih:e4105678211028bb37a39d71fc4630fb169c71fe&dn=39.1.3.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce">
+					<tr id="39.1.3" data-base-manifest="8391191747297658560" data-mega="https://mega.nz/file/8oBnGRqJ#IDvZrtO8Um_WL4_CoU9xOnu3sXes8NTrq28oGv5dWpo" data-magnet="magnet:?xt=urn:btih:e4105678211028bb37a39d71fc4630fb169c71fe&dn=39.1.3.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/OpenWF-Update-Patches/39.1.3.7z">
 						<td><code>2025.09.02.14.13/C1u<!-- uuxHFA5pFWj3h1OydPA --></code></td>
 						<td>=&nbsp;39.1.3</td>
 						<td>Caliban&nbsp;Prime<!-- Login screen says "Isleweaver" --></td>
