@@ -1758,7 +1758,7 @@
 			<br>
 		</div>
 		<div id="download-view" class="d-none">
-			<h3>Downloading <span id="version-name"></span></h3>
+			<h3>Downloading <span class="version-name"></span></h3>
 			<p class="dv-cond dv-cond-depot">There are several ways to download Warframe's Steam depot at manifest version <span class="manifest-id"></span>:</p>
 			<p class="dv-cond dv-cond-patch">First, you will need to download the base version (M:<span class="manifest-id"></span>):<!-- You must download this exact manifest version as the update patch only contains the data for updates to this specific base version --></p>
 			<div id="depot-download-accordion" class="accordion mb-3 dv-cond dv-cond-depot dv-cond-patch">
@@ -1819,10 +1819,10 @@
 			<div class="dv-cond dv-cond-patch">
 				<p>Next, download the update patch:</p>
 				<ul>
+					<li>With BitTorrent v1 compatible software (such as <a href="https://www.qbittorrent.org/" target="_blank">qBittorrent</a>): <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></li>
 					<li><a id="mega" target="_blank">From Mega</a></li>
-					<li>Via BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></li>
 				</ul>
-				<p>Finally, drop the update patch on top of the base version, replacing the EXE in the process.</p>
+				<p>Finally, open the archive (e.g. in <a href="https://www.7-zip.org/" target="_blank">7-Zip</a>) until you are inside of the <span class="version-name"></span> folder and drop the contents of it on top of the base version, replacing the EXE in the process.</p>
 			</div>
 			<div class="dv-cond dv-cond-dirty">
 				<p>Please note that this is a full game installation provided by a user. It only has the content required to launch in specific configurations:</p>
@@ -1830,10 +1830,10 @@
 					<li>language: <span class="language-options"></span></li>
 					<li>graphicsDriver: <span class="graphicsDriver-options"></span></li>
 				</ul>
-				<p>To download it, you will need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
+				<p>To download it, you will need BitTorrent v1 compatible software (such as <a href="https://www.qbittorrent.org/" target="_blank">qBittorrent</a>): <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
 				<p id="cat-labels" class="d-none">As far as the font of the underlying language allows, you can use label replacements to hackily use another language: <a>Magnet</a></p>
 			</div>
-			<p class="dv-cond dv-cond-cafee">To download this version of Warframe, you only need BitTorrent v1 compatible software: <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
+			<p class="dv-cond dv-cond-cafee">To download this version of Warframe, you only need BitTorrent v1 compatible software (such as <a href="https://www.qbittorrent.org/" target="_blank">qBittorrent</a>): <a class="torrent" download>Torrent</a>, <a class="magnet">Magnet</a></p>
 			<div class="version-notes d-none alert alert-info"><b>Notes for this version:</b> <span></span></div>
 			<div class="row g-3 my-4">
 				<div class="col-6"></div>
@@ -1875,7 +1875,7 @@
 				{
 					const torrentName = new URLSearchParams(new URL(magnet).search).get("dn");
 
-					document.getElementById("version-name").textContent = hash;
+					document.querySelectorAll(".version-name").forEach(x => x.textContent = hash);
 					document.querySelectorAll(".magnet").forEach(x => x.href = magnet);
 
 					const manifestId = tr.getAttribute("data-base-manifest");
@@ -1919,7 +1919,7 @@
 				else
 				{
 					// Manifest
-					document.getElementById("version-name").textContent = "M:" + hash;
+					document.querySelectorAll(".version-name").forEach(x => x.textContent = "M:" + hash);
 					document.querySelectorAll(".dv-cond-depot").forEach(elm => elm.classList.remove("d-none"));
 					document.querySelectorAll(".manifest-id").forEach(x => x.textContent = hash);
 				}
