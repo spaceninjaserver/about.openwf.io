@@ -46,6 +46,40 @@
 				<tbody>
 					<!-- https://steamdb.info/depot/230411/manifests/ -->
 					<?php foreach ([
+							"2026.05.13.13.07/k5j"/*Jr3W3pt8Z6zRKrEAl1Q*/ => "42.0.11",
+							"2026.05.06.14.09/nwi"/*cGVuSoowi36KzbnWX7w*/ => "42.0.10",
+							"2026.05.01.11.33/+8Q"/*szcXyQLtHHE7mJW2Y9Q*/ => "42.0.9",
+							"2026.04.24.11.57/nxA"/*XdvBCyYapvgQ7AUknpA*/ => "42.0.8",
+							"2026.04.09.13.53/kh+"/*JOjDL-PAL5rRgZ0Btag*/ => "42.0.7",
+							"2026.04.08.11.16/GOV"/*Slrejzl01Bcb6I8JzaQ*/ => "42.0.6.1",
+							"2026.04.07.14.59/Nuo"/*mA+6J6lk3fYsVC14ScA*/ => "42.0.6",
+							"2026.04.02.11.14/cHo"/*3Divrl12SAyf8+ujAsw*/ => "42.0.5",
+							"2026.03.30.17.06/U4g"/*rBHr3sUrS3O9wmtFYNw*/ => "42.0.4.1",
+							"2026.03.30.14.23/4DN"/*7da8q0hrGFl84WSXUBw*/ => "42.0.4",
+							"2026.03.27.10.55/JEt"/*1aARN6HvHukZWAHSXtg*/ => "42.0.3",
+							"2026.03.26.13.30/W6d"/*jg0DCD2g88EOBLp0HVg*/ => "42.0.2",
+							"2026.03.25.16.45/P8W"/*uJjiS4axpN0oBExkM3Q*/ => "42.0.1.1",
+							"2026.03.25.14.56/0D2"/*FiiaOkISSILWWiqZ4YA*/ => "42.0.1",
+							"2026.03.25.08.06/++0"/*NsFOVGua180wtCUTCEA*/ => "42.0.0",
+						] as $buildVersion => $gameVersion): ?>
+						<tr id="<?=$gameVersion;?>" data-base-manifest="8617432299175747361" data-mega="https://mega.nz/file/Fh5wXQSQ#j5stq9Dq6jB_8GMnEVZTZQ9lniOkUamht51ibYufNLI" data-magnet="magnet:?xt=urn:btih:f3ee24ee6f92c6f04db0a5430c5eb09bd3853cdd&dn=42.0.x.wim.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/OpenWF-Update-Patches/42.0.x.7z">
+							<td><code><?=$buildVersion;?></code></td>
+							<td>=&nbsp;<?=$gameVersion;?></td>
+							<td>The&nbsp;Shadowgrapher</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#<?=$gameVersion;?>">Download</a></td>
+						</tr>
+					<?php endforeach; ?>
+					<tr id="8617432299175747361">
+						<td><code>2026.03.24.16.59/DBJ<!-- r4x9o6FlMuWv18MChdw --></code></td>
+						<td>&lt;&nbsp;42.0.0</td>
+						<td>The&nbsp;Shadowgrapher</td>
+						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+						<td>Steam&nbsp;release</td>
+						<td><a href="#8617432299175747361">Download</a></td>
+					</tr>
+					<?php foreach ([
 							"2026.02.13.16.03/m9D"/*2v+Lb-IlcRhQxYG26Cw*/ => "41.1.2",
 							"2026.02.12.13.11/0q2"/*7OO7-Bc-sO-RyGop2fQ*/ => "41.1.1",
 							"2026.02.10.16.04/ik8"/*4b+fTALyGErEcu1hc5Q*/ => "41.1.0",
