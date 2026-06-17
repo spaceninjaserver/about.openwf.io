@@ -62,7 +62,7 @@
 							"2026.03.25.14.56/0D2"/*FiiaOkISSILWWiqZ4YA*/ => "42.0.1",
 							"2026.03.25.08.06/++0"/*NsFOVGua180wtCUTCEA*/ => "42.0.0",
 						] as $buildVersion => $gameVersion): ?>
-						<tr id="<?=$gameVersion;?>" data-base-manifest="8617432299175747361" data-mega="https://mega.nz/file/Fh5wXQSQ#j5stq9Dq6jB_8GMnEVZTZQ9lniOkUamht51ibYufNLI" data-magnet="magnet:?xt=urn:btih:f3ee24ee6f92c6f04db0a5430c5eb09bd3853cdd&dn=42.0.x.wim.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/OpenWF-Update-Patches/42.0.x.7z">
+						<tr id="<?=$gameVersion;?>" data-base-manifest="8617432299175747361" data-mega="https://mega.nz/file/Fh5wXQSQ#j5stq9Dq6jB_8GMnEVZTZQ9lniOkUamht51ibYufNLI" data-magnet="magnet:?xt=urn:btih:f3ee24ee6f92c6f04db0a5430c5eb09bd3853cdd&dn=42.0.x.wim.7z&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/OpenWF-Update-Patches/42.0.x.wim.7z">
 							<td><code><?=$buildVersion;?></code></td>
 							<td>=&nbsp;<?=$gameVersion;?></td>
 							<td>The&nbsp;Shadowgrapher</td>
