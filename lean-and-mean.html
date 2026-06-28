@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hub Server Setup | OpenWF</title>
+	<title>Trimming Installs | OpenWF</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="_assets/bootstrap.min.css">
@@ -23,10 +23,10 @@
 						<li><a class="dropdown-item" href="web-server-setup">Web Server Setup</a></li>
 						<li><a class="dropdown-item" href="import">Importing</a></li>
 						<li><a class="dropdown-item" href="chat-server-setup">Chat Server Setup</a></li>
-						<li><a class="dropdown-item active" href="hub-server-setup">Hub Server Setup</a></li>
+						<li><a class="dropdown-item" href="hub-server-setup">Hub Server Setup</a></li>
 						<li><a class="dropdown-item" href="nrs-setup">NRS Setup</a></li>
 						<li><a class="dropdown-item" href="metadata-patching">Metadata Patching</a></li>
-						<li><a class="dropdown-item" href="lean-and-mean">Trimming Installs</a></li>
+						<li><a class="dropdown-item active" href="lean-and-mean">Trimming Installs</a></li>
 						<li><a class="dropdown-item" href="port-forwarding">Port Forwarding</a></li>
 						<li><a class="dropdown-item" href="dockerized-server-setup">Dockerized Server Setup</a></li>
 						<li><a class="dropdown-item" href="hardening-security">Hardening Security</a></li>
@@ -47,32 +47,28 @@
 		location.protocol = "https:";
 	}
 </script>	<div class="container mt-3">
-		<p>Hubs (including relays and dojos) require a proprietary server for prex cards to appear, and, if multiple players are on the same server, for them to see and interact with each other (blessings, trading). This guide will explain how to set up <a href="https://github.com/Sainan/warframe-hub-server" target="_blank">a source-available reimplementation</a>.</p>
-		<h2>Setup</h2>
-		<ol>
-			<li><a href="https://github.com/Sainan/warframe-hub-server/releases" target="_blank">Download the latest release of warframe-hub-server</a></li>
-			<li>Now you can run the warframe-hub-server executable at any time to start the hub server</li>
-		</ol>
-		<h2>Auto-Starting</h2>
+		<p>This guide will share some tips to reduce the size of an install by deleting obsolete content. Keep in mind:</p>
 		<ul>
-			<li>You can provide a relative path to the executable in SpaceNinjaServer's config.json under <code>hubExecutable</code> to have SpaceNinjaServer run it as a child process.</li>
-			<li>On Windows, you can put a shortcut to the executable in <code>%appdata%\Microsoft\Windows\Start Menu\Programs\Startup</code> to have it start when you log in to Windows.</li>
+			<li>The commands mentioned in this guide will permanently override/delete data. Ensure you won't be sorry!</li>
+			<li>As per usual, never run Warframe.x64.exe without sideloading the Bootstrapper to avoid corrupting the install.</li>
 		</ul>
-
-		<div class="row g-3 my-4">
-			<div class="col-6">
-				<a href="chat-server-setup" class="card p-3 text-decoration-none">
-					<small class="text-muted">Previous Guide</small>
-					<div class="fw-bold text-primary">« Chat Server Setup</div>
-				</a>
-			</div>
-			<div class="col-6">
-				<a href="nrs-setup" class="card p-3 text-decoration-none text-end">
-					<small class="text-muted">Next Guide</small>
-					<div class="fw-bold text-primary">NRS Setup »</div>
-				</a>
-			</div>
-		</div>
+		<h2>Flushing An Update Patch</h2>
+		<p>Update patches work by providing (updated) content which the game can request on demand, but this means you need to have a copy of this content in <code>OpenWF/Content</code>, taking up 1.53 GiB in <abbr title="42.0.11">the worst case</abbr>. You can run the content update applet to "flush" this content into the Cache.Windows folder:</p>
+		<ol>
+			<li>
+				<code>Warframe.x64.exe -silent -log:/Preprocess.log -graphicsDriver:dx11 -language:en -applet:/EE/Types/Framework/ContentUpdate</code>
+				<ul>
+					<li>Note the <code>dx11</code> and <code>en</code> in this command. For every configuration you intend to use, run the command accordingly.</li>
+				</ul>
+			</li>
+			<li>Delete the <code>OpenWF/Content</code> folder.</li>
+		</ol>
+		<h2>Defragging The Cache</h2>
+		<p>If you downloaded a user install or flushed an update patch, the Cache.Windows folder may contain old versions of some content, which can be cleaned up as follows:</p>
+		<ul>
+			<li>&gt;= U38.6: <code>Warframe.x64.exe -silent -log:/Defrag.log -applet:/EE/Types/Framework/CacheDefraggerIOCP /Tools/CachePlan.txt</code></li>
+			<li>&lt; U38.6: <code>Warframe.x64.exe -silent -log:/Defrag.log -applet:/EE/Types/Framework/CacheDefraggerAsync /Tools/CachePlan.txt</code></li>
+		</ul>
 	</div>
 	<script src="_assets/bootstrap.bundle.min.js"></script>
 </body>
