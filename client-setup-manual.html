@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Client Setup | OpenWF</title>
+	<title>Manual Client Setup | OpenWF</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="_assets/bootstrap.min.css">
@@ -17,9 +17,9 @@
 			<ul class="navbar-nav me-auto mb-0">
 				<li class="nav-item"><a class="nav-link" href="versions">Version Archive</a></li>
 				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</a>
+					<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Guides</a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item active" href="client-setup">Client Setup</a></li>
+						<li><a class="dropdown-item" href="client-setup">Client Setup</a></li>
 						<li><a class="dropdown-item" href="web-server-setup">Web Server Setup</a></li>
 						<li><a class="dropdown-item" href="import">Importing</a></li>
 						<li><a class="dropdown-item" href="chat-server-setup">Chat Server Setup</a></li>
@@ -46,27 +46,18 @@
 		location.protocol = "https:";
 	}
 </script>	<div class="container mt-3">
-		<p>This guide will explain the process of setting up the Bootstrapper in a Warframe install, which will allow you to connect to custom servers. <a href="client-setup-manual">Manual version here.</a></p>
-		<!-- <h2>Prerequisites</h2>
-		<p>This guide assumes that you have a supported version of Warframe. Please see <a href="versions" target="_blank">here</a> for supported versions and download instructions.</p> -->
+		<p>This guide will explain the process of setting up the Bootstrapper in a Warframe install, which will allow you to connect to custom servers. <a href="client-setup">Automated version here.</a></p>
 		<h2>Setup</h2>
 		<ol>
-			<li><a href="supplementals/Bootstrapper Setup.exe" target="_blank">Download Bootstrapper Setup</a> (<a href="https://onlyg.it/OpenWF/Bootstrapper-Setup" target="_blank">source code</a>, <a href="https://openwf.io/supplementals/Bootstrapper%20Setup.sh" download>Linux version</a>)</li>
-			<li>Move Bootstrapper Setup into the game installation folder that you would like to patch (next to Warframe.x64.exe)</li>
-			<li>Run Bootstrapper Setup</li>
-			<li>You may remove Bootstrapper Setup from this folder after it has successfully finished</li>
+			<li>
+				<a href="http://openwf.io/supplementals/client%20drop-in/download_latest" download>Download the latest Bootstrapper DLL & Hotfix</a> and drop it into the game install such that the DLL sits next to Warframe.x64.exe.
+				<ul>
+					<li>All versions are <a href="https://mega.nz/folder/ZlZV3BJB#uOt_feKorkrpGvZsawUx9w" target="_blank">mirrored on Mega</a>.</li>
+				</ul>
+			</li>
+			<li>On Windows, for U38.6 and &gt;= U41, Warframe.x64.exe needs to be treated with <a href="https://github.com/Sainan/Sideloadify/releases" target="_blank">Sideloadify</a> to ensure it loads <code>dwmapi.dll</code>.</li>
+			<li>For versions below U29, the DLL must be called <code>wtsapi32.dll</code> or <code>version.dll</code>. On Linux, set the environment variable <code>WINEDLLOVERRIDES="wtsapi32.dll=n,b"</code> to ensure that the Bootstrapper is loaded.</li>
 		</ol>
-		<!-- <h2>First Run <small>(Optional)</small></h2>
-		<p>In general, you can simply double-click Warframe.x64.exe to start the game now. However, for our first run:</p>
-		<ol>
-			<li>Open a command prompt/terminal in the game installation folder</li>
-			<li>Run <code>Warframe.x64.exe -owfServerHost:demo.openwf.io</code></li>
-			<li>Attempting to log in with any credentials will fail but you will see that the request was successfully redirected (<a href="_assets/demo.avif" target="_blank">what that looks like</a>)</li>
-		</ol>
-		<p>While on the login screen, you also have an opportunity to visit <a href="http://localhost:6155/" target="_blank">http://localhost:6155/</a>, which is available while the game is running. You may not find any immediately-useful options, but it's good to keep in mind; maybe bookmark it.</p>
-		<h2>Configuration</h2>
-		<p>The <code>OpenWF/Client Config.json</code> file gives you many options, such as the fallback language and graphics driver. For the language, input the 2-letter code, so <code>en</code> for English, <code>zh</code> for Chinese (Simplifed), etc.</p>
-		<p>For more information, check out the Bootstrapper's comprehensive manual, which you can find <a href="bootstrapper-manual" target="_blank">online</a> and in the <code>OpenWF/Reference Manual.html</code> file.</p> -->
 		<h2>Usage</h2>
 		<ul>
 			<li>To start the game, you can simply run the <code>Launch with OpenWF</code> script.</li>
