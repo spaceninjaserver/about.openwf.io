@@ -1040,7 +1040,7 @@
 						<td>Steam&nbsp;release</td>
 						<td><a href="#1331043799698924734">Download</a></td>
 					</tr>
-					<tr id="18.4.13" data-langs="ru" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:483bfc7d41704b3578b4060949fac7be61fd7583&dn=18.4.13%20%28ru%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce"><!-- TODO: This needs a webseed!!! -->
+					<tr id="18.4.13" data-langs="ru" data-drivers="dx11,dx10,dx9" data-magnet="magnet:?xt=urn:btih:483bfc7d41704b3578b4060949fac7be61fd7583&dn=18.4.13%20%28ru%29&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&ws=https://archive.org/download/Warframe-18.4.13/">
 						<td><code>2016.02.22.15.37</code></td>
 						<td>≈&nbsp;18.4.13</td>
 						<td>The&nbsp;Second&nbsp;Dream</td>
