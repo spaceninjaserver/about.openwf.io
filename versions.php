@@ -1498,7 +1498,7 @@
 						<td><code>2013.03.25.11.45</code></td>
 						<td>≈&nbsp;7.3.0</td>
 						<td>Stormbringer<!-- Login screen says "Open Beta - Update 7" --></td>
-						<td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Foundry is broken.<!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
 						<td>Steam&nbsp;release</td>
 						<td><a href="#9176710083987114410">Download</a></td>
 					</tr>
