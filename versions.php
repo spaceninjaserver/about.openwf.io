@@ -46,6 +46,56 @@
 				<tbody>
 					<!-- https://steamdb.info/depot/230411/manifests/ -->
 					<?php foreach ([
+							"2026.08.19.11.06/Sak"/*CydygO6-qG7S-xI5diQ*/ => "43.5.4",
+							"2026.08.18.13.07/zse"/*38BICcAYrt6BBt4brig*/ => "43.5.3",
+							"2026.08.13.13.24/bbR"/*frQN5Kwqy+c7OSl9pLQ*/ => "43.5.2",
+						] as $buildVersion => $gameVersion): ?>
+						<tr id="<?=$gameVersion;?>" data-base-manifest="4895911296145320793" data-mega="https://mega.nz/file/mG4H0bRa#D0pycJXeP1bb1tP8S2WzpnZAen8Gp7U1bhbaNft67aY" data-magnet="magnet:?xt=urn:btih:9547896cf5fb2363314ae572b963cd33d9cc8456&dn=43.5.x.7z&xl=331067119&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&ws=https%3A%2F%2Farchive.org%2Fdownload%2FAniman8000s-Update-Patches%2F43.5.x.7z">
+							<td><code><?=$buildVersion;?></code></td>
+							<td>=&nbsp;<?=$gameVersion;?></td>
+							<td>Amir's&nbsp;Shockwave</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#<?=$gameVersion;?>">Download</a></td>
+						</tr>
+					<?php endforeach; ?>
+					<tr id="4895911296145320793">
+						<td><code>2026.08.12.16.52/6lM<!-- HFMEgvtfzjzKqvEKLPw --></code></td>
+						<td>≈&nbsp;43.5.1</td>
+						<td>Amir's&nbsp;Shockwave</td>
+						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+						<td>Steam&nbsp;release</td>
+						<td><a href="#4895911296145320793">Download</a></td>
+					</tr>
+					<?php foreach ([
+							"2026.07.11.15.28/7fw"/*jVVacxcBzO-xahK2RZg*/ => "43.0.8",
+							"2026.07.09.15.36/XgX"/*QlaRFpEk0PiHS66TBPw*/ => "43.0.7",
+							"2026.06.30.09.08/MOW"/*Jj4ozQ+med4chgjXxUg*/ => "43.0.6",
+							"2026.06.25.12.49/yGz"/*nhuStclmyKggcAqR--Q*/ => "43.0.5",
+							"2026.06.23.13.06/msQ"/*RBQvlmUNFRhcEYwItjA*/ => "43.0.4",
+							"2026.06.19.13.22/U1q"/*CQ5wdB145SvU1dlpzaA*/ => "43.0.3",
+							"2026.06.18.14.45/aSG"/*yuhLUsHyldq3Zpyg1ig*/ => "43.0.2",
+							"2026.06.17.17.13/63d"/*Akhb2gUBwoW3Squk8LQ*/ => "43.0.1",
+							"2026.06.17.10.10/2kv"/*IRnyiWXPyInMlJg6heA*/ => "43.0.0",
+						] as $buildVersion => $gameVersion): ?>
+						<tr id="<?=$gameVersion;?>" data-base-manifest="7152156997008129783" data-mega="https://mega.nz/file/GbomkCpR#c9F2lAlVFx_LL2KdodxsK6lsX20-yISzNtVb7aM6mHY" data-magnet="magnet:?xt=urn:btih:bc7c475e35c3a93d5a69016fa6b632b6189ca08f&dn=43.0.x.7z&xl=1131296516&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&ws=https%3A%2F%2Farchive.org%2Fdownload%2FAniman8000s-Update-Patches%2F43.0.x.7z">
+							<td><code><?=$buildVersion;?></code></td>
+							<td>=&nbsp;<?=$gameVersion;?></td>
+							<td>Jade&nbsp;Shadows:&nbsp;Constellations</td>
+							<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+							<td>Update&nbsp;patch</td>
+							<td><a href="#<?=$gameVersion;?>">Download</a></td>
+						</tr>
+					<?php endforeach; ?>
+					<tr id="7152156997008129783">
+						<td><code>2026.06.16.10.17/RPC<!-- sGoOSAT27+2UxicxMXQ --></code></td>
+						<td>&lt;&nbsp;43.0.0</td>
+						<td>Jade&nbsp;Shadows:&nbsp;Constellations</td>
+						<td><!-- Warframe.x64.exe needs to be dropped onto <a href="https://github.com/Sainan/Sideloadify/releases/latest/download/sideloadify.exe" download>sideloadify.exe</a> --></td>
+						<td>Steam&nbsp;release</td>
+						<td><a href="#7152156997008129783">Download</a></td>
+					</tr>
+					<?php foreach ([
 							"2026.05.13.13.07/k5j"/*Jr3W3pt8Z6zRKrEAl1Q*/ => "42.0.11",
 							"2026.05.06.14.09/nwi"/*cGVuSoowi36KzbnWX7w*/ => "42.0.10",
 							"2026.05.01.11.33/+8Q"/*szcXyQLtHHE7mJW2Y9Q*/ => "42.0.9",
