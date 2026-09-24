@@ -3,6 +3,16 @@
 	<channel>
 		<title>OpenWF Version Archive Torrents</title>
 					<item>
+				<title>[update patch] 43.5.x.7z</title>
+				<guid>urn:btih:9547896cf5fb2363314ae572b963cd33d9cc8456</guid>
+				<enclosure url="magnet:?xt=urn:btih:9547896cf5fb2363314ae572b963cd33d9cc8456&amp;dn=43.5.x.7z&amp;xl=331067119&amp;tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&amp;ws=https%3A%2F%2Farchive.org%2Fdownload%2FAniman8000s-Update-Patches%2F43.5.x.7z" type="application/x-bittorrent" />
+			</item>
+						<item>
+				<title>[update patch] 43.0.x.7z</title>
+				<guid>urn:btih:bc7c475e35c3a93d5a69016fa6b632b6189ca08f</guid>
+				<enclosure url="magnet:?xt=urn:btih:bc7c475e35c3a93d5a69016fa6b632b6189ca08f&amp;dn=43.0.x.7z&amp;xl=1131296516&amp;tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;ws=https%3A%2F%2Farchive.org%2Fdownload%2FAniman8000s-Update-Patches%2F43.0.x.7z" type="application/x-bittorrent" />
+			</item>
+						<item>
 				<title>[update patch] 42.0.x.wim.7z</title>
 				<guid>urn:btih:f8c30e0c5c58f3a2e49f60e20607a84c5382ad16</guid>
 				<enclosure url="magnet:?xt=urn:btih:f8c30e0c5c58f3a2e49f60e20607a84c5382ad16&amp;dn=42.0.x.wim.7z&amp;tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fopen.demonii.com%3A1337%2Fannounce&amp;tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&amp;tr=udp%3A%2F%2Fexodus.desync.com%3A6969%2Fannounce&amp;ws=https://archive.org/download/OpenWF-Update-Patches/42.0.x.wim.7z" type="application/x-bittorrent" />
