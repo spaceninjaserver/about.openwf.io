@@ -1354,7 +1354,14 @@
 					</tr>
 					<!-- 4190426140757030330 is 2014.02.07.16.15 (~12.0.3), seems to crash -->
 					<!-- 585340885135755161 is 2013.12.21.01.47, seems to crash -->
-					<!-- 2135033526713381905 is 2013.11.29.16.33 (~11.1.3), broken fonts but technically playable -->
+					<tr id="2135033526713381905">
+						<td><code>2013.11.29.16.33</code></td>
+						<td>≈&nbsp;11.1.3</td>
+						<td>Valkyr Unleashed<!-- Login screen says "11 Valkyr Unleashed: Open Beta" --></td>
+						<td>Fonts are broken. Hacky font patch <a href="supplementals/11.1.3 hacky font patch.7z" download>here</a>.</td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;release</td>
+						<td><a href="#2135033526713381905">Download</a></td>
+					</tr>
 					<tr id="4839307268506097307">
 						<td><code>2013.11.12.14.03</code></td>
 						<td>≈&nbsp;10.8.0</td>
