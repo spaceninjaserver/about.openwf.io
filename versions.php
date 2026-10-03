@@ -1353,7 +1353,14 @@
 						<td><a href="#12.1.2">Download</a></td>
 					</tr>
 					<!-- 4190426140757030330 is 2014.02.07.16.15 (~12.0.3), seems to crash -->
-					<!-- 585340885135755161 is 2013.12.21.01.47, seems to crash -->
+					<tr id="585340885135755161">
+						<td><code>2013.12.21.01.47</code></td>
+						<td>≈&nbsp;11.5.4</td>
+						<td>Valkyr Unleashed<!-- Login screen says "11 Valkyr Unleashed: Open Beta" --></td>
+						<td>Needs <a href="supplementals/11.5.4 hacky crash fix.7z" download>hacky crash fix</a>.</td><!-- Rename dwmapi.dll to wtsapi32.dll or version.dll. --></td>
+						<td>Steam&nbsp;release</td>
+						<td><a href="#585340885135755161">Download</a></td>
+					</tr>
 					<tr id="2135033526713381905">
 						<td><code>2013.11.29.16.33</code></td>
 						<td>≈&nbsp;11.1.3</td>
