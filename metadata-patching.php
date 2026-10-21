@@ -22,7 +22,7 @@
 		<p>The Bootstrapper provides a domain-specific language for performing text replacements on metadata, which may sound complicated, but it's actually really simple:</p>
 		<ul>
 			<li>Let's start by simply creating a new .txt file in the <code>OpenWF/Metadata Patches</code> folder, e.g. <code>Saryn Strike.txt</code>.</li>
-			<li>Every metadata patch starts by declaring which path(s) it modifies, so we'll just put <code>/Lotus/Upgrades/Mods/Melee/WeaponToxinDamageMod</code> on the first line.</li>
+			<li>Every metadata patch starts with <code>&gt;</code>, declaring which path(s) it modifies, so we'll put <code>&gt;/Lotus/Upgrades/Mods/Melee/WeaponToxinDamageMod</code> on the first line.</li>
 			<li>If we want to add or replace a top-level property such as <code>LocalizeTag</code>, we write that verbatim, so <code>LocalizeTag=Saryn Strike</code> on the second line would rename the mod to Saryn Strike.</li>
 			<li>Next, we'll tell the Bootstrapper to find-and-replace <code>DT_POISON</code> with <code>DT_CORROSIVE</code> by writing <code>r|DT_POISON|DT_CORROSIVE</code> on line three.</li>
 			<li>Finally, we use a query replacement to change the <code>LocTag</code> property of the first <i>upgrade</i> by writing <code>q|Upgrades.0.LocTag|/Lotus/Language/Upgrades/WeaponCorrosiveDamage</code> on line four. Note that we start counting at 0.</li>
