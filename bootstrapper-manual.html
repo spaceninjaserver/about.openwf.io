@@ -117,7 +117,7 @@
 		<li><code>client_http_logging</code> — If true, writes requests to builtin HTTP server to the console.</li>
 		<li><code>client_http_port</code> — Defines the port of the builtin HTTP server. Used for the HTTP Interface and Content Management, documented below.</li>
 		<li><code>disable_overlay</code> — Can be used to disable the overlay, e.g. used to show "OpenWF @ &lt;server&gt;" before login. Default is false on Windows but true on Linux.</li>
-		<li><code>overlay_compatibility_mode</code> — If true, renders the overlay in a more crude way. Default is false on Windows but true on Linux.</li>
+		<li><code>overlay_compatibility_mode</code> — If true, renders the overlay in a more crude way. Default is false, but true on Linux, or if your game version is older than 25.7.0.</li>
 		<li><code>keep_console_open</code> — If true, keeps the console open in the same way as other options that enable logging to the console.</li>
 	</ul>
 	<h2>HTTP Interface</h2>
@@ -130,14 +130,15 @@
 	<p>The Bootstapper generally works in all versions, but certain additional features only support specific versions (for now):</p>
 	<ul>
 		<li>Label Replacements: &gt;= U23</li>
-		<li>Scripting: &gt;= U33</li>
-		<li>Forced Profile Dir: &gt;= U35.5</li>
+		<li>Scripting: &gt;= U14</li>
 		<li>High Damage Numbers Patch: U36-U41.1</li>
 		<li>Pause Always Stops Time: &gt;= U37</li>
 		<li>IRC Authentication: U8-U13.0 and &gt;= U33.6</li>
 		<li>Disable XP-based Level Cap: &gt;= U35.5</li>
-		<li>Overlay: &gt;= U33</li>
+		<li>Overlay: &gt;= U22</li>
 		<li>Content Replacements: U33.6-U39.1</li>
+		<li>Metadata Patches for Object Header Metadata: &gt;= U22</li>
+		<li>Adding new types via Metadata Patches: &gt;= U42</li>
 	</ul>
 	<h2>Tunables</h2>
 	<p>When connecting to a server, the Bootstrapper requests <code>/custom/tunables.json</code>. The resulting JSON object may provide the following fields:</p>
@@ -172,15 +173,14 @@
 	<p>Label Replacements are loaded by instantiating the <code>OpenWF/Label Replacements.pluto</code> script. You can modify this script but by default it loads replacements from <code>OpenWF/Label Replacements.cat.txt</code>. As implied by the extension, it uses the <a href="https://github.com/calamity-inc/Soup/blob/senpai/docs/user/cat.md" target="_blank">CaT</a> format. Note that nested nodes are ignored.</p>
 	<h2>Metadata Patches</h2>
 	<p>Metadata Patches are loaded from <code>.txt</code> files in the <code>OpenWF/Metadata Patches/</code> folder and its subfolders.</p>
-	<p>They are parsed line by line. If a line starts with <code>/</code>, a new patch for the given absolute path is started.</p>
-	<p>It is possible to have a single patch affect multiple paths by using ampersands. The start of a patch can also take up multiple lines if the ampersand is at the end of the line or the beginning of the next line.</p>
-	<p>For the remaining processing, leading and trailing spaces and tabs are ignored:</p>
+	<p>They are parsed line by line, with leading and trailing spaces and tabs being ignored:</p>
 	<ul>
-		<li>Lines starting with <code>&gt;</code> also start a new patch but can be used at any indentation level.</li>
+		<li>Lines starting with <code>&gt;</code> start a new patch. It is possible to have a single patch affect multiple paths by using ampersands. The start of a patch can also take up multiple lines if the ampersand is at the end of the line or the beginning of the next line.</li>
 		<li>Any line not starting with a special token (<code>&gt;</code>, <code>r|</code>, ...) is added as a prefix to the effective metadata. This works to add top-level properties but also to replace them because the game resolves duplicates by ignoring subsequent entries.</li>
 		<li>Lines starting with <code>r|</code> create replacements, e.g. <code>r|A|Z</code> replaces all instances of <code>A</code> with <code>Z</code> in affected metadata.</li>
 		<li>Lines starting with <code>s|</code> create regex substitutions, e.g. <code>s|(?m)^(.+)=1$|$1=0</code> would replace a value of 1 on any line with a 0, using the 'm' flag here so ^ and $ also match on line boundaries. See <a href="https://github.com/calamity-inc/Soup/blob/senpai/docs/user/regex.md" target="_blank">here</a> for more information about the Regex engine.</li>
 		<li>Lines starting with <code>q|</code> create query assignments, e.g. <code>q|Upgrades.0.Value|123</code> sets the Value field of the first item in the Upgrades array to 123.</li>
+		<li>Lines starting with <code>a|</code> append a value to an array, using the same paths as <code>q|</code>, e.g. <code>a|Upgrades.0.ValidModifiers|PM_AIM</code> appends PM_AIM to the ValidModifiers array of the first item in the Upgrades array. Values starting with <code>{</code> are parsed, so objects can be appended as well, e.g. <code>a|DefaultUpgrades|{ItemType=/Lotus/Powersuits/Excalibur/RadialBlindAbilityCard,Slot=5}</code>.</li>
 		<li>
 			Lines starting with <code>$</code> are used to provide a <code>;</code>-separated list of flags:
 			<ul>
@@ -188,8 +188,16 @@
 				<li><code>debug</code> enables some extra logging when applying query assignments.</li>
 			</ul>
 		</li>
+		<li>Lines starting with <code>+</code> create a new object type and start a patch for it, e.g. <code>+/Lotus/StoreItems/Powersuits/Stalker/Stalker|/Lotus/Types/Game/StoreItemSpecializations/PowerSuitStoreItem</code>. The part after <code>|</code> is the parent type, which must already exist.</li>
 	</ul>
 	<p>If multiple patches affect the same absolute path, they are combined.</p>
+	<p>For patches targeting multiple versions, a preprocessor is available:</p>
+	<ul>
+		<li><code>$if</code> starts a conditional block and sets its activation state with a simple Lua expression, e.g. <code>can_add_new_types()</code>, <code>compareversions(owf_get_build_version(), "2026.06.16.07.07") >= 0</code></li>
+		<li><code>$elseif</code> reevaluates the activation status of the current conditional block with another Lua expression</li>
+		<li><code>$else</code> inverts the activation status of the current conditional block</li>
+		<li><code>$endif</code> ends a conditional block</li>
+	</ul>
 	<h2>Content Management</h2>
 	<p>The Bootstrapper handles the client's content requests by consulting the <code>OpenWF/Content/</code> folder, forwarding the request to the configured server in case a file is not found.</p>
 	<p>At minimum, the client requests <code>/0/H.Cache.bin!x_---------------------w</code> (where <code>x</code> depends on the game version), although the Bootstrapper disables this request in versions below U33.6. The Bootstrapper has 3 modes for managing this file:</p>
